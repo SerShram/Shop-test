@@ -1,0 +1,72 @@
+.btn {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white;
+    padding: 0 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+
+@each $name, $color-btn in $colors-btn {
+    .btn-#{$name} {
+        background: $color-btn;
+    }
+}
+.btn-option:hover {
+    background: $liner-grad-dark;
+}
+.btn--search {
+    padding: 0 55px;
+    line-height: 55px;
+}
+.btn--cart {
+    font-size: 14px;
+    padding: 0 35px 0 68px;
+    &:before {
+        content: url("/images/service-img/carriage.png");
+        position: absolute;
+        top: 5px;
+        left: 25px;
+    }
+}
+.btn--log {
+    padding: 0 35px 0 60px;
+    font-size: 12px;
+    font-weight: normal;
+    &:before {
+        content: url("/images/service-img/user.png");
+        position: absolute;
+        top: 3px;
+        left: 30px;
+    }
+}
+.btn--call {
+    padding: 0 35px 0 50px;
+    font-size: 12px;
+    font-weight: normal;
+    &:before {
+        content: url("/images/service-img/phone.png");
+        position: absolute;
+        top: 5px;
+        left: 32px;
+    }
+}
+.btn-filter {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    padding: 0 45px 0 60px;
+    &.filter--red {
+        background: $red;
+    }
+    &:before {
+        content: url("public/images/service-img/cross-small.png");
+        position: absolute;
+        top: 3px;
+        left: 36px;
+    }
+
+}

@@ -1,0 +1,320 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #3b3b3b;
+}
+
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 15px 0;
+}
+
+.ss-bg-orange {
+  background: #ff8900;
+}
+
+.ss-bg-grey {
+  background: #696969;
+}
+
+.ss-bg-dark-orange {
+  background: #db7200;
+}
+
+.ss-bg-grey-bl {
+  background: #606a76;
+}
+
+.ss-bg-grey-lt {
+  background: #f5f5f5;
+}
+
+.ui-fs-ss {
+  font-size: 10px;
+}
+
+.ui-fs-ss-up {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.ui-fs-sm {
+  font-size: 12px;
+}
+
+.ui-fs-sm-up {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.ss-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ss-line-h-s {
+  line-height: 40px;
+}
+
+.ss-line-h-m {
+  line-height: 50px;
+}
+
+.ss-line-h-l {
+  line-height: 55px;
+}
+
+.ss-line-h-xl {
+  line-height: 70px;
+}
+
+.ss-marg-t {
+  margin-top: 20px;
+}
+
+.ss-marg-b {
+  margin-bottom: 20px;
+}
+
+.ss-marg-l {
+  margin-left: 20px;
+}
+
+.ss-marg-r {
+  margin-right: 20px;
+}
+
+.ss-marg-small-t {
+  margin-top: 10px;
+}
+
+.ss-marg-small-b {
+  margin-bottom: 10px;
+}
+
+.ss-marg-small-l {
+  margin-left: 10px;
+}
+
+.ss-marg-small-r {
+  margin-right: 10px;
+}
+
+.ss-marg-med-t {
+  margin-top: 40px;
+}
+
+.ss-marg-med-b {
+  margin-bottom: 40px;
+}
+
+.ss-marg-med-l {
+  margin-left: 40px;
+}
+
+.ss-marg-med-r {
+  margin-right: 40px;
+}
+
+.ss-marg-large-t {
+  margin-top: 60px;
+}
+
+.ss-marg-large-b {
+  margin-bottom: 60px;
+}
+
+.ss-marg-large-l {
+  margin-left: 60px;
+}
+
+.ss-marg-large-r {
+  margin-right: 60px;
+}
+
+.ss-marg-xlar-t {
+  margin-top: 60px;
+}
+
+.ss-marg-xlar-b {
+  margin-bottom: 60px;
+}
+
+.ss-marg-xlar-l {
+  margin-left: 60px;
+}
+
+.ss-marg-xlar-r {
+  margin-right: 60px;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  background: #ff8900;
+}
+
+.btn-success {
+  background: #38c172;
+}
+
+.btn-error {
+  background: #ff4800;
+}
+
+.btn-warning {
+  background: #ffc925;
+}
+
+.btn-info {
+  background: #ee82ee;
+}
+
+.btn-option {
+  background: linear-gradient(90deg, #ff8500 0%, #fcb045 100%);
+}
+
+.btn-filter {
+  background: #afb9c6;
+}
+
+.btn-option:hover {
+  background: linear-gradient(90deg, #d36e00 0%, #e59100 100%);
+}
+
+.btn--search {
+  padding: 0 55px;
+  line-height: 55px;
+}
+
+.btn--cart {
+  font-size: 14px;
+  padding: 0 35px 0 68px;
+}
+
+.btn--cart:before {
+  content: url("/images/service-img/carriage.png");
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.btn--log {
+  padding: 0 35px 0 60px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.btn--log:before {
+  content: url("/images/service-img/user.png");
+  position: absolute;
+  top: 3px;
+  left: 30px;
+}
+
+.btn--call {
+  padding: 0 35px 0 50px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.btn--call:before {
+  content: url("/images/service-img/phone.png");
+  position: absolute;
+  top: 5px;
+  left: 32px;
+}
+
+.btn-filter {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: none;
+  padding: 0 45px 0 60px;
+}
+
+.btn-filter.filter--red {
+  background: #ff4800;
+}
+
+.btn-filter:before {
+  content: url(/images/cross-small.png?f6d49f88f6ceabbb44fc8de81488a452);
+  position: absolute;
+  top: 3px;
+  left: 36px;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  position: relative;
+  color: inherit;
+  display: inline-block;
+}
+
+.nav-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #c3c3c3;
+}
+
+.nav-header li:last-child {
+  margin: 0;
+}
+
+.nav-header a:hover {
+  color: #ffffff;
+}
+
+.nav-header a:hover:before {
+  content: "";
+  position: absolute;
+  top: 96%;
+  left: -8px;
+  width: 122%;
+  height: 2px;
+  background: #ffc925;
+}
+
+.option-menu__link {
+  color: #abafb5;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.option-menu__img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.demo-block__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.demo-block__row > div,
+.demo-block__row > a,
+.demo-block__row > img {
+  margin: 0 20px 20px 0;
+}
+
+.palette {
+  width: 120px;
+  padding: 15px;
+  line-height: 1.5;
+}
+

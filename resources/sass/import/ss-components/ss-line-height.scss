@@ -1,0 +1,17 @@
+$small: 40px;
+$medium: 50px;
+$large: 55px;
+$xlarge: 70px;
+
+.ss-line-h-s {
+    line-height: $small;
+}
+.ss-line-h-m {
+    line-height: $medium;
+}
+.ss-line-h-l {
+    line-height: $large;
+}
+.ss-line-h-xl {
+    line-height: $xlarge;
+}

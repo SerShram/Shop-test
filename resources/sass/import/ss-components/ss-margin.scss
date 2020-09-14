@@ -1,0 +1,31 @@
+
+$margin:                   20px;
+$small-margin:             10px;
+$medium-margin:            40px;
+$large-margin:             60px;
+$xlarge-margin:            60px;
+
+.ss-marg-t { margin-top: $margin ; }
+.ss-marg-b { margin-bottom: $margin ; }
+.ss-marg-l { margin-left: $margin ; }
+.ss-marg-r { margin-right: $margin ; }
+
+.ss-marg-small-t { margin-top: $small-margin ; }
+.ss-marg-small-b { margin-bottom: $small-margin ; }
+.ss-marg-small-l { margin-left: $small-margin ; }
+.ss-marg-small-r { margin-right: $small-margin ; }
+
+.ss-marg-med-t { margin-top: $medium-margin ; }
+.ss-marg-med-b { margin-bottom: $medium-margin ; }
+.ss-marg-med-l { margin-left: $medium-margin ; }
+.ss-marg-med-r { margin-right: $medium-margin ; }
+
+.ss-marg-large-t { margin-top: $large-margin ; }
+.ss-marg-large-b { margin-bottom: $large-margin ; }
+.ss-marg-large-l { margin-left: $large-margin ; }
+.ss-marg-large-r { margin-right: $large-margin ; }
+
+.ss-marg-xlar-t { margin-top: $xlarge-margin ; }
+.ss-marg-xlar-b { margin-bottom: $xlarge-margin ; }
+.ss-marg-xlar-l { margin-left: $xlarge-margin ; }
+.ss-marg-xlar-r { margin-right: $xlarge-margin ; }
