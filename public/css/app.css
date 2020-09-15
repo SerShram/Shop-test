@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
   font-family: "Roboto", sans-serif;
   color: #3b3b3b;
@@ -29,22 +31,123 @@ body {
   background: #f5f5f5;
 }
 
-.ui-fs-ss {
-  font-size: 10px;
+.ss-roboto-36 {
+  font-size: 36px;
 }
 
-.ui-fs-ss-up {
-  font-size: 10px;
+.ss-roboto-26-up {
+  font-size: 26px;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
-.ui-fs-sm {
+.ss-roboto-26-i {
+  font-size: 26px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.ss-roboto-20-b {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ss-roboto-18-b {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ss-roboto-17 {
+  font-size: 17px;
+}
+
+.ss-roboto-16-b-up {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ss-roboto-16-b-i {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ss-roboto-16-bl-i {
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.ss-roboto-14 {
+  font-size: 14px;
+  color: #9c9c9c;
+}
+
+.ss-roboto-14-b-up {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.ss-roboto-13 {
+  font-size: 13px;
+}
+
+.ss-roboto-12 {
   font-size: 12px;
 }
 
-.ui-fs-sm-up {
-  font-size: 12px;
+.ss-roboto-10 {
+  font-size: 10px;
+}
+
+.ss-roboto-10-b-up {
+  font-size: 10px;
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+.ss-proxN-36-b {
+  font-family: ProximaNova;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.ss-proxN-30-b {
+  font-family: ProximaNova;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.ss-proxN-20-b {
+  font-family: ProximaNova;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ss-proxN-17 {
+  font-family: ProximaNova;
+  font-size: 17px;
+}
+
+.ss-proxN-14 {
+  font-family: ProximaNova;
+  font-size: 14px;
+}
+
+.ss-eur-26-b-i {
+  font-family: Europe;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.ss-eur-20-b-i {
+  font-family: Europe;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .ss-grid {
@@ -246,7 +349,7 @@ body {
 }
 
 .btn-filter:before {
-  content: url(/images/cross-small.png?f6d49f88f6ceabbb44fc8de81488a452);
+  content: url("/images/service-img/cross-small.png");
   position: absolute;
   top: 3px;
   left: 36px;
@@ -288,7 +391,17 @@ body {
   background: #ffc925;
 }
 
+.option-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .option-menu__link {
+  position: relative;
+  display: flex;
+  align-items: center;
   color: #abafb5;
   font-weight: 700;
   font-size: 18px;
@@ -300,15 +413,162 @@ body {
   height: 50px;
 }
 
+.option-menu__img.img--car {
+  background: url("/images/service-img/sprite/img-1a.png") right center no-repeat;
+}
+
+.option-menu__img.img--track {
+  background: url("/images/service-img/sprite/img-2a.png") right center no-repeat;
+}
+
+.option-menu__img.img--tyre {
+  background: url("/images/service-img/sprite/img-3a.png") right center no-repeat;
+}
+
+.option-menu__img.img--flask {
+  background: url("/images/service-img/sprite/img-4a.png") right center no-repeat;
+}
+
+.option-menu__img.img--battery {
+  background: url("/images/service-img/sprite/img-5a.png") right center no-repeat;
+}
+
+.option-menu__link:hover:before {
+  content: "";
+  position: absolute;
+  top: 98%;
+  left: 10px;
+  width: 107%;
+  height: 2px;
+  background: #ffc925;
+}
+
+.option-menu__link:hover .option-menu__text {
+  color: #ffffff;
+}
+
+.option-menu__link:hover .img--car {
+  background: url("/images/service-img/sprite/img-1b.png") right center no-repeat;
+}
+
+.option-menu__link:hover .img--track {
+  background: url("/images/service-img/sprite/img-2b.png") right center no-repeat;
+}
+
+.option-menu__link:hover .img--tyre {
+  background: url("/images/service-img/sprite/img-3b.png") right center no-repeat;
+}
+
+.option-menu__link:hover .img--flask {
+  background: url("/images/service-img/sprite/img-4b.png") right center no-repeat;
+}
+
+.option-menu__link:hover .img--battery {
+  background: url("/images/service-img/sprite/img-5b.png") right center no-repeat;
+}
+
+.select-style {
+  position: relative;
+  height: 41px;
+  border-bottom: 1px solid #ffffff;
+  overflow: hidden;
+  cursor: pointer;
+  /* &:after {
+       content: '';
+       position: absolute;
+       top: 16px;
+       right: 4px;
+       height: 10px;
+       width: 10px;
+       background: $white;
+   }*/
+}
+
+.select-style:before {
+  content: url("/images/service-img/arrow-bottom.png");
+  position: absolute;
+  top: 23%;
+  left: 86%;
+}
+
+.select-style:hover {
+  border-color: #ff8900;
+}
+
+.select-style .option-select {
+  cursor: pointer;
+  width: 220px;
+  height: 40px;
+  border: none;
+  background: #ffffff;
+  padding: 0 35px 0 10px;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  /* для IE */
+  display: none;
+}
+
+.socials__item {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #9197a3;
+}
+
+.socials__item.item--vk {
+  background: url("/images/socials/vk-1.png") center center no-repeat;
+}
+
+.socials__item.item--fb {
+  background: url("/images/socials/fb-1.png") center center no-repeat;
+}
+
+.socials__item.item--twit {
+  background: url("/images/socials/twit-1.png") center center no-repeat;
+}
+
+.socials__item.item--ytube {
+  background: url("/images/socials/yt-1.png") center center no-repeat;
+}
+
+.socials__item:hover {
+  border-color: #ffc925;
+}
+
+.socials__item:hover.item--vk {
+  background: url("/images/socials/vk-2.png") center center no-repeat;
+}
+
+.socials__item:hover.item--fb {
+  background: url("/images/socials/fb-2.png") center center no-repeat;
+}
+
+.socials__item:hover.item--twit {
+  background: url("/images/socials/twit-2.png") center center no-repeat;
+}
+
+.socials__item:hover.item--ytube {
+  background: url("/images/socials/yt-2.png") center center no-repeat;
+}
+
 .demo-block__row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .demo-block__row > div,
 .demo-block__row > a,
-.demo-block__row > img {
+.demo-block__row > img,
+.demo-block__row > ul {
   margin: 0 20px 20px 0;
 }
 
@@ -316,5 +576,9 @@ body {
   width: 120px;
   padding: 15px;
   line-height: 1.5;
+}
+
+.typography-block {
+  justify-content: space-evenly;
 }
 

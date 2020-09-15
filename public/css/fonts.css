@@ -36,3 +36,45 @@
 		url('../fonts/Roboto-BlackItalic.woff') format('woff');
 
 }
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    src:
+        url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+
+}
+@font-face{
+    font-family: 'ProximaNova';
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url('../fonts/ProximaNovaRegular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaRegular.woff') format('woff');
+}
+@font-face{
+    font-family: 'ProximaNova';
+    font-weight: bold;
+    font-style: normal;
+    src:
+        url('../fonts/ProximaNovaBold.woff2') format('woff2'),
+        url('../fonts/ProximaNovaBold.woff') format('woff');
+}
+@font-face{
+    font-family: 'ProximaNova';
+    font-weight: 900;
+    font-style: normal;
+    src:
+        url('../fonts/ProximaNovaBlack.woff2') format('woff2'),
+        url('../fonts/ProximaNovaBlack.woff') format('woff');
+}
+@font-face {
+    font-family: 'Europe';
+    font-weight: bold;
+    font-style: italic;
+    src:
+        url('../fonts/Europe-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Europe-BoldItalic.woff') format('woff');
+
+}
