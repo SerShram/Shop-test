@@ -43,6 +43,7 @@
                 @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'option', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'option btn--cart', 'path'=>'#', 'nameBtn'=>'купить товар'])
+                @include('inc.components.button', ['classBtn'=>'feedback', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
                 @include('inc.components.button', ['classBtn'=>'success', 'path'=>'#', 'nameBtn'=>'success'])
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
                 @include('inc.components.button', ['classBtn'=>'warning', 'path'=>'#', 'nameBtn'=>'warning'])
@@ -79,20 +80,83 @@
                         ]])
             </div>
         </div>
-{{--------------Select---------------------------------------}}
+{{--------------Form elements---------------------------------------}}
         <div class="demo-block">
-            <h3 class="demo-block__title">Select</h3>
+            <h2 class="demo-block__title">Form elements</h2>
+            <h3>Selects</h3>
             <div class="demo-block__row ss-bg-grey">
-                @include('inc.components.select', ['name' => 'name',
-                                                   'class' => 'option-select ss-roboto-14',
-                                                   'optValue' => '',
-                                                   'optText' => 'Select 1',
-                                                   'options' => [
-                                                       ['value' => '', 'text' => 'Select 2'],
-                                                       ['value' => '', 'text' => 'Select 3'],
-                                                       ['value' => '', 'text' => 'Select 4']
-                                                    ]
-                ])
+                @include('inc.components.forms.select', [ 'classDecor' => 'form-search__decor',
+                                                          'name' => '',
+                                                          'class' => 'form-search__select ss-roboto-14',
+                                                          'optValue' => '',
+                                                          'optText' => 'Все категории',
+                                                          'options' => [
+                                                              ['value' => '', 'text' => 'Категория']
+                                                            ]
+                                                          ])
+                @include('inc.components.forms.select', [ 'classDecor'  => 'form-filter__decor',
+                                                          'name'        => 'name',
+                                                          'class'       => 'form-filter__select ss-roboto-14',
+                                                          'optValue'    => '',
+                                                          'optText'     => 'Select 1',
+                                                          'options'     => [
+                                                                   ['value' => '', 'text' => 'Select 2'],
+                                                                   ['value' => '', 'text' => 'Select 3'],
+                                                                   ['value' => '', 'text' => 'Select 4']
+                                                                 ]
+                                                           ])
+                @include('inc.components.forms.select', [ 'classDecor'  => 'form-filter__decor-price',
+                                                          'name'        => 'name',
+                                                          'class'       => 'form-filter__select select--price ss-roboto-14',
+                                                          'optValue'    => '',
+                                                          'optText'     => '50',
+                                                          'options'     => [
+                                                                   ['value' => '', 'text' => '100']
+                                                                 ]
+                                                           ])
+
+            </div>
+            <h3>Input</h3>
+            <div class="demo-block__row ss-bg-grey">
+                @include('inc.components.forms.input', [ 'class' => 'form-search__input ss-roboto-14 ss-bg-grey-lt',
+                                                         'type' => 'search',
+                                                         'name' => '',
+                                                         'placeholder' => 'Поиск по сайту'
+                                                         ])
+                @include('inc.components.forms.input', [ 'class' => 'form-mailing__input ss-roboto-14 ss-bg-grey-lt',
+                                                         'type' => 'email',
+                                                         'name' => '',
+                                                         'placeholder' => 'Укажите свой email для подписки'
+                                                         ])
+                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
+                                                         'type' => 'text',
+                                                         'name' => '',
+                                                         'placeholder' => 'Михаил'
+                                                        ])
+                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
+                                                       'type' => 'text',
+                                                       'name' => '',
+                                                       'placeholder' => 'Михаил'
+                                                      ])
+                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
+                                                         'type' => 'email',
+                                                         'name' => '',
+                                                         'placeholder' => 'mikel87@gmail.com'
+                                                        ])
+                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
+                                                        'type' => 'email',
+                                                        'name' => '',
+                                                        'placeholder' => 'mikel87@gmail.com'
+                                                       ])
+
+                @include('inc.components.forms.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt',
+                                                         'name' => 'text',
+                                                         'placeholder' => 'Оставьте свой отзыв'
+                                                        ])
+                @include('inc.components.forms.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt error',
+                                                            'name' => 'text',
+                                                            'placeholder' => 'Оставьте свой отзыв'
+                                                ])
             </div>
         </div>
 {{----------------- Ссылки-----------------------------------}}

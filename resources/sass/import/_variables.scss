@@ -20,20 +20,13 @@ $grey-bl: #606a76;
 $liner-grad: linear-gradient(90deg, rgba(255,133,0,1) 0%, rgba(252,176,69,1) 100%);
 $liner-grad-dark: linear-gradient(90deg, rgba(211,110,0,1) 0%, rgba(229,145,0,1) 100%);
 
-// Text color
-
+// Text color-----------------------------------------------------
+$text-input-search: #929292;
+$text-select-search: #616161;
 $text-color: #3b3b3b;
 $block-linc: #cbcbcb;
 $phone-color: #151515;
-
-
+// Border color---------------------------------------------------
+$border-grey: #9c9c9c;
 // Button
-$colors-btn: (
-    'default': $orange,
-    'success': $green,
-    'error': $red,
-    'warning': $yellow,
-    'info': #ee82ee,
-    'option': $liner-grad,
-    'filter': #afb9c6,
-);
+

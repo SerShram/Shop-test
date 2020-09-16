@@ -1,3 +1,13 @@
+$colors-btn: (
+    'default': $orange,
+    'success': $green,
+    'error': $red,
+    'warning': $yellow,
+    'info': #ee82ee,
+    'option': $liner-grad,
+    'filter': #afb9c6,
+    'feedback': #afb9c6
+);
 .btn {
     position: relative;
     display: inline-block;
@@ -7,7 +17,11 @@
     padding: 0 40px;
     line-height: 50px;
     text-transform: uppercase;
-
+    &-feedback {
+        font-size: 14px;
+        text-transform: none;
+        font-weight: normal;
+    }
 }
 
 @each $name, $color-btn in $colors-btn {
@@ -68,5 +82,4 @@
         top: 3px;
         left: 36px;
     }
-
 }

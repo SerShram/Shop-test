@@ -1,4 +1,4 @@
-<div class="select-style">
+<div class="{{ $classDecor }}">
     <select name="{{ $name }}" class="{{ $class }}">
         <option value="{{ $optValue }}" selected>{{ $optText }}</option>
         @foreach($options as $option)

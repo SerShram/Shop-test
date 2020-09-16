@@ -1,0 +1,116 @@
+
+select { /*--------------Сброс стрелки-------------*/
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {  /* для IE */
+    display: none;
+}
+.form-search {
+    &__input {
+        border: none;
+        outline: none;
+        width: 700px;
+        height: 55px;
+        padding-left: 20px;
+        color: $text-input-search;
+    }
+    &__decor {
+        position: relative;
+        &:before {
+            content: url("/images/service-img/arrow-bottom-grey.png");
+            position: absolute;
+            top:31%;
+            left: 76%;
+            cursor: pointer;
+        }
+    }
+    &__select {
+        color: $text-select-search;
+        cursor: pointer;
+        width: 150px;
+        height: 55px;
+        border: none;
+        outline: none;
+        background: $white;
+        padding: 0 35px 0 10px;
+    }
+}
+
+.form-filter {
+    &__decor {
+        position: relative;
+        height: 41px;
+        border-bottom: 1px solid $white;
+        &:before {
+            content: url("/images/service-img/arrow-bottom.png");
+            position: absolute;
+            top:23%;
+            left: 86%;
+            cursor: pointer;
+        }
+        &:hover {
+            border-color: $orange;
+        }
+    }
+    &__select {
+        cursor: pointer;
+        width: 220px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: $white;
+        padding: 0 35px 0 10px;
+        &:hover {
+            color: $text-color;
+        }
+        &.select--price {
+            width: 75px;
+            padding: 0;
+            text-align-last: center;
+        }
+    }
+    &__decor-price {
+        position: relative;
+        height: 41px;
+        border-bottom: 1px solid $white;
+        &:hover {
+            border-color: $orange;
+        }
+    }
+}
+.form-feedback {
+    &__input {
+        box-sizing: border-box;
+        border: 1px solid $border-grey;
+        width: 215px;
+        height: 40px;
+        padding: 10px;
+        &.error {
+            border: 1px solid $red;
+        }
+    }
+    &__area {
+        box-sizing: border-box;
+        border: 1px solid $border-grey;
+        width: 485px;
+        height: 87px;
+        padding: 10px;
+        resize: none;
+        &.error {
+            border: 1px solid $red;
+        }
+    }
+}
+.form-mailing {
+    &__input {
+        border: none;
+        outline: none;
+        width: 400px;
+        height: 50px;
+        padding-left: 20px;
+        color: $text-input-search;
+        box-sizing: border-box;
+    }
+}
