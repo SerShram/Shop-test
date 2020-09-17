@@ -81,80 +81,30 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/script.js":
+/*!********************************!*\
+  !*** ./resources/js/script.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-window.onload = function () {
-  //  Range------------------------------------------------
-  var select = document.getElementById('input-select');
-  var inputMin = document.querySelector('.js-inp-1');
-  var inputMax = document.querySelector('.js-inp-2'); // Append the option elements
 
-  /* for (var i = -20; i <= 40; i++) {
-        var option = document.createElement("option");
-       option.text = i;
-       option.value = i;
-        select.appendChild(option);
-   }*/
-
-  var divRange = document.querySelector('.js-range');
-  noUiSlider.create(divRange, {
-    start: [100, 10000],
-    step: 100,
-    connect: true,
-    range: {
-      'min': 0,
-      'max': 100000
-    }
-  });
-  divRange.noUiSlider.on('update', function (values, handle) {
-    var value = values[handle];
-
-    if (handle) {
-      inputMax.value = value;
-    } else {
-      inputMin.value = Math.round(value);
-    }
-  });
-  inputMin.addEventListener('change', function () {
-    divRange.noUiSlider.set([this.value, null]);
-  });
-  inputMax.addEventListener('change', function () {
-    divRange.noUiSlider.set([null, this.value]);
-  });
-};
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/***/ 1:
+/*!**************************************!*\
+  !*** multi ./resources/js/script.js ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\script.js */"./resources/js/script.js");
 
 
 /***/ })

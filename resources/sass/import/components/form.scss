@@ -114,3 +114,35 @@ select::-ms-expand {  /* для IE */
         box-sizing: border-box;
     }
 }
+// Checkbox
+.checkbox {
+
+}
+.checkbox__inp {
+    display: none;
+}
+.checkbox__inp:checked~.checkbox__text {
+    color: $text-color;
+}
+.checkbox__inp:checked~.checkbox__text:before {
+    content: '';
+    border: 1px solid $border-grey;
+    background: url("/images/service-img/flag.png") center center no-repeat #ffecb3;
+}
+
+.checkbox__text {
+    position: relative;
+    padding-left: 25px;
+    color: $text-select-search;
+}
+.checkbox__text:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid $border-grey;
+
+}
+

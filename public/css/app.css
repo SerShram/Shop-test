@@ -605,6 +605,36 @@ select::-ms-expand {
   box-sizing: border-box;
 }
 
+.checkbox__inp {
+  display: none;
+}
+
+.checkbox__inp:checked ~ .checkbox__text {
+  color: #3b3b3b;
+}
+
+.checkbox__inp:checked ~ .checkbox__text:before {
+  content: "";
+  border: 1px solid #9c9c9c;
+  background: url("/images/service-img/flag.png") center center no-repeat #ffecb3;
+}
+
+.checkbox__text {
+  position: relative;
+  padding-left: 25px;
+  color: #616161;
+}
+
+.checkbox__text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #9c9c9c;
+}
+
 .socials__item {
   display: block;
   width: 50px;

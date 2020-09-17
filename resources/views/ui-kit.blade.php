@@ -85,7 +85,7 @@
             <h2 class="demo-block__title">Form elements</h2>
             <h3>Selects</h3>
             <div class="demo-block__row ss-bg-grey">
-                @include('inc.components.forms.select', [ 'classDecor' => 'form-search__decor',
+                @include('inc.components.forms.form-component.select', [ 'classDecor' => 'form-search__decor',
                                                           'name' => '',
                                                           'class' => 'form-search__select ss-roboto-14',
                                                           'optValue' => '',
@@ -94,7 +94,7 @@
                                                               ['value' => '', 'text' => 'Категория']
                                                             ]
                                                           ])
-                @include('inc.components.forms.select', [ 'classDecor'  => 'form-filter__decor',
+                @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor',
                                                           'name'        => 'name',
                                                           'class'       => 'form-filter__select ss-roboto-14',
                                                           'optValue'    => '',
@@ -105,7 +105,7 @@
                                                                    ['value' => '', 'text' => 'Select 4']
                                                                  ]
                                                            ])
-                @include('inc.components.forms.select', [ 'classDecor'  => 'form-filter__decor-price',
+                @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor-price',
                                                           'name'        => 'name',
                                                           'class'       => 'form-filter__select select--price ss-roboto-14',
                                                           'optValue'    => '',
@@ -118,45 +118,58 @@
             </div>
             <h3>Input</h3>
             <div class="demo-block__row ss-bg-grey">
-                @include('inc.components.forms.input', [ 'class' => 'form-search__input ss-roboto-14 ss-bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-search__input ss-roboto-14 ss-bg-grey-lt',
                                                          'type' => 'search',
                                                          'name' => '',
                                                          'placeholder' => 'Поиск по сайту'
                                                          ])
-                @include('inc.components.forms.input', [ 'class' => 'form-mailing__input ss-roboto-14 ss-bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-mailing__input ss-roboto-14 ss-bg-grey-lt',
                                                          'type' => 'email',
                                                          'name' => '',
                                                          'placeholder' => 'Укажите свой email для подписки'
                                                          ])
-                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
                                                          'type' => 'text',
                                                          'name' => '',
                                                          'placeholder' => 'Михаил'
                                                         ])
-                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
                                                        'type' => 'text',
                                                        'name' => '',
                                                        'placeholder' => 'Михаил'
                                                       ])
-                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt',
                                                          'type' => 'email',
                                                          'name' => '',
                                                          'placeholder' => 'mikel87@gmail.com'
                                                         ])
-                @include('inc.components.forms.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input ss-proxN-14 ss-bg-grey-lt error',
                                                         'type' => 'email',
                                                         'name' => '',
                                                         'placeholder' => 'mikel87@gmail.com'
                                                        ])
 
-                @include('inc.components.forms.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt',
+                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt',
                                                          'name' => 'text',
                                                          'placeholder' => 'Оставьте свой отзыв'
                                                         ])
-                @include('inc.components.forms.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt error',
+                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area ss-proxN-14 ss-bg-grey-lt error',
                                                             'name' => 'text',
                                                             'placeholder' => 'Оставьте свой отзыв'
                                                 ])
+            </div>
+
+            <h3>Checkbox</h3>
+            <div class="demo-block__row">
+                @include('inc.components.forms.form-component.checkbox', [
+    'classLabel' => '',
+    'type' => 'checkbox',
+    'classInp' => 'checkbox__inp',
+    'attribute' => '',
+    'classSpan' => 'checkbox__text ss-proxN-14',
+    'text' => 'Text name'
+    ])
+                @include('inc.components.forms.form-component.range')
             </div>
         </div>
 {{----------------- Ссылки-----------------------------------}}
@@ -177,7 +190,7 @@
 {{--------------------Image---------------------------------}}
         <div class="demo-block">
             <h3 class="demo-block__title">Service Image </h3>
-            <div class="demo-block__row">
+            <div class="demo-block__row ss-bg-grey-lt">
                 @include("inc.components.image", ['img' => '/images/service-img/balance.png'])
                 @include("inc.components.image", ['img' => '/images/service-img/basket.png'])
                 @include("inc.components.image", ['img' => '/images/service-img/card-balance.png'])
@@ -188,6 +201,19 @@
                 @include("inc.components.image", ['img' => '/images/service-img/quality.png'])
                 @include("inc.components.image", ['img' => '/images/service-img/star.png'])
                 @include("inc.components.image", ['img' => '/images/service-img/star-grey.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/cross-red.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/plus.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/arrow-bottom.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/arrow-bottom-grey.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/arrow-right.png'])
+                @include("inc.components.image", ['img' => '/images/service-img/arrow-right-orange.png'])
+                <div class="demo-block__row ss-bg-orange">
+                    @include("inc.components.image", ['img' => '/images/service-img/burger.png'])
+                    @include("inc.components.image", ['img' => '/images/service-img/carriage.png'])
+                    @include("inc.components.image", ['img' => '/images/service-img/phone.png'])
+                    @include("inc.components.image", ['img' => '/images/service-img/user.png'])
+                    @include("inc.components.image", ['img' => '/images/service-img/cross-small.png'])
+                </div>
             </div>
         </div>
 {{-------------------Sprite----------------------------------}}
@@ -198,9 +224,9 @@
             </div>
         </div>
 {{-----------------Socials------------------------------------}}
-        <div class="demo-block ss-bg-grey">
+        <div class="demo-block">
             <h3 class="demo-block__title">Socials</h3>
-            <div class="demo-block__row">
+            <div class="demo-block__row ss-bg-grey">
                 @include("inc.components.socials",[
                         'class' => 'socials ss-grid',
                         'classItem' => 'socials__item ss-marg-small-r',

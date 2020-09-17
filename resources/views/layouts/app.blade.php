@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link rel="stylesheet" href="/assets/nouislider/nouislider.css">
 </head>
 <body>
 
 @yield('content')
 
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/nouislider/nouislider.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
