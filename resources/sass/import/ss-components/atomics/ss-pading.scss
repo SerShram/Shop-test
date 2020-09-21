@@ -1,0 +1,42 @@
+
+$padding:                   20px;
+$small-padding:             10px;
+$medium-padding:            40px;
+$large-padding:             60px;
+$xlarge-padding:            60px;
+
+//------------------------Normal-----------------------------------------
+.Px {padding-left: $padding ;padding-right: $padding ; }
+.Py {padding-top: $padding ; padding-bottom: $padding ; }
+.Pt { padding-top: $padding ; }
+.Pb { padding-bottom: $padding ; }
+.Pl { padding-left: $padding ; }
+.Pr { padding-right: $padding ; }
+
+//----------------------------Small----------------------------------------
+.Px-s {padding-left: $small-padding ;padding-right: $small-padding ; }
+.Py-s {padding-top: $small-padding ; padding-bottom: $small-padding ; }
+.Pt-s { padding-top: $small-padding ; }
+.Pb-s { padding-bottom: $small-padding ; }
+.Pl-s { padding-left: $small-padding ; }
+.Pr-s { padding-right: $small-padding ; }
+
+//-------------------------------Medium-----------------------------------
+.Px-m {padding-left: $medium-padding ;padding-right: $medium-padding ; }
+.Py-m {padding-top: $medium-padding ; padding-bottom: $medium-padding ; }
+.Pt-m { padding-top: $medium-padding ; }
+.Pb-m { padding-bottom: $medium-padding ; }
+.Pl-m { padding-left: $medium-padding ; }
+.Pr-m { padding-right: $medium-padding ; }
+
+//------------------------------Large--------------------------------------
+.Pt-l { padding-top: $large-padding ; }
+.Pb-l { padding-bottom: $large-padding ; }
+.Pl-l { padding-left: $large-padding ; }
+.Pr-l { padding-right: $large-padding ; }
+
+//----------------------------XLarge-------------------------------------------
+.Pt-xl { padding-top: $xlarge-padding ; }
+.Pb-xl { padding-bottom: $xlarge-padding ; }
+.Pl-xl { padding-left: $xlarge-padding ; }
+.Pr-xl { padding-right: $xlarge-padding ; }

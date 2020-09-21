@@ -145,4 +145,34 @@ select::-ms-expand {  /* для IE */
     border: 1px solid $border-grey;
 
 }
+.range {
+    &__item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
 
+    }
+    &__text {}
+    &__decor {
+        display: inline-block;
+        width: 90px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #9c9c9c80;
+        overflow: hidden;
+        margin: 0 20px 0 10px;
+        &.decor--last {
+            margin: 0 10px 0;
+        }
+
+    }
+    &__input {
+        position: absolute;
+        text-align-last: center;
+        color: $text-input-search;
+        top: 11px;
+        left: -25px;
+        border: none;
+        outline: none;
+    }
+}

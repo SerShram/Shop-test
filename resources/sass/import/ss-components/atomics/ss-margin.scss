@@ -1,0 +1,42 @@
+
+$margin:                   20px;
+$small-margin:             10px;
+$medium-margin:            40px;
+$large-margin:             60px;
+$xlarge-margin:            60px;
+
+//------------------------Normal-----------------------------------------
+.Mx {margin-left: $margin ;margin-right: $margin ; }
+.My {margin-top: $margin ; margin-bottom: $margin ; }
+.Mt { margin-top: $margin ; }
+.Mb { margin-bottom: $margin ; }
+.Ml { margin-left: $margin ; }
+.Mr { margin-right: $margin ; }
+
+//----------------------------Small----------------------------------------
+.Mx-s {margin-left: $small-margin ;margin-right: $small-margin ; }
+.My-s {margin-top: $small-margin ; margin-bottom: $small-margin ; }
+.Mt-s { margin-top: $small-margin ; }
+.Mb-s { margin-bottom: $small-margin ; }
+.Ml-s { margin-left: $small-margin ; }
+.Mr-s { margin-right: $small-margin ; }
+
+//-------------------------------Medium-----------------------------------
+.Mx-m {margin-left: $medium-margin ;margin-right: $medium-margin ; }
+.My-m {margin-top: $medium-margin ; margin-bottom: $medium-margin ; }
+.Mt-m { margin-top: $medium-margin ; }
+.Mb-m { margin-bottom: $medium-margin ; }
+.Ml-m { margin-left: $medium-margin ; }
+.Mr-m { margin-right: $medium-margin ; }
+
+//------------------------------Large--------------------------------------
+.Mt-l { margin-top: $large-margin ; }
+.Mb-l { margin-bottom: $large-margin ; }
+.Ml-l { margin-left: $large-margin ; }
+.Mr-l { margin-right: $large-margin ; }
+
+//----------------------------XLarge-------------------------------------------
+.Mt-xl { margin-top: $xlarge-margin ; }
+.Mb-xl { margin-bottom: $xlarge-margin ; }
+.Ml-xl { margin-left: $xlarge-margin ; }
+.Mr-xl { margin-right: $xlarge-margin ; }

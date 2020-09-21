@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="/assets/nouislider/nouislider.css">
 </head>
 <body>
-
 @yield('content')
-
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/assets/nouislider/nouislider.js"></script>
 <script src="/js/app.js"></script>

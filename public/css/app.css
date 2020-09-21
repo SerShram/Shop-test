@@ -11,140 +11,158 @@ body {
   padding: 0 15px 0;
 }
 
-.ss-bg-orange {
+.Bg-orange {
   background: #ff8900;
 }
 
-.ss-bg-grey {
+.Bg-grey {
   background: #696969;
 }
 
-.ss-bg-dark-orange {
+.Bg-dark-orange {
   background: #db7200;
 }
 
-.ss-bg-grey-bl {
+.Bg-grey-bl {
   background: #606a76;
 }
 
-.ss-bg-grey-lt {
+.Bg-grey-lt {
   background: #f5f5f5;
 }
 
-.ss-roboto-36 {
+.Bg-yellow {
+  background: #ffc925;
+}
+
+.Bg-yellow-lt {
+  background: #fffedb;
+}
+
+.R-36 {
   font-size: 36px;
 }
 
-.ss-roboto-26-up {
+.R-26-up {
   font-size: 26px;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.ss-roboto-26-i {
+.R-26-i {
   font-size: 26px;
   font-weight: 900;
   font-style: italic;
 }
 
-.ss-roboto-20-b {
+.title-lg {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.R-20-b {
   font-size: 20px;
   font-weight: 700;
 }
 
-.ss-roboto-18-b {
+.R-18-b {
   font-size: 18px;
   font-weight: 700;
 }
 
-.ss-roboto-17 {
+.R-17 {
   font-size: 17px;
 }
 
-.ss-roboto-16-b-up {
+.R-16-b-up {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.ss-roboto-16-b-i {
+.R-16-b-i {
   font-size: 16px;
   font-weight: 700;
   font-style: italic;
 }
 
-.ss-roboto-16-bl-i {
+.R-16-bl-i {
   font-size: 16px;
   font-weight: 900;
   font-style: italic;
 }
 
-.ss-roboto-14 {
+.R-14 {
   font-size: 14px;
   color: #9c9c9c;
 }
 
-.ss-roboto-14-b-up {
+.R-14-b-up {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.ss-roboto-13 {
+.R-13 {
   font-size: 13px;
 }
 
-.ss-roboto-12 {
+.R-12 {
   font-size: 12px;
 }
 
-.ss-roboto-10 {
+.R-12-up {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.R-10 {
   font-size: 10px;
 }
 
-.ss-roboto-10-b-up {
+.R-10-b-up {
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.ss-proxN-36-b {
-  font-family: ProximaNova;
+.P-36-b {
+  font-family: ProximaNova, sans-serif;
   font-weight: bold;
   font-size: 36px;
 }
 
-.ss-proxN-30-b {
-  font-family: ProximaNova;
+.P-30-b {
+  font-family: ProximaNova, sans-serif;
   font-weight: bold;
   font-size: 30px;
 }
 
-.ss-proxN-20-b {
-  font-family: ProximaNova;
+.P-20-b {
+  font-family: ProximaNova, sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
 
-.ss-proxN-17 {
-  font-family: ProximaNova;
+.P-17 {
+  font-family: ProximaNova, sans-serif;
   font-size: 17px;
 }
 
-.ss-proxN-14 {
-  font-family: ProximaNova;
+.P-14 {
+  font-family: ProximaNova, sans-serif;
   font-size: 14px;
 }
 
-.ss-eur-26-b-i {
-  font-family: Europe;
+.E-26-b-i {
+  font-family: Europe, sans-serif;
   font-size: 26px;
   font-weight: bold;
   font-style: italic;
 }
 
-.ss-eur-20-b-i {
-  font-family: Europe;
+.E-20-b-i {
+  font-family: Europe, sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
@@ -155,100 +173,240 @@ body {
   flex-wrap: wrap;
 }
 
-.ss-line-h-s {
+.Lh-s {
   line-height: 40px;
 }
 
-.ss-line-h-m {
+.Lh-m {
   line-height: 50px;
 }
 
-.ss-line-h-l {
+.Lh-l {
   line-height: 55px;
 }
 
-.ss-line-h-xl {
+.Lh-xl {
   line-height: 70px;
 }
 
-.ss-marg-t {
-  margin-top: 20px;
-}
-
-.ss-marg-b {
-  margin-bottom: 20px;
-}
-
-.ss-marg-l {
+.Mx {
   margin-left: 20px;
-}
-
-.ss-marg-r {
   margin-right: 20px;
 }
 
-.ss-marg-small-t {
-  margin-top: 10px;
+.My {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.ss-marg-small-b {
-  margin-bottom: 10px;
+.Mt {
+  margin-top: 20px;
 }
 
-.ss-marg-small-l {
+.Mb {
+  margin-bottom: 20px;
+}
+
+.Ml {
+  margin-left: 20px;
+}
+
+.Mr {
+  margin-right: 20px;
+}
+
+.Mx-s {
   margin-left: 10px;
-}
-
-.ss-marg-small-r {
   margin-right: 10px;
 }
 
-.ss-marg-med-t {
-  margin-top: 40px;
+.My-s {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.ss-marg-med-b {
-  margin-bottom: 40px;
+.Mt-s {
+  margin-top: 10px;
 }
 
-.ss-marg-med-l {
+.Mb-s {
+  margin-bottom: 10px;
+}
+
+.Ml-s {
+  margin-left: 10px;
+}
+
+.Mr-s {
+  margin-right: 10px;
+}
+
+.Mx-m {
   margin-left: 40px;
-}
-
-.ss-marg-med-r {
   margin-right: 40px;
 }
 
-.ss-marg-large-t {
+.My-m {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Mt-m {
+  margin-top: 40px;
+}
+
+.Mb-m {
+  margin-bottom: 40px;
+}
+
+.Ml-m {
+  margin-left: 40px;
+}
+
+.Mr-m {
+  margin-right: 40px;
+}
+
+.Mt-l {
   margin-top: 60px;
 }
 
-.ss-marg-large-b {
+.Mb-l {
   margin-bottom: 60px;
 }
 
-.ss-marg-large-l {
+.Ml-l {
   margin-left: 60px;
 }
 
-.ss-marg-large-r {
+.Mr-l {
   margin-right: 60px;
 }
 
-.ss-marg-xlar-t {
+.Mt-xl {
   margin-top: 60px;
 }
 
-.ss-marg-xlar-b {
+.Mb-xl {
   margin-bottom: 60px;
 }
 
-.ss-marg-xlar-l {
+.Ml-xl {
   margin-left: 60px;
 }
 
-.ss-marg-xlar-r {
+.Mr-xl {
   margin-right: 60px;
+}
+
+.Px {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Py {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Pt {
+  padding-top: 20px;
+}
+
+.Pb {
+  padding-bottom: 20px;
+}
+
+.Pl {
+  padding-left: 20px;
+}
+
+.Pr {
+  padding-right: 20px;
+}
+
+.Px-s {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Py-s {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Pt-s {
+  padding-top: 10px;
+}
+
+.Pb-s {
+  padding-bottom: 10px;
+}
+
+.Pl-s {
+  padding-left: 10px;
+}
+
+.Pr-s {
+  padding-right: 10px;
+}
+
+.Px-m {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Py-m {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Pt-m {
+  padding-top: 40px;
+}
+
+.Pb-m {
+  padding-bottom: 40px;
+}
+
+.Pl-m {
+  padding-left: 40px;
+}
+
+.Pr-m {
+  padding-right: 40px;
+}
+
+.Pt-l {
+  padding-top: 60px;
+}
+
+.Pb-l {
+  padding-bottom: 60px;
+}
+
+.Pl-l {
+  padding-left: 60px;
+}
+
+.Pr-l {
+  padding-right: 60px;
+}
+
+.Pt-xl {
+  padding-top: 60px;
+}
+
+.Pb-xl {
+  padding-bottom: 60px;
+}
+
+.Pl-xl {
+  padding-left: 60px;
+}
+
+.Pr-xl {
+  padding-right: 60px;
 }
 
 .btn {
@@ -633,6 +791,37 @@ select::-ms-expand {
   width: 15px;
   height: 15px;
   border: 1px solid #9c9c9c;
+}
+
+.range__item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.range__decor {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  position: relative;
+  border: 1px solid #9c9c9c80;
+  overflow: hidden;
+  margin: 0 20px 0 10px;
+}
+
+.range__decor.decor--last {
+  margin: 0 10px 0;
+}
+
+.range__input {
+  position: absolute;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  color: #929292;
+  top: 11px;
+  left: -25px;
+  border: none;
+  outline: none;
 }
 
 .socials__item {

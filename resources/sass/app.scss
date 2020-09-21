@@ -6,12 +6,13 @@
 @import "import/mixins";
 // Basic setting
 @import "import/setting";
-// My ui kit
-@import "import/ss-components/ss-bg";
-@import "import/ss-components/ss-fonts";
+// My Atomics
+@import "import/ss-components/atomics/ss-color";
+@import "import/ss-components/atomics/ss-fonts";
 @import "import/ss-components/ss-grid";
 @import "import/ss-components/ss-line-height";
-@import "import/ss-components/helpers/ss-margin";
+@import "import/ss-components/atomics/ss-margin";
+@import "import/ss-components/atomics/ss-pading";
 
 // Components
 @import "import/components/button";
