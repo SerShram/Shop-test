@@ -7,14 +7,15 @@
 // Basic setting
 @import "import/setting";
 // My Atomics
-@import "import/ss-components/atomics/ss-color";
-@import "import/ss-components/atomics/ss-fonts";
-@import "import/ss-components/ss-grid";
-@import "import/ss-components/ss-line-height";
-@import "import/ss-components/atomics/ss-margin";
-@import "import/ss-components/atomics/ss-pading";
+@import "import/components/atomics/ss-color";
+@import "import/components/atomics/ss-fonts";
+@import "import/components/atomics/ss-grid";
+@import "import/components/atomics/ss-line-height";
+@import "import/components/atomics/ss-margin";
+@import "import/components/atomics/ss-pading";
 
 // Components
+@import "import/components/header";
 @import "import/components/button";
 @import "import/components/nav-menu";
 @import "import/components/option-menu";

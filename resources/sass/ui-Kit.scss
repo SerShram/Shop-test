@@ -1,3 +1,7 @@
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
 .demo-block {
     &__title {}
     &__row {
@@ -13,6 +17,18 @@
     padding: 15px;
     line-height: 1.5;
 }
+.palette-text {
+    width: 200px;
+}
 .typography-block {
     justify-content: space-evenly;
 }
+
+.C-1 { background: $text-input-search; }
+.C-2 { background: $text-select-search; color: #fff;}
+.C-3 { background: $text-color; color: #fff;}
+.C-4 { background: $block-linc; }
+.C-5 { background: $phone-color; color: #fff; }
+.C-6 { background: $linc-nav; }
+.C-7 { background: $linc-option-nav; }
+

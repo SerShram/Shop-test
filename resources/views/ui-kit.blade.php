@@ -41,33 +41,33 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Color Swatches of text</h3>
             <div class="demo-block__row">
-                <div class="palette Bg-orange">
-                    <div>#ff8900</div>
-                    <div>orange</div>
+                <div class="palette palette-text C-1">
+                    <div>#929292</div>
+                    <div>$text-input-search</div>
                 </div>
-                <div class="palette Bg-dark-orange">
-                    <div>#db7200</div>
-                    <div>dark-orange</div>
+                <div class="palette palette-text C-2">
+                    <div>#616161</div>
+                    <div>$text-select-search</div>
                 </div>
-                <div class="palette Bg-grey-lt">
-                    <div>#f5f5f5</div>
-                    <div>grey-lt</div>
+                <div class="palette palette-text C-3">
+                    <div>#3b3b3b</div>
+                    <div>$text-color</div>
                 </div>
-                <div class="palette Bg-grey">
-                    <div>#696969</div>
-                    <div>grey</div>
+                <div class="palette palette-text C-4">
+                    <div>#cbcbcb</div>
+                    <div>$block-linc</div>
                 </div>
-                <div class="palette Bg-grey-bl">
-                    <div>#606a76</div>
-                    <div>grey-bl</div>
+                <div class="palette palette-text C-5">
+                    <div>#151515</div>
+                    <div>$phone-color</div>
                 </div>
-                <div class="palette Bg-yellow">
-                    <div>#ffc925</div>
-                    <div>yellow</div>
+                <div class="palette palette-text C-6">
+                    <div>#c3c3c3</div>
+                    <div>$linc-nav</div>
                 </div>
-                <div class="palette Bg-yellow-lt">
-                    <div>#fffedb</div>
-                    <div>yellow-lt</div>
+                <div class="palette palette-text C-7">
+                    <div>#abafb5</div>
+                    <div>$linc-option-nav</div>
                 </div>
             </div>
         </div>
@@ -76,14 +76,14 @@
             <h3 class="demo-block__title">Buttons</h3>
             <div class="demo-block__row">
                 @include('inc.components.button', ['classBtn'=>'default', 'path'=>'#', 'nameBtn'=>'default'])
-                @include('inc.components.button', ['classBtn'=>'default btn--search', 'path'=>'#', 'nameBtn'=>'поиск'])
-                @include('inc.components.button', ['classBtn'=>'default btn--log', 'path'=>'#', 'nameBtn'=>'вход'])
-                @include('inc.components.button', ['classBtn'=>'default btn--call', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
+                @include('inc.components.button', ['classBtn'=>'search R-16-b-up', 'path'=>'#', 'nameBtn'=>'поиск'])
+                @include('inc.components.button', ['classBtn'=>'login R-12-up', 'path'=>'#', 'nameBtn'=>'вход'])
+                @include('inc.components.button', ['classBtn'=>'call R-12-up', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
                 @include('inc.components.button', ['classBtn'=>'filter', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
-                @include('inc.components.button', ['classBtn'=>'option', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
-                @include('inc.components.button', ['classBtn'=>'option btn--cart', 'path'=>'#', 'nameBtn'=>'купить товар'])
-                @include('inc.components.button', ['classBtn'=>'feedback', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
+                @include('inc.components.button', ['classBtn'=>'option R-14-b-up', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
+                @include('inc.components.button', ['classBtn'=>'buy R-14-b-up', 'path'=>'#', 'nameBtn'=>'купить товар'])
+                @include('inc.components.button', ['classBtn'=>'message', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
                 @include('inc.components.button', ['classBtn'=>'success', 'path'=>'#', 'nameBtn'=>'success'])
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
                 @include('inc.components.button', ['classBtn'=>'warning', 'path'=>'#', 'nameBtn'=>'warning'])
@@ -95,17 +95,17 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Navigation menu</h3>
             <div class="demo-block__row">
-                @include('inc.components.nav-menu', ['ulClass'=>'nav-header ss-grid Lh-m Bg-grey',
-                                                     'liClass'=>'Mr-m',
-                                                     'linkClass'=>'',
-                                                     'data' => [
-                                                                    ['link' => '/', 'title' => 'главная'],
-                                                                    ['link' => '/contacts', 'title' => 'о компании'],
-                                                                    ['link' => '#', 'title' => 'ссылка 1'],
-                                                                    ['link' => '#', 'title' => 'ссылка 2'],
-                                                                    ['link' => '#', 'title' => 'ссылка 3']
-                                                               ]
-                                                     ])
+                @include('inc.components.nav-menu', ['ulClass'=>'nav-header Grid Lh-m Bg-grey',
+'liClass' => 'nav-header__item Mr-m R-12-up',
+'linkClass' => 'nav-header__link',
+'data' => [
+    ['link' => '/', 'title' => 'главная'],
+    ['link' => '/contacts', 'title' => 'о компании'],
+    ['link' => '#', 'title' => 'ссылка 1'],
+    ['link' => '#', 'title' => 'ссылка 2'],
+    ['link' => '#', 'title' => 'ссылка 3']
+    ]
+    ])
                 @include("inc.components.option-menu",
                         ['opMenuClass'   => 'option-menu Lh-xl Bg-grey-bl',
                          'linkClass'     => 'option-menu__link Mr',
@@ -275,7 +275,7 @@
             <h3 class="demo-block__title">Socials</h3>
             <div class="demo-block__row Bg-grey">
                 @include("inc.components.socials",[
-                        'class' => 'socials ss-grid',
+                        'class' => 'socials Grid',
                         'classItem' => 'socials__item ss-marg-small-r',
                         'modifiers' => [
                                     ['link' => '#', 'modifier' => 'item--vk'],
@@ -421,3 +421,6 @@
 
     </div>
 @endsection
+@push('scripts')
+    <script src="/assets/nouislider/nouislider.js"></script>
+@endpush

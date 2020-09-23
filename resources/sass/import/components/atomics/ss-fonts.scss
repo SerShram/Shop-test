@@ -1,0 +1,47 @@
+$font-family-main: 'Roboto', sans-serif;
+$font-family-second: 'ProximaNova', sans-serif;
+$font-family-third: 'Europe', sans-serif;
+// Font size
+//---------Roboto-------------------------------------
+.R-36 { font-family: $font-family-main; font-size: 36px; }
+
+.R-26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
+.R-26-i { font-family: $font-family-main; font-size: 26px; font-weight: 900; font-style: italic; }
+
+.title-lg { font-family: $font-family-main; font-size: 24px; font-weight: 700; }
+
+.R-20-b { font-family: $font-family-main; font-size: 20px; font-weight: 700; }
+
+.R-18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
+
+.R-17 { font-family: $font-family-main; font-size: 17px; }
+
+.R-16-b-up { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
+.R-16-b-i { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
+.R-16-bl-i { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
+
+.R-14 { font-family: $font-family-main; font-size: 14px; }
+.R-14-b-up { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
+
+.R-13 { font-family: $font-family-main; font-size: 13px; }
+
+.R-12 { font-family: $font-family-main; font-size: 12px; }
+.R-12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
+
+.R-10 { font-family: $font-family-main; font-size: 10px; }
+.R-10-b-up { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+
+//---------Roboto-------------------------------------
+.P-36-b { font-family: $font-family-second; font-weight: bold; font-size: 36px; }
+.P-30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
+.P-20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
+.P-17 { font-family: $font-family-second; font-size: 17px; }
+.P-14 { font-family: $font-family-second; font-size: 14px; }
+
+//-----------Europe---------------------------------------------
+.E-26-b-i { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
+.E-20-b-i { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
+
+
+//---------------------Color------------------------------
+

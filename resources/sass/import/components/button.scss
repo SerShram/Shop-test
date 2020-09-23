@@ -1,85 +1,83 @@
-$colors-btn: (
-    'default': $orange,
-    'success': $green,
-    'error': $red,
-    'warning': $yellow,
-    'info': #ee82ee,
-    'option': $liner-grad,
-    'filter': #afb9c6,
-    'feedback': #afb9c6
-);
 .btn {
     position: relative;
     display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
     color: $white;
-    padding: 0 40px;
+    background: $orange;
     line-height: 50px;
-    text-transform: uppercase;
+    padding: 0 40px;
+    &-success {
+        background: $green;
+    }
+    &-error {
+        background: $red;
+    }
+    &-warning {
+        background: $yellow;
+    }
+    &-info {
+        background: #ee82ee;
+    }
+    &-message {
+        background: #afb9c6;
+    }
+    &-option {
+        background: $liner-grad;
+        &:hover {
+            background: $liner-grad-dark;
+        }
+    }
+    &-filter {
+        background: #afb9c6;
+        padding: 0 45px 0 60px;
+        &.filter--red {
+            background: $red;
+        }
+        &:before {
+            content: url("/images/service-img/cross-small.png");
+            position: absolute;
+            top: 3px;
+            left: 36px;
+        }
+    }
     &-feedback {
-        font-size: 14px;
-        text-transform: none;
+        background: #afb9c6;
+    }
+    &-search {
+        padding: 0 55px;
+    }
+    &-buy {
+        background: $liner-grad;
+        padding: 0 35px 0 68px;
+        &:hover {
+            background: $liner-grad-dark;
+        }
+        &:before {
+            content: url("/images/service-img/carriage.png");
+            position: absolute;
+            top: 5px;
+            left: 25px;
+        }
+    }
+    &-login {
+        padding: 0 35px 0 60px;
+        &:before {
+            content: url("/images/service-img/user.png");
+            position: absolute;
+            top: 3px;
+            left: 30px;
+        }
+    }
+    &-call {
+        padding: 0 35px 0 50px;
+        font-size: 12px;
         font-weight: normal;
+        &:before {
+            content: url("/images/service-img/phone.png");
+            position: absolute;
+            top: 5px;
+            left: 32px;
+        }
     }
 }
 
-@each $name, $color-btn in $colors-btn {
-    .btn-#{$name} {
-        background: $color-btn;
-    }
-}
-.btn-option:hover {
-    background: $liner-grad-dark;
-}
-.btn--search {
-    padding: 0 55px;
-    line-height: 55px;
-}
-.btn--cart {
-    font-size: 14px;
-    padding: 0 35px 0 68px;
-    &:before {
-        content: url("/images/service-img/carriage.png");
-        position: absolute;
-        top: 5px;
-        left: 25px;
-    }
-}
-.btn--log {
-    padding: 0 35px 0 60px;
-    font-size: 12px;
-    font-weight: normal;
-    &:before {
-        content: url("/images/service-img/user.png");
-        position: absolute;
-        top: 3px;
-        left: 30px;
-    }
-}
-.btn--call {
-    padding: 0 35px 0 50px;
-    font-size: 12px;
-    font-weight: normal;
-    &:before {
-        content: url("/images/service-img/phone.png");
-        position: absolute;
-        top: 5px;
-        left: 32px;
-    }
-}
-.btn-filter {
-    font-size: 14px;
-    font-weight: normal;
-    text-transform: none;
-    padding: 0 45px 0 60px;
-    &.filter--red {
-        background: $red;
-    }
-    &:before {
-        content: url("/images/service-img/cross-small.png");
-        position: absolute;
-        top: 3px;
-        left: 36px;
-    }
-}
+

@@ -1,0 +1,10 @@
+.header-top {
+    &__container {
+        @include grid ($jc: space-between);
+        flex-direction: column-reverse;
+
+        @media screen and (min-width: 768px) {
+            @include grid ($jc: space-between);
+        }
+    }
+}
