@@ -41,33 +41,40 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Color Swatches of text</h3>
             <div class="demo-block__row">
-                <div class="palette palette-text C-1">
-                    <div>#929292</div>
-                    <div>$text-input-search</div>
-                </div>
-                <div class="palette palette-text C-2">
-                    <div>#616161</div>
-                    <div>$text-select-search</div>
-                </div>
-                <div class="palette palette-text C-3">
-                    <div>#3b3b3b</div>
-                    <div>$text-color</div>
-                </div>
-                <div class="palette palette-text C-4">
+                <div class="palette palette-text ss-C-1">
                     <div>#cbcbcb</div>
                     <div>$block-linc</div>
+                    <div>C-1</div>
                 </div>
-                <div class="palette palette-text C-5">
-                    <div>#151515</div>
-                    <div>$phone-color</div>
-                </div>
-                <div class="palette palette-text C-6">
+                <div class="palette palette-text ss-C-2">
                     <div>#c3c3c3</div>
                     <div>$linc-nav</div>
+                    <div>C-2</div>
                 </div>
-                <div class="palette palette-text C-7">
+                <div class="palette palette-text ss-C-3">
                     <div>#abafb5</div>
                     <div>$linc-option-nav</div>
+                    <div>C-3</div>
+                </div>
+                <div class="palette palette-text ss-C-4">
+                    <div>#929292</div>
+                    <div>$text-input-search</div>
+                    <div>C-4</div>
+                </div>
+                <div class="palette palette-text ss-C-5">
+                    <div>#616161</div>
+                    <div>$text-select-search</div>
+                    <div>C-5</div>
+                </div>
+                <div class="palette palette-text ss-C-6">
+                    <div>#3b3b3b</div>
+                    <div>$text-color</div>
+                    <div>C-6</div>
+                </div>
+                <div class="palette palette-text ss-C-7">
+                    <div>#151515</div>
+                    <div>$phone-color</div>
+                    <div>C-7</div>
                 </div>
             </div>
         </div>
@@ -88,6 +95,7 @@
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
                 @include('inc.components.button', ['classBtn'=>'warning', 'path'=>'#', 'nameBtn'=>'warning'])
                 @include('inc.components.button', ['classBtn'=>'info', 'path'=>'#', 'nameBtn'=>'info'])
+                @include('inc.components.button', ['classBtn'=>'menu R20-b', 'path'=>'#', 'nameBtn'=>'Меню'])
 
             </div>
         </div>
@@ -235,39 +243,39 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Service Image </h3>
             <div class="demo-block__row Bg-grey-lt">
-                @include("inc.components.image", ['img' => '/images/service-img/balance.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/basket.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/card-balance.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/card-car.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/card-new.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/card-quality.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/cart-sun.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/quality.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/star.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/star-grey.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/cross-red.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/plus.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/arrow-bottom.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/arrow-bottom-grey.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/arrow-right.png'])
-                @include("inc.components.image", ['img' => '/images/service-img/arrow-right-orange.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/balance.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/basket.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-balance.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-car.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-new.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-quality.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cart-sun.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/quality.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/star.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/star-grey.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cross-red.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/plus.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-bottom.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-bottom-grey.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-right.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-right-orange.png'])
                 <div class="demo-block__row Bg-orange">
-                    @include("inc.components.image", ['img' => '/images/service-img/burger.png'])
-                    @include("inc.components.image", ['img' => '/images/service-img/carriage.png'])
-                    @include("inc.components.image", ['img' => '/images/service-img/phone.png'])
-                    @include("inc.components.image", ['img' => '/images/service-img/user.png'])
-                    @include("inc.components.image", ['img' => '/images/service-img/cross-small.png'])
+                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/burger.png'])
+                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/carriage.png'])
+                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/phone.png'])
+                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/user.png'])
+                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cross-small.png'])
                 </div>
-                @include("inc.components.image", ['img' => '/images/card-image/badge-1.png'])
-                @include("inc.components.image", ['img' => '/images/card-image/badge-2.png'])
-                @include("inc.components.image", ['img' => '/images/card-image/badge-3.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-1.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-2.png'])
+                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-3.png'])
             </div>
         </div>
 {{-------------------Sprite----------------------------------}}
         <div class="demo-block">
             <h3 class="demo-block__title">Sprite</h3>
             <div class="demo-block__row">
-                @include("inc.components.image",['img' => '/images/service-img/sprite/spritesheet.png'])
+                @include("inc.components.image",['href' => '#', 'img' => '/images/service-img/sprite/spritesheet.png'])
             </div>
         </div>
 {{-----------------Socials------------------------------------}}
@@ -332,13 +340,13 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-16-b-i</b> --- (Roboto Bold Italic 16px)</div>
-                <div class="R-16-b-i">+380 98 170 00 740  +380 98 170 00 740</div>
+                <div><b>R16-bi</b> --- (Roboto Bold Italic 16px)</div>
+                <div class="R16-bi">+380 98 170 00 740  +380 98 170 00 740</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-16-bl-i</b> --- (Roboto Black Italic 16px)</div>
-                <div class="R-16-bl-i">1 250 грн.</div>
+                <div><b>R16-bli</b> --- (Roboto Black Italic 16px)</div>
+                <div class="R16-bli">1 250 грн.</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -366,8 +374,13 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-10-b-up</b> --- (Roboto Bold 10px)</div>
-                <div class="R-10-b-up">сравнение избранное корзина</div>
+                <div><b>R10-up</b> --- (Roboto Regular 10px)</div>
+                <div class="R10-up">сравнение избранное корзина</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>R10-bup</b> --- (Roboto Bold 10px)</div>
+                <div class="R10-bup">сравнение избранное корзина</div>
             </div>
             <hr>
 {{--------------ProximaNova-----------------------------------------------------}}

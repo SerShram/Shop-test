@@ -1,0 +1,17 @@
+.counter {
+    display: flex;
+    align-items: baseline;
+    &__item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid $border-light;
+        &:last-child {
+            border: none;
+        }
+    }
+    &__title {
+        padding-top: 5px;
+    }
+}

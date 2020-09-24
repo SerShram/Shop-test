@@ -37,6 +37,34 @@
   background: #fffedb;
 }
 
+.C-1 {
+  color: #cbcbcb;
+}
+
+.C-2 {
+  color: #c3c3c3;
+}
+
+.C-3 {
+  color: #abafb5;
+}
+
+.C-4 {
+  color: #929292;
+}
+
+.C-5 {
+  color: #616161;
+}
+
+.C-6 {
+  color: #3b3b3b;
+}
+
+.C-7 {
+  color: #151515;
+}
+
 .R-36 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -62,7 +90,7 @@
   font-weight: 700;
 }
 
-.R-20-b {
+.R20-b {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -86,14 +114,14 @@
   text-transform: uppercase;
 }
 
-.R-16-b-i {
+.R16-bi {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: italic;
 }
 
-.R-16-bl-i {
+.R16-bli {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -133,7 +161,13 @@
   font-size: 10px;
 }
 
-.R-10-b-up {
+.R10-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.R10-bup {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   font-weight: 700;
@@ -189,20 +223,50 @@
   margin-left: -10px;
 }
 
+@media screen and (min-width: 576px) {
+  .col-sm-1 {
+    width: 8.333333%;
+  }
+
+  .col-sm-2 {
+    width: 16.666666%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-4 {
+    width: 33.333333%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-8 {
+    width: 66.666666%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .col-md-1 {
     width: 8.333333%;
-    background: #ecd99e;
   }
 
   .col-md-2 {
     width: 16.666666%;
-    background: #f4dbee;
   }
 
   .col-md-3 {
     width: 25%;
-    background: #dcf4db;
   }
 
   .col-md-4 {
@@ -211,25 +275,124 @@
 
   .col-md-6 {
     width: 50%;
-    background: #9bb0c6;
   }
 
   .col-md-8 {
     width: 66.666666%;
-    background: #c6c19b;
   }
 
   .col-md-9 {
     width: 75%;
-    background: #c69d9b;
   }
 
   .col-md-12 {
     width: 100%;
-    background: #d989d1;
   }
 }
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12 {
+@media (min-width: 992px) {
+  .col-lg-1 {
+    width: 8.333333%;
+  }
+
+  .col-lg-2 {
+    width: 16.666666%;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-4 {
+    width: 33.333333%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-8 {
+    width: 66.666666%;
+  }
+
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.333333%;
+  }
+
+  .col-xl-2 {
+    width: 16.666666%;
+  }
+
+  .col-xl-3 {
+    width: 25%;
+  }
+
+  .col-xl-4 {
+    width: 33.333333%;
+  }
+
+  .col-xl-6 {
+    width: 50%;
+  }
+
+  .col-xl-8 {
+    width: 66.666666%;
+  }
+
+  .col-xl-9 {
+    width: 75%;
+  }
+
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  .col-xxl-1 {
+    width: 8.333333%;
+  }
+
+  .col-xxl-2 {
+    width: 16.666666%;
+  }
+
+  .col-xxl-3 {
+    width: 25%;
+  }
+
+  .col-xxl-4 {
+    width: 33.333333%;
+  }
+
+  .col-xxl-6 {
+    width: 50%;
+  }
+
+  .col-xxl-8 {
+    width: 66.666666%;
+  }
+
+  .col-xxl-9 {
+    width: 75%;
+  }
+
+  .col-xxl-12 {
+    width: 100%;
+  }
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-9, .col-sm-12,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9, .col-md-12,
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12,
+.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-6, .col-xl-8, .col-xl-9, .col-xl-12,
+.col-xxl-1, .col-xxl-2, .col-xxl-3, .col-xxl-4, .col-xxl-6, .col-xxl-8, .col-xxl-9, .col-xxl-12 {
   position: relative;
   padding-right: 10px;
   padding-left: 10px;
@@ -415,61 +578,61 @@
 }
 
 .Px-m {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .Py-m {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .Pt-m {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .Pb-m {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .Pl-m {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .Pr-m {
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 .Pt-l {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .Pb-l {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .Pl-l {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .Pr-l {
-  padding-right: 60px;
+  padding-right: 40px;
 }
 
 .Pt-xl {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .Pb-xl {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .Pl-xl {
-  padding-left: 60px;
+  padding-left: 50px;
 }
 
 .Pr-xl {
-  padding-right: 60px;
+  padding-right: 50px;
 }
 
 .header-top__container {
@@ -488,6 +651,17 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+}
+
+.header-bottom__image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header-bottom__right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .btn {
@@ -571,6 +745,21 @@
   top: 5px;
   left: 32px;
 }
+.btn-menu {
+  width: 100%;
+  line-height: 55px;
+  background: linear-gradient(90deg, #ff8500 0%, #fcb045 100%);
+  padding-left: 80px;
+}
+.btn-menu:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background: url("/images/service-img/burger.png") center center no-repeat #db7200;
+}
 
 .nav-header {
   color: #c3c3c3;
@@ -607,6 +796,29 @@
   width: 122%;
   height: 2px;
   background: #ffc925;
+}
+
+.сallback {
+  display: flex;
+  padding-left: 10px;
+}
+
+.counter {
+  display: flex;
+  align-items: baseline;
+}
+.counter__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #e4e4e4;
+}
+.counter__item:last-child {
+  border: none;
+}
+.counter__title {
+  padding-top: 5px;
 }
 
 .option-menu {
@@ -907,33 +1119,33 @@ select::-ms-expand {
   justify-content: space-evenly;
 }
 
-.C-1 {
+.ss-C-1 {
+  background: #cbcbcb;
+}
+
+.ss-C-2 {
+  background: #c3c3c3;
+}
+
+.ss-C-3 {
+  background: #abafb5;
+}
+
+.ss-C-4 {
   background: #929292;
 }
 
-.C-2 {
+.ss-C-5 {
   background: #616161;
   color: #fff;
 }
 
-.C-3 {
+.ss-C-6 {
   background: #3b3b3b;
   color: #fff;
 }
 
-.C-4 {
-  background: #cbcbcb;
-}
-
-.C-5 {
+.ss-C-7 {
   background: #151515;
   color: #fff;
-}
-
-.C-6 {
-  background: #c3c3c3;
-}
-
-.C-7 {
-  background: #abafb5;
 }

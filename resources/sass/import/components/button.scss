@@ -18,7 +18,7 @@
         background: #ee82ee;
     }
     &-message {
-        background: #afb9c6;
+        background: $grey-lt;
     }
     &-option {
         background: $liner-grad;
@@ -27,7 +27,7 @@
         }
     }
     &-filter {
-        background: #afb9c6;
+        background: $grey-lt;
         padding: 0 45px 0 60px;
         &.filter--red {
             background: $red;
@@ -76,6 +76,22 @@
             position: absolute;
             top: 5px;
             left: 32px;
+        }
+    }
+    &-menu {
+        width: 100%;
+        line-height: 55px;
+        background: $liner-grad;
+        padding-left: 80px;
+        &:before {
+            //content: url("/images/service-img/burger.png");
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 60px;
+            height: 100%;
+            background: url("/images/service-img/burger.png") center center no-repeat $dark-orange;
         }
     }
 }

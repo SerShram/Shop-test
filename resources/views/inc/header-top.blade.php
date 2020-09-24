@@ -1,4 +1,4 @@
-<div class="header-top Bg-grey">
+<div class="header-top Bg-grey Mb-m">
     <div class="wrapper">
         <div class="header-top__container">
             @include('inc.components.nav-menu', [
