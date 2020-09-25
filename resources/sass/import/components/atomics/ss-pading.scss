@@ -1,17 +1,9 @@
 
-$padding:                   20px;
-$small-padding:             10px;
-$medium-padding:            30px;
-$large-padding:             40px;
-$xlarge-padding:            50px;
-
-//------------------------Normal-----------------------------------------
-.Px {padding-left: $padding ;padding-right: $padding ; }
-.Py {padding-top: $padding ; padding-bottom: $padding ; }
-.Pt { padding-top: $padding ; }
-.Pb { padding-bottom: $padding ; }
-.Pl { padding-left: $padding ; }
-.Pr { padding-right: $padding ; }
+$padding:                   10px;
+$small-padding:             5px;
+$medium-padding:            20px;
+$large-padding:             30px;
+$xlarge-padding:            40px;
 
 //----------------------------Small----------------------------------------
 .Px-s {padding-left: $small-padding ;padding-right: $small-padding ; }
@@ -20,23 +12,42 @@ $xlarge-padding:            50px;
 .Pb-s { padding-bottom: $small-padding ; }
 .Pl-s { padding-left: $small-padding ; }
 .Pr-s { padding-right: $small-padding ; }
+// ------------------Normal--------------------------------------------
+.Px {padding-left: $padding ;padding-right: $padding ; }
+.Py {padding-top: $padding ; padding-bottom: $padding ; }
+.Pt { padding-top: $padding ; }
+.Pb { padding-bottom: $padding ; }
+.Pl { padding-left: $padding ; }
+.Pr { padding-right: $padding ; }
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) {
 
-//-------------------------------Medium-----------------------------------
-.Px-m {padding-left: $medium-padding ;padding-right: $medium-padding ; }
-.Py-m {padding-top: $medium-padding ; padding-bottom: $medium-padding ; }
-.Pt-m { padding-top: $medium-padding ; }
-.Pb-m { padding-bottom: $medium-padding ; }
-.Pl-m { padding-left: $medium-padding ; }
-.Pr-m { padding-right: $medium-padding ; }
-
-//------------------------------Large--------------------------------------
-.Pt-l { padding-top: $large-padding ; }
-.Pb-l { padding-bottom: $large-padding ; }
-.Pl-l { padding-left: $large-padding ; }
-.Pr-l { padding-right: $large-padding ; }
-
-//----------------------------XLarge-------------------------------------------
-.Pt-xl { padding-top: $xlarge-padding ; }
-.Pb-xl { padding-bottom: $xlarge-padding ; }
-.Pl-xl { padding-left: $xlarge-padding ; }
-.Pr-xl { padding-right: $xlarge-padding ; }
+}
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+    //-------------------------------Medium-----------------------------------
+    .Px-m {padding-left: $medium-padding ;padding-right: $medium-padding ; }
+    .Py-m {padding-top: $medium-padding ; padding-bottom: $medium-padding ; }
+    .Pt-m { padding-top: $medium-padding ; }
+    .Pb-m { padding-bottom: $medium-padding ; }
+    .Pl-m { padding-left: $medium-padding ; }
+    .Pr-m { padding-right: $medium-padding ; }
+}
+// Large devices (desktops, 992px and up)
+@media screen and (min-width: 992px) {
+    //------------------------------Large--------------------------------------
+    .Px-l {padding-left: $large-padding ;padding-right: $large-padding ; }
+    .Py-l {padding-top: $large-padding ; padding-bottom: $large-padding ; }
+    .Pt-l { padding-top: $large-padding ; }
+    .Pb-l { padding-bottom: $large-padding ; }
+    .Pl-l { padding-left: $large-padding ; }
+    .Pr-l { padding-right: $large-padding ; }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px) {
+    //----------------------------XLarge-------------------------------------------
+    .Pt-xl { padding-top: $xlarge-padding ; }
+    .Pb-xl { padding-bottom: $xlarge-padding ; }
+    .Pl-xl { padding-left: $xlarge-padding ; }
+    .Pr-xl { padding-right: $xlarge-padding ; }
+}

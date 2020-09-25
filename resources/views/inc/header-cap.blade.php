@@ -1,9 +1,9 @@
-<div class="header-top Bg-grey Mb-m">
+<div class="header-cap Bg-grey Mb-l Mb-m Mb">
     <div class="wrapper">
-        <div class="header-top__container">
+        <div class="header-cap__container">
             @include('inc.components.nav-menu', [
 'ulClass'=>'nav-header',
-'liClass'=>'nav-header__item Mr-m R-12-up',
+'liClass'=>'nav-header__item Mr-l Mr-m R-12-up',
 'linkClass'=>'nav-header__link',
 'data' => [
   ['link' => '/', 'title' => 'главная'],

@@ -1,6 +1,11 @@
 .counter {
     display: flex;
     align-items: baseline;
+    width: 100%;
+    justify-content: space-evenly;
+    @media screen and (min-width: 800px) {
+        width: auto;
+    }
     &__item {
         position: relative;
         display: flex;

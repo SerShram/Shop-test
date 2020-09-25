@@ -1,4 +1,4 @@
-.header-top {
+.header-cap {
     &__container {
         @include grid ($jc: space-between);
         flex-direction: column-reverse;
@@ -8,15 +8,23 @@
         }
     }
 }
-.header-bottom {
+.header-mane {
     &__image {
-        height: 100%;
-        display: flex;
-        align-items: center;
+        display: none;
+        @media screen and (min-width: 1300px) {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
     }
     &__right {
         display: flex;
+        align-items: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        justify-content: space-between;
+        @media screen and (min-width: 1300px) {
+            justify-content: space-between;
+        }
     }
 }
+

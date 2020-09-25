@@ -41,6 +41,11 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Color Swatches of text</h3>
             <div class="demo-block__row">
+                <div class="palette palette-text ss-C-0">
+                    <div>#ffffff</div>
+                    <div>$white</div>
+                    <div>C-0</div>
+                </div>
                 <div class="palette palette-text ss-C-1">
                     <div>#cbcbcb</div>
                     <div>$block-linc</div>
@@ -82,8 +87,8 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Buttons</h3>
             <div class="demo-block__row">
-                @include('inc.components.button', ['classBtn'=>'default', 'path'=>'#', 'nameBtn'=>'default'])
-                @include('inc.components.button', ['classBtn'=>'search R-16-b-up', 'path'=>'#', 'nameBtn'=>'поиск'])
+                @include('inc.components.button', ['classBtn'=>'default R16-bup', 'path'=>'#', 'nameBtn'=>'default'])
+                @include('inc.components.button', ['classBtn'=>'search R16-bup', 'path'=>'#', 'nameBtn'=>'поиск'])
                 @include('inc.components.button', ['classBtn'=>'login R-12-up', 'path'=>'#', 'nameBtn'=>'вход'])
                 @include('inc.components.button', ['classBtn'=>'call R-12-up', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
                 @include('inc.components.button', ['classBtn'=>'filter', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
@@ -221,16 +226,7 @@
             </div>
         </div>
 {{----------------- Ссылки-----------------------------------}}
-    {{--    <div class="demo-block">
-            <h3 class="demo-block__title">Links</h3>
-            <div class="demo-block__row">
-                @include('inc.components.links', [
-    'path' => '#',
-    'class' => '',
-    'text' => 'Ссылка',
-])
-            </div>
-        </div>--}}
+
 {{--------------------------Логотип---------------------------}}
         <div class="demo-block">
             <h3 class="demo-block__title">Logo</h3>
@@ -305,13 +301,18 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-26-up</b> --- (Roboto Black 26px)</div>
-                <div class="R-26-up">Подписывайтесь на рассылку</div>
+                <div><b>R26-up</b> --- (Roboto Black 26px)</div>
+                <div class="R26-up">Подписывайтесь на рассылку</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-26-i</b> --- (Roboto Black 26px)</div>
-                <div class="R-26-i">Card price</div>
+                <div><b>R26-bl-up</b> --- (Roboto Black 26px)</div>
+                <div class="R26-bl-up">Подписывайтесь на рассылку</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>R26-i</b> --- (Roboto Black 26px)</div>
+                <div class="R26-i">Card price</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -320,8 +321,18 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-20-b</b> --- (Roboto Bold 20px)</div>
-                <div class="R-26-b">Card price</div>
+                <div><b>R20-b</b> --- (Roboto Bold 20px)</div>
+                <div class="R20-b">Card price</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>R20-bup</b> --- (Roboto Bold 20px)</div>
+                <div class="R20-bup">Будьте в курсе новостей и новинок!</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>R20-m</b> --- (Roboto Medium 20px)</div>
+                <div class="R20-m">Блок 1 Блок 2 Блок 3</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -360,8 +371,8 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-13</b> --- (Roboto Regular 13px)</div>
-                <div class="R-13">Отзывы (10) Без отзывов</div>
+                <div><b>R13</b> --- (Roboto Regular 13px)</div>
+                <div class="R13">Отзывы (10) Без отзывов</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">

@@ -5,25 +5,29 @@ $font-family-third: 'Europe', sans-serif;
 //---------Roboto-------------------------------------
 .R-36 { font-family: $font-family-main; font-size: 36px; }
 
-.R-26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
-.R-26-i { font-family: $font-family-main; font-size: 26px; font-weight: 900; font-style: italic; }
+.R26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
+.R26-bl-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
+.R26-i { font-family: $font-family-main; font-size: 26px; font-weight: 900; font-style: italic; }
+.R26-b { font-family: $font-family-main; font-size: 26px; font-weight: 700; }
 
 .title-lg { font-family: $font-family-main; font-size: 24px; font-weight: 700; }
 
 .R20-b { font-family: $font-family-main; font-size: 20px; font-weight: 700; }
+.R20-bup { font-family: $font-family-main; font-size: 20px; font-weight: 700; text-transform: uppercase}
+.R20-m { font-family: $font-family-main; font-size: 20px; font-weight: 500; }
 
 .R-18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
 
 .R-17 { font-family: $font-family-main; font-size: 17px; }
 
-.R-16-b-up { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
+.R16-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
 .R16-bi { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
 .R16-bli { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
 
 .R-14 { font-family: $font-family-main; font-size: 14px; }
 .R-14-b-up { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
 
-.R-13 { font-family: $font-family-main; font-size: 13px; }
+.R13 { font-family: $font-family-main; font-size: 13px; }
 
 .R-12 { font-family: $font-family-main; font-size: 12px; }
 .R-12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
