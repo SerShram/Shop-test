@@ -1,7 +1,4 @@
 .footer {
-    &__container {
-        display: inline-block;
-    }
     &__title {
         border-bottom: 1px solid #ffffff26;
     }
@@ -28,4 +25,13 @@
         }
     }
     hr {opacity: 0.15}
+    &__socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        @media screen and (min-width: 576px) {
+            justify-content: space-between;
+        }
+    }
 }

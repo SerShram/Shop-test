@@ -81,6 +81,11 @@
                     <div>$phone-color</div>
                     <div>C-7</div>
                 </div>
+                <div class="palette palette-text ss-C-8">
+                    <div>#a0a9b2</div>
+                    <div>$copyrith</div>
+                    <div>C-8</div>
+                </div>
             </div>
         </div>
 {{----------------- Кнопки-----------------------------------}}
@@ -93,8 +98,8 @@
                 @include('inc.components.button', ['classBtn'=>'call R-12-up', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
                 @include('inc.components.button', ['classBtn'=>'filter', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
-                @include('inc.components.button', ['classBtn'=>'option R-14-b-up', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
-                @include('inc.components.button', ['classBtn'=>'buy R-14-b-up', 'path'=>'#', 'nameBtn'=>'купить товар'])
+                @include('inc.components.button', ['classBtn'=>'option R14-bup', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
+                @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
                 @include('inc.components.button', ['classBtn'=>'message', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
                 @include('inc.components.button', ['classBtn'=>'success', 'path'=>'#', 'nameBtn'=>'success'])
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
@@ -225,53 +230,43 @@
                 @include('inc.components.forms.form-component.range')
             </div>
         </div>
-{{----------------- Ссылки-----------------------------------}}
-
-{{--------------------------Логотип---------------------------}}
-        <div class="demo-block">
-            <h3 class="demo-block__title">Logo</h3>
-            <div class="demo-block__row">
-                @include("inc.components.logo", ['img' => '/images/service-img/logo-yellow.png'])
-                @include("inc.components.logo", ['img' => '/images/service-img/logo-grey.png'])
-            </div>
-        </div>
 {{--------------------Image---------------------------------}}
         <div class="demo-block">
             <h3 class="demo-block__title">Service Image </h3>
             <div class="demo-block__row Bg-grey-lt">
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/balance.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/basket.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-balance.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-car.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-new.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/card-quality.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cart-sun.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/quality.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/star.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/star-grey.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cross-red.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/plus.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-bottom.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-bottom-grey.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-right.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/arrow-right-orange.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/balance.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/basket.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/card-balance.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/card-car.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/card-new.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/card-quality.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/cart-sun.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/quality.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/star.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/star-grey.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/cross-red.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/plus.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-bottom.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-bottom-grey.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-right.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-right-orange.png'])
                 <div class="demo-block__row Bg-orange">
-                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/burger.png'])
-                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/carriage.png'])
-                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/phone.png'])
-                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/user.png'])
-                    @include("inc.components.image", ['href' => '#', 'img' => '/images/service-img/cross-small.png'])
+                    @include("inc.components.image-decor", ['img' => '/images/service-img/burger.png'])
+                    @include("inc.components.image-decor", ['img' => '/images/service-img/carriage.png'])
+                    @include("inc.components.image-decor", ['img' => '/images/service-img/phone.png'])
+                    @include("inc.components.image-decor", ['img' => '/images/service-img/user.png'])
+                    @include("inc.components.image-decor", ['img' => '/images/service-img/cross-small.png'])
                 </div>
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-1.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-2.png'])
-                @include("inc.components.image", ['href' => '#', 'img' => '/images/card-image/badge-3.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/badge-1.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/badge-2.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/badge-3.png'])
             </div>
         </div>
 {{-------------------Sprite----------------------------------}}
         <div class="demo-block">
             <h3 class="demo-block__title">Sprite</h3>
             <div class="demo-block__row">
-                @include("inc.components.image",['href' => '#', 'img' => '/images/service-img/sprite/spritesheet.png'])
+                @include("inc.components.image-decor",['img' => '/images/service-img/sprite/spritesheet.png'])
             </div>
         </div>
 {{-----------------Socials------------------------------------}}
@@ -279,8 +274,8 @@
             <h3 class="demo-block__title">Socials</h3>
             <div class="demo-block__row Bg-grey">
                 @include("inc.components.socials",[
-                        'class' => 'socials Grid',
-                        'classItem' => 'socials__item ss-marg-small-r',
+                        'class' => 'socials',
+                        'classItem' => 'socials__item',
                         'modifiers' => [
                                     ['link' => '#', 'modifier' => 'item--vk'],
                                     ['link' => '#', 'modifier' => 'item--fb'],
@@ -361,13 +356,13 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-14</b> --- (Roboto Regular 14px)</div>
-                <div class="R-14">Tab Select</div>
+                <div><b>R14</b> --- (Roboto Regular 14px)</div>
+                <div class="R14">Tab Select</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-14-b-up</b> --- (Roboto Bold 14px)</div>
-                <div class="R-14-b-up">ссылка</div>
+                <div><b>R14-bup</b> --- (Roboto Bold 14px)</div>
+                <div class="R14-bup">ссылка</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -377,7 +372,7 @@
             <hr>
             <div class="demo-block__row typography-block">
                 <div><b>R-12</b> --- (Roboto Regular 12px)</div>
-                <div class="R-12">© Copyrith 2017. В наличии: 24 шт.</div>
+                <div class="R-12">&copy Copyrith 2017. В наличии: 24 шт.</div>
             </div>
             <div class="demo-block__row typography-block">
                 <div><b>R-12-up</b> --- (Roboto Regular 12px)</div>

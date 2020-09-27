@@ -3,9 +3,7 @@
     <div class="wrapper">
         <div class="row">
             <div class="col-xxl-3 col-lg-4 col-12">
-{{--                <div class="header-bottom__menu">--}}
                     @include('inc.components.button', ['classBtn'=>'menu R20-b', 'path'=>'#', 'nameBtn'=>'Меню'])
-{{--                </div>--}}
             </div>
             <div class="col-xxl-9 col-lg-8 col-12">
                 <div class="header-bottom__search">

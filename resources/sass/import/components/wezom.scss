@@ -1,0 +1,16 @@
+.wezom {
+    display: flex;
+    align-items: center;
+    a {
+        padding-right: 15px;
+    }
+    &__text {
+        padding-left: 15px;
+        position: relative;
+        border-left: 1px solid #ffffff26;
+        &>div {
+            margin-bottom: 5px;
+        }
+    }
+}
+

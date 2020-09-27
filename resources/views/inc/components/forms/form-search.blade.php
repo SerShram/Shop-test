@@ -15,5 +15,5 @@
         ['value' => '', 'text' => 'Категория']
     ]
 ])
-    @include('inc.components.button', ['classBtn'=>'search R-16-b-up', 'path'=>'#', 'nameBtn'=>'поиск'])
+    @include('inc.components.button', ['classBtn'=>'search R16-bup', 'path'=>'#', 'nameBtn'=>'поиск'])
 </form>
