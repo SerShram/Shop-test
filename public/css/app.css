@@ -73,7 +73,19 @@
   color: #a0a9b2;
 }
 
-.R-36 {
+.C-9 {
+  color: #848484;
+}
+
+.C-10 {
+  color: #9b9b9b;
+}
+
+.C-11 {
+  color: #757575;
+}
+
+.R36 {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
 }
@@ -136,7 +148,7 @@
   font-weight: 700;
 }
 
-.R-17 {
+.R17 {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
 }
@@ -174,17 +186,23 @@
   text-transform: uppercase;
 }
 
+.R14-l {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .R13 {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
 }
 
-.R-12 {
+.R12 {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
 }
 
-.R-12-up {
+.R12-up {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -1039,6 +1057,104 @@
   background: url("/images/service-img/sprite/img-5b.png") right center no-repeat;
 }
 
+.cards__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards__title {
+  position: relative;
+  padding-bottom: 10px;
+}
+.cards__title:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #ff8900;
+  top: 100%;
+  left: 0;
+}
+.cards__link {
+  position: relative;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+.cards__link:hover {
+  text-decoration: none;
+}
+.cards__link:after {
+  content: url("/images/service-img/arrow-right-orange.png");
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+.cards__row {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+}
+
+.card {
+  padding: 15px 10px;
+}
+.card__default {
+  display: none;
+}
+.card__label {
+  display: inline-block;
+  padding: 5px 20px;
+}
+.card__title {
+  display: block;
+  min-height: 50px;
+  margin-bottom: 15px;
+}
+.card__title span {
+  display: block;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+.card__title:hover span {
+  text-decoration: none;
+}
+.card__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating__star {
+  width: 95px;
+  height: 18px;
+  background-image: url("/images/sprites/stars.png");
+  background-position: 99%;
+  margin-right: 10px;
+}
+.rating__star.rating--1 {
+  background-position: 79%;
+}
+.rating__star.rating--2 {
+  background-position: 60%;
+}
+.rating__star.rating--3 {
+  background-position: 40%;
+}
+.rating__star.rating--4 {
+  background-position: 21%;
+}
+.rating__star.rating--5 {
+  background-position: 1%;
+}
+.rating__comment {
+  text-decoration: underline;
+}
+
 select {
   /*--------------Сброс стрелки-------------*/
   -moz-appearance: none;
@@ -1273,7 +1389,7 @@ select::-ms-expand {
   display: flex;
   align-items: center;
 }
-.wezom a {
+.wezom img {
   padding-right: 15px;
 }
 .wezom__text {
@@ -1392,4 +1508,16 @@ select::-ms-expand {
 
 .ss-C-8 {
   background: #a0a9b2;
+}
+
+.ss-C-9 {
+  background: #848484;
+}
+
+.ss-C-10 {
+  background: #9b9b9b;
+}
+
+.ss-C-11 {
+  background: #757575;
 }

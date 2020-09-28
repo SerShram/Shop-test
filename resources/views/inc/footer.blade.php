@@ -11,7 +11,7 @@
             </div>
             <div class="col-lg-6 col-12">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-6">
                         <div class="footer__title R20-m C-1 Mb">
                             <span class="footer__title-decor">Блок ссылок 1</span>
                         </div>
@@ -25,7 +25,7 @@
     ]
 ])
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-6">
                         <div class="footer__title R20-m C-1 Mb">
                             <span class="footer__title-decor">Блок 2</span>
                         </div>
@@ -39,7 +39,7 @@
 ]
 ])
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-12">
                         <div class="footer__title R20-m C-1 Mb">
                             <span class="footer__title-decor">Блок ссылок 3</span>
                         </div>

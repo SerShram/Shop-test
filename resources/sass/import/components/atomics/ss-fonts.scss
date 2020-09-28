@@ -3,7 +3,7 @@ $font-family-second: 'ProximaNova', sans-serif;
 $font-family-third: 'Europe', sans-serif;
 // Font size
 //---------Roboto-------------------------------------
-.R-36 { font-family: $font-family-main; font-size: 36px; }
+.R36 { font-family: $font-family-main; font-size: 36px; }
 
 .R26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
 .R26-bl-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
@@ -18,7 +18,7 @@ $font-family-third: 'Europe', sans-serif;
 
 .R-18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
 
-.R-17 { font-family: $font-family-main; font-size: 17px; }
+.R17 { font-family: $font-family-main; font-size: 17px; }
 
 .R16-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
 .R16-bi { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
@@ -26,11 +26,12 @@ $font-family-third: 'Europe', sans-serif;
 
 .R14 { font-family: $font-family-main; font-size: 14px; }
 .R14-bup { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
+.R14-l { font-family: $font-family-main; font-size: 14px; font-weight: 300; }
 
 .R13 { font-family: $font-family-main; font-size: 13px; }
 
-.R-12 { font-family: $font-family-main; font-size: 12px; }
-.R-12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
+.R12 { font-family: $font-family-main; font-size: 12px; }
+.R12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
 
 .R-10 { font-family: $font-family-main; font-size: 10px; }
 .R10-up { font-family: $font-family-main; font-size: 10px; text-transform: uppercase; }

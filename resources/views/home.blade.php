@@ -5,6 +5,7 @@
 @include('inc.header-cap')
 @include('inc.header-mane')
 @include('inc.header-bottom')
+@include('inc.components.block-cards')
 @include('inc.footer')
 @endsection
 

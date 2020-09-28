@@ -86,6 +86,21 @@
                     <div>$copyrith</div>
                     <div>C-8</div>
                 </div>
+                <div class="palette palette-text ss-C-9">
+                    <div>#848484</div>
+                    <div>$text-label</div>
+                    <div>C-9</div>
+                </div>
+                <div class="palette palette-text ss-C-10">
+                    <div>#9b9b9b</div>
+                    <div>$text-comment</div>
+                    <div>C-10</div>
+                </div>
+                <div class="palette palette-text ss-C-11">
+                    <div>#757575</div>
+                    <div>$text-in-stock</div>
+                    <div>C-11</div>
+                </div>
             </div>
         </div>
 {{----------------- Кнопки-----------------------------------}}
@@ -266,7 +281,7 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Sprite</h3>
             <div class="demo-block__row">
-                @include("inc.components.image-decor",['img' => '/images/service-img/sprite/spritesheet.png'])
+                @include("inc.components.image-decor",['img' => '/images/sprites/spritesheet.png'])
             </div>
         </div>
 {{-----------------Socials------------------------------------}}
@@ -291,8 +306,8 @@
 {{--------------Roboto-----------------------------------------------------}}
             <h3 class="Bg-grey-lt Lh-l">Roboto</h3>
             <div class="demo-block__row typography-block">
-                <div><b>R-36</b> --- (Roboto Regular 36px)</div>
-                <div class="R-36">Карточки товаров</div>
+                <div><b>R36</b> --- (Roboto Regular 36px)</div>
+                <div class="R36">Карточки товаров</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -336,8 +351,8 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-17</b> --- (Roboto Regular 17px)</div>
-                <div class="R-17">Card description</div>
+                <div><b>R17</b> --- (Roboto Regular 17px)</div>
+                <div class="R17">Card description</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -366,17 +381,22 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
+                <div><b>R14-l</b> --- (Roboto Light 14px)</div>
+                <div class="R14-l">Mark Fosser</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
                 <div><b>R13</b> --- (Roboto Regular 13px)</div>
                 <div class="R13">Отзывы (10) Без отзывов</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-12</b> --- (Roboto Regular 12px)</div>
-                <div class="R-12">&copy Copyrith 2017. В наличии: 24 шт.</div>
+                <div><b>R12</b> --- (Roboto Regular 12px)</div>
+                <div class="R12">&copy Copyrith 2017. В наличии: 24 шт.</div>
             </div>
             <div class="demo-block__row typography-block">
-                <div><b>R-12-up</b> --- (Roboto Regular 12px)</div>
-                <div class="R-12-up">главная</div>
+                <div><b>R12-up</b> --- (Roboto Regular 12px)</div>
+                <div class="R12-up">главная</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -429,15 +449,6 @@
             </div>
             <hr>
         </div>
-{{-----------------------------------------------------}}
-        <div class="demo-block">
-            <h3 class="demo-block__title">Typography</h3>
-            <div class="demo-block__row">
-
-            </div>
-        </div>
-{{-----------------------------------------------------}}
-
     </div>
 @endsection
 @push('scripts')
