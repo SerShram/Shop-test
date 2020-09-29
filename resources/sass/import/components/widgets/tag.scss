@@ -1,0 +1,15 @@
+.tag {
+    width: 85px;
+    height: 48px;
+    text-align: center;
+    padding: 13px 0;
+    &--novelty {
+        background: url("/images/card-image/badge-1.png") center no-repeat;
+    }
+    &--hit {
+        background: url("/images/card-image/badge-2.png") center no-repeat;
+    }
+    &--sale {
+        background: url("/images/card-image/badge-3.png") center no-repeat;
+    }
+}

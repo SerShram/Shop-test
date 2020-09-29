@@ -16,13 +16,14 @@ $font-family-third: 'Europe', sans-serif;
 .R20-bup { font-family: $font-family-main; font-size: 20px; font-weight: 700; text-transform: uppercase}
 .R20-m { font-family: $font-family-main; font-size: 20px; font-weight: 500; }
 
-.R-18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
+.R18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
 
 .R17 { font-family: $font-family-main; font-size: 17px; }
 
 .R16-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
 .R16-bi { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
 .R16-bli { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
+.R16-bli-up { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; text-transform: uppercase; }
 
 .R14 { font-family: $font-family-main; font-size: 14px; }
 .R14-bup { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
@@ -33,20 +34,20 @@ $font-family-third: 'Europe', sans-serif;
 .R12 { font-family: $font-family-main; font-size: 12px; }
 .R12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
 
-.R-10 { font-family: $font-family-main; font-size: 10px; }
+.R10 { font-family: $font-family-main; font-size: 10px; }
 .R10-up { font-family: $font-family-main; font-size: 10px; text-transform: uppercase; }
 .R10-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
 
 //---------Roboto-------------------------------------
-.P-36-b { font-family: $font-family-second; font-weight: bold; font-size: 36px; }
-.P-30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
-.P-20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
-.P-17 { font-family: $font-family-second; font-size: 17px; }
-.P-14 { font-family: $font-family-second; font-size: 14px; }
+.P36-b { font-family: $font-family-second; font-weight: bold; font-size: 36px; }
+.P30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
+.P20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
+.P-7 { font-family: $font-family-second; font-size: 17px; }
+.P14 { font-family: $font-family-second; font-size: 14px; }
 
 //-----------Europe---------------------------------------------
-.E-26-b-i { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
-.E-20-b-i { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
+.E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
+.E20-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
 
 
 //---------------------Color------------------------------

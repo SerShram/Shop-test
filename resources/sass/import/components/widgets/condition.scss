@@ -1,0 +1,16 @@
+.condition {
+    min-height: 200px;
+    &__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+    &__image {}
+    &__title {
+        padding-top: 10px;
+    }
+}

@@ -251,11 +251,11 @@
             <div class="demo-block__row Bg-grey-lt">
                 @include("inc.components.image-decor", ['img' => '/images/service-img/balance.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/basket.png'])
-                @include("inc.components.image-decor", ['img' => '/images/service-img/card-balance.png'])
-                @include("inc.components.image-decor", ['img' => '/images/service-img/card-car.png'])
-                @include("inc.components.image-decor", ['img' => '/images/service-img/card-new.png'])
-                @include("inc.components.image-decor", ['img' => '/images/service-img/card-quality.png'])
-                @include("inc.components.image-decor", ['img' => '/images/service-img/cart-sun.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/card-balance.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/card-car.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/card-new.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/card-quality.png'])
+                @include("inc.components.image-decor", ['img' => '/images/card-image/card-sun.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/quality.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/star.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/star-grey.png'])
@@ -346,8 +346,8 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-18-b</b> --- (Roboto Bold 18px)</div>
-                <div class="R-18-b">Ссылка 1 Ссылка 2</div>
+                <div><b>R18-b</b> --- (Roboto Bold 18px)</div>
+                <div class="R18-b">Ссылка 1 Ссылка 2</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -356,8 +356,8 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>R-16-b-up</b> --- (Roboto Bold 16px)</div>
-                <div class="R-16-b-up">ссылка</div>
+                <div><b>R16-bup</b> --- (Roboto Bold 16px)</div>
+                <div class="R16-bup">ссылка</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -412,40 +412,40 @@
 {{--------------ProximaNova-----------------------------------------------------}}
             <h3 class="Bg-grey-lt Lh-l">ProximaNova</h3>
             <div class="demo-block__row typography-block">
-                <div><b>P-36-b</b> --- (Roboto bold 36px)</div>
-                <div class="P-36-b">Автомобильные шины</div>
+                <div><b>P36-b</b> --- (Roboto bold 36px)</div>
+                <div class="P36-b">Автомобильные шины</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>P-30-b</b> --- (Roboto bold 30px)</div>
-                <div class="P-30-b">Автомобильные шины</div>
+                <div><b>P30-b</b> --- (Roboto bold 30px)</div>
+                <div class="P30-b">Автомобильные шины</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>P-30-b</b> --- (Roboto bold 30px)</div>
-                <div class="P-30-b">Автомобильные шины</div>
+                <div><b>P30-b</b> --- (Roboto bold 30px)</div>
+                <div class="P30-b">Автомобильные шины</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>P-17</b> --- (ProximaNova Regular 17px)</div>
-                <div class="P-17">Антифриз Fosser Antifreeze</div>
+                <div><b>P17</b> --- (ProximaNova Regular 17px)</div>
+                <div class="P17">Антифриз Fosser Antifreeze</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>P-14</b> --- (ProximaNova Regular 14px)</div>
-                <div class="P-14">04655 Украина,  г. Киев</div>
+                <div><b>P14</b> --- (ProximaNova Regular 14px)</div>
+                <div class="P14">04655 Украина,  г. Киев</div>
             </div>
             <hr>
 {{-----------------Europe-----------------------------------------------------}}
             <h3 class="Bg-grey-lt Lh-l">Europe</h3>
             <div class="demo-block__row typography-block">
-                <div><b>E-26-b-i</b> --- (Europe bold 26px)</div>
-                <div class="E-26-b-i">9 570 грн.</div>
+                <div><b>E26-bi</b> --- (Europe bold 26px)</div>
+                <div class="E26-bi">9 570 грн.</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>E-20-b-i</b> --- (Europe bold 20px)</div>
-                <div class="E-20-b-i">+380 98 170 00 740</div>
+                <div><b>E20-bi</b> --- (Europe bold 20px)</div>
+                <div class="E20-bi">+380 98 170 00 740</div>
             </div>
             <hr>
         </div>

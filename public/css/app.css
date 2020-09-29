@@ -142,7 +142,7 @@
   font-weight: 500;
 }
 
-.R-18-b {
+.R18-b {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -172,6 +172,14 @@
   font-size: 16px;
   font-weight: 900;
   font-style: italic;
+}
+
+.R16-bli-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
 }
 
 .R14 {
@@ -208,7 +216,7 @@
   text-transform: uppercase;
 }
 
-.R-10 {
+.R10 {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
 }
@@ -226,42 +234,42 @@
   text-transform: uppercase;
 }
 
-.P-36-b {
+.P36-b {
   font-family: "ProximaNova", sans-serif;
   font-weight: bold;
   font-size: 36px;
 }
 
-.P-30-b {
+.P30-b {
   font-family: "ProximaNova", sans-serif;
   font-weight: bold;
   font-size: 30px;
 }
 
-.P-20-b {
+.P20-b {
   font-family: "ProximaNova", sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
 
-.P-17 {
+.P-7 {
   font-family: "ProximaNova", sans-serif;
   font-size: 17px;
 }
 
-.P-14 {
+.P14 {
   font-family: "ProximaNova", sans-serif;
   font-size: 14px;
 }
 
-.E-26-b-i {
+.E26-bi {
   font-family: "Europe", sans-serif;
   font-size: 26px;
   font-weight: bold;
   font-style: italic;
 }
 
-.E-20-b-i {
+.E20-bi {
   font-family: "Europe", sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -1015,19 +1023,19 @@
   height: 50px;
 }
 .option-menu__img.img--car {
-  background: url("/images/service-img/sprite/img-1a.png") right center no-repeat;
+  background: url("/images/service-img/img-1a.png") right center no-repeat;
 }
 .option-menu__img.img--track {
-  background: url("/images/service-img/sprite/img-2a.png") right center no-repeat;
+  background: url("/images/service-img/img-2a.png") right center no-repeat;
 }
 .option-menu__img.img--tyre {
-  background: url("/images/service-img/sprite/img-3a.png") right center no-repeat;
+  background: url("/images/service-img/img-3a.png") right center no-repeat;
 }
 .option-menu__img.img--flask {
-  background: url("/images/service-img/sprite/img-4a.png") right center no-repeat;
+  background: url("/images/service-img/img-4a.png") right center no-repeat;
 }
 .option-menu__img.img--battery {
-  background: url("/images/service-img/sprite/img-5a.png") right center no-repeat;
+  background: url("/images/service-img/img-5a.png") right center no-repeat;
 }
 .option-menu__link:hover:before {
   content: "";
@@ -1042,19 +1050,19 @@
   color: #ffffff;
 }
 .option-menu__link:hover .img--car {
-  background: url("/images/service-img/sprite/img-1b.png") right center no-repeat;
+  background: url("/images/service-img/img-1b.png") right center no-repeat;
 }
 .option-menu__link:hover .img--track {
-  background: url("/images/service-img/sprite/img-2b.png") right center no-repeat;
+  background: url("/images/service-img/img-2b.png") right center no-repeat;
 }
 .option-menu__link:hover .img--tyre {
-  background: url("/images/service-img/sprite/img-3b.png") right center no-repeat;
+  background: url("/images/service-img/img-3b.png") right center no-repeat;
 }
 .option-menu__link:hover .img--flask {
-  background: url("/images/service-img/sprite/img-4b.png") right center no-repeat;
+  background: url("/images/service-img/img-4b.png") right center no-repeat;
 }
 .option-menu__link:hover .img--battery {
-  background: url("/images/service-img/sprite/img-5b.png") right center no-repeat;
+  background: url("/images/service-img/img-5b.png") right center no-repeat;
 }
 
 .cards__head {
@@ -1090,13 +1098,15 @@
   right: 0;
 }
 .cards__row {
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
+  width: 340px;
   padding: 15px 10px;
+  border: 1px solid #dbdbdb;
+  border-left: 0;
 }
 .card__default {
   display: none;
@@ -1123,6 +1133,31 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+}
+.card__block-image {
+  display: flex;
+  margin-bottom: 10px;
+}
+.card__product-img {
+  -o-object-fit: none;
+     object-fit: none;
+  width: 250px;
+  height: 200px;
+}
+.card__status {
+  display: flex;
+  justify-content: center;
+  min-height: 48px;
+}
+.card__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card__price-old {
+  -webkit-text-decoration: line-through #e00000;
+          text-decoration: line-through #e00000;
 }
 
 .rating {
@@ -1153,6 +1188,38 @@
 }
 .rating__comment {
   text-decoration: underline;
+}
+
+.condition {
+  min-height: 200px;
+}
+.condition__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.condition__item:last-child {
+  margin: 0;
+}
+.condition__title {
+  padding-top: 10px;
+}
+
+.tag {
+  width: 85px;
+  height: 48px;
+  text-align: center;
+  padding: 13px 0;
+}
+.tag--novelty {
+  background: url("/images/card-image/badge-1.png") center no-repeat;
+}
+.tag--hit {
+  background: url("/images/card-image/badge-2.png") center no-repeat;
+}
+.tag--sale {
+  background: url("/images/card-image/badge-3.png") center no-repeat;
 }
 
 select {
