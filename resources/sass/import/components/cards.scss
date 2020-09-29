@@ -36,21 +36,26 @@
 }
 .card {
     width: 340px;
-    padding: 15px 10px;
+    padding: 20px 10px;
     border: 1px solid #dbdbdb;
     border-left: 0;
-    &__default {display: none}
+    &:nth-child(4n+4) {
+        border-right: none;
+    }
     &__label {
         display: inline-block;
         padding: 5px 20px;
     }
     &__title {
         display: block;
-        min-height: 50px;
+        height: 50px;
         margin-bottom: 15px;
         span {
             display: block;
             text-decoration: underline;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             margin-bottom: 8px;
         }
         &:hover span {text-decoration: none;}
@@ -83,5 +88,24 @@
     }
     &__price-old {
         text-decoration: line-through #e00000;
+    }
+    &__button {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__counter {
+        display: flex;align-items: center;
+        justify-content: space-between;
+        &-item {
+            display: flex;
+            align-items: center;
+        }
+        &-image {
+            margin-right: 10px;
+        }
+        &-text {
+            text-decoration: underline;
+            &:hover {text-decoration: none;}
+        }
     }
 }

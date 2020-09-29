@@ -1104,12 +1104,12 @@
 
 .card {
   width: 340px;
-  padding: 15px 10px;
+  padding: 20px 10px;
   border: 1px solid #dbdbdb;
   border-left: 0;
 }
-.card__default {
-  display: none;
+.card:nth-child(4n+4) {
+  border-right: none;
 }
 .card__label {
   display: inline-block;
@@ -1117,12 +1117,15 @@
 }
 .card__title {
   display: block;
-  min-height: 50px;
+  height: 50px;
   margin-bottom: 15px;
 }
 .card__title span {
   display: block;
   text-decoration: underline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-bottom: 8px;
 }
 .card__title:hover span {
@@ -1158,6 +1161,28 @@
 .card__price-old {
   -webkit-text-decoration: line-through #e00000;
           text-decoration: line-through #e00000;
+}
+.card__button {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card__counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__counter-item {
+  display: flex;
+  align-items: center;
+}
+.card__counter-image {
+  margin-right: 10px;
+}
+.card__counter-text {
+  text-decoration: underline;
+}
+.card__counter-text:hover {
+  text-decoration: none;
 }
 
 .rating {

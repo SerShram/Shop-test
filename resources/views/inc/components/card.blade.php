@@ -107,8 +107,19 @@
             <div class="R26-i C-6">{{ $card['priceNew'] }}</div>
             <div class="card__price-old R16-bli-up C-10">{{ $card['priceOld'] }}</div>
         </div>
-        @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
-        <div class="card__counter"></div>
+        <div class="card__button">
+            @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
+        </div>
+        <div class="card__counter">
+            <div class="card__counter-item">
+                <img src="/images/card-image/card-balance.png" alt="image" class="card__counter-image">
+                <a href=#" class="card__counter-text R14 C-6">Сравнить товар</a>
+            </div>
+            <div class="card__counter-item">
+                <img src="/images/card-image/card-quality.png" alt="image" class="card__counter-image">
+                <a href=#" class="card__counter-text R14 C-6">В избранное</a>
+            </div>
+        </div>
     </div>
 @endforeach
 
