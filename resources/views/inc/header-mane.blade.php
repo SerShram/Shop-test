@@ -1,4 +1,4 @@
-<div class="header-mane Mb-l Mb-m">
+<div class="header-mane Mb-l Mb-s">
     <div class="wrapper">
         <div class="row">
             <div class="col-xxl-3">

@@ -1,0 +1,28 @@
+.menu {
+    &__item {
+        position: relative;
+    }
+}
+.submenu {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+    display: none;
+    &.js-active {
+        display: block;
+    }
+    &__item {}
+    &__link {
+        position: relative;
+        display: block;
+        padding: 20px 35px;
+        box-shadow: 0 0 1px 0px #0000001a;
+        &:after {
+            content: url("/images/service-img/arrow-right.png");
+            position: absolute;
+            top: 39%;
+            right: 10%;
+        }
+    }
+}

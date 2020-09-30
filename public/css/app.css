@@ -9,12 +9,20 @@
   padding: 0 15px 0;
 }
 
+.Bg-white {
+  background: #ffffff;
+}
+
 .Bg-orange {
   background: #ff8900;
 }
 
 .Bg-grey {
   background: #696969;
+}
+
+.Bg-grey-ul {
+  background: #efefef;
 }
 
 .Bg-dark-orange {
@@ -151,6 +159,12 @@
 .R17 {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
+}
+
+.R16-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .R16-bup {
@@ -926,6 +940,17 @@
   height: 100%;
   background: url("/images/service-img/burger.png") center center no-repeat #db7200;
 }
+.btn-tab {
+  background: #efefef;
+  line-height: 40px;
+  color: #696969;
+  border: 4px solid #efefef;
+  padding: 0 50px;
+}
+.btn-tab.is-active {
+  background: #ff8900;
+  color: #ffffff;
+}
 
 .nav-header {
   color: #c3c3c3;
@@ -971,11 +996,16 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 800px) {
   .сallback {
     width: auto;
+    margin: 0;
   }
+}
+.сallback__item {
+  padding: 10px 0;
 }
 
 .counter {
@@ -994,77 +1024,105 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid #e4e4e4;
 }
-.counter__item:last-child {
-  border: none;
+@media screen and (min-width: 800px) {
+  .counter__item {
+    border-right: 1px solid #e4e4e4;
+  }
+  .counter__item:last-child {
+    border: none;
+  }
 }
 .counter__title {
   padding-top: 10px;
 }
 
-.option-menu {
+.menu__item {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
   width: 100%;
+  z-index: 10;
+  display: none;
+}
+.submenu.js-active {
+  display: block;
+}
+.submenu__link {
+  position: relative;
+  display: block;
+  padding: 20px 35px;
+  box-shadow: 0 0 1px 0px #0000001a;
+}
+.submenu__link:after {
+  content: url("/images/service-img/arrow-right.png");
+  position: absolute;
+  top: 39%;
+  right: 10%;
+}
+
+.menu-option__header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.option-menu__link {
+.menu-option__header-link {
   position: relative;
   display: flex;
   align-items: center;
-  color: #abafb5;
-  font-weight: 700;
-  font-size: 18px;
+  padding: 12px 0;
 }
-.option-menu__img {
+.menu-option__header-img {
   display: inline-block;
   width: 50px;
   height: 50px;
+  margin-right: 10px;
 }
-.option-menu__img.img--car {
+.menu-option__header-img.img--car {
   background: url("/images/service-img/img-1a.png") right center no-repeat;
 }
-.option-menu__img.img--track {
+.menu-option__header-img.img--track {
   background: url("/images/service-img/img-2a.png") right center no-repeat;
 }
-.option-menu__img.img--tyre {
+.menu-option__header-img.img--tyre {
   background: url("/images/service-img/img-3a.png") right center no-repeat;
 }
-.option-menu__img.img--flask {
+.menu-option__header-img.img--flask {
   background: url("/images/service-img/img-4a.png") right center no-repeat;
 }
-.option-menu__img.img--battery {
+.menu-option__header-img.img--battery {
   background: url("/images/service-img/img-5a.png") right center no-repeat;
 }
-.option-menu__link:hover:before {
+.menu-option__header-link:hover:before {
   content: "";
   position: absolute;
-  top: 98%;
-  left: 10px;
+  top: 97%;
+  left: 2px;
   width: 107%;
   height: 2px;
   background: #ffc925;
 }
-.option-menu__link:hover .option-menu__text {
+.menu-option__header-link:hover .menu-option__header-text {
   color: #ffffff;
 }
-.option-menu__link:hover .img--car {
+.menu-option__header-link:hover .img--car {
   background: url("/images/service-img/img-1b.png") right center no-repeat;
 }
-.option-menu__link:hover .img--track {
+.menu-option__header-link:hover .img--track {
   background: url("/images/service-img/img-2b.png") right center no-repeat;
 }
-.option-menu__link:hover .img--tyre {
+.menu-option__header-link:hover .img--tyre {
   background: url("/images/service-img/img-3b.png") right center no-repeat;
 }
-.option-menu__link:hover .img--flask {
+.menu-option__header-link:hover .img--flask {
   background: url("/images/service-img/img-4b.png") right center no-repeat;
 }
-.option-menu__link:hover .img--battery {
+.menu-option__header-link:hover .img--battery {
   background: url("/images/service-img/img-5b.png") right center no-repeat;
 }
-
 .cards__head {
   display: flex;
   align-items: center;
@@ -1380,6 +1438,10 @@ select::-ms-expand {
   color: #929292;
 }
 
+.form-option__tab {
+  display: flex;
+}
+
 .checkbox__inp {
   display: none;
 }
@@ -1550,7 +1612,8 @@ select::-ms-expand {
 }
 
 .palette {
-  width: 120px;
+  width: 150px;
+  text-align: center;
   padding: 15px;
   line-height: 1.5;
 }

@@ -16,6 +16,6 @@
 <script src="/js/jquery-3.5.1.min.js"></script>
 @stack('scripts')
 <script src="/js/app.js"></script>
-<script src="/js/script.js"></script>
+@stack('my-scripts')
 </body>
 </html>

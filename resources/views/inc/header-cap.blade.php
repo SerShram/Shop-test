@@ -3,7 +3,7 @@
         <div class="header-cap__container">
             @include('inc.components.nav-menu', [
 'ulClass'=>'nav-header',
-'liClass'=>'nav-header__item Mr-l Mr-m R-12-up',
+'liClass'=>'nav-header__item Mr-l Mr-m R12-up',
 'linkClass'=>'nav-header__link',
 'data' => [
   ['link' => '/', 'title' => 'главная'],
@@ -14,7 +14,7 @@
 ]
 ])
             @include('inc.components.button', [
-        'classBtn'=>'login R-12-up',
+        'classBtn'=>'login R12-up',
         'path'=>'#',
         'nameBtn'=>'вход'
     ])

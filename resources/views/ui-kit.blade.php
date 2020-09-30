@@ -8,33 +8,41 @@
         <div class="demo-block">
             <h3 class="demo-block__title">Color Swatches of background</h3>
             <div class="demo-block__row">
+                <div class="palette Bg-white">
+                    <div>#ffffff</div>
+                    <div>Bg-white</div>
+                </div>
                <div class="palette Bg-orange">
                    <div>#ff8900</div>
-                   <div>orange</div>
+                   <div>Bg-orange</div>
                </div>
                 <div class="palette Bg-dark-orange">
                     <div>#db7200</div>
-                    <div>dark-orange</div>
+                    <div>Bg-dark-orange</div>
                 </div>
                 <div class="palette Bg-grey-lt">
                     <div>#f5f5f5</div>
-                    <div>grey-lt</div>
+                    <div>Bg-grey-lt</div>
+                </div>
+                <div class="palette Bg-grey-ul">
+                    <div>#efefef</div>
+                    <div>Bg-grey-ul</div>
                 </div>
                 <div class="palette Bg-grey">
                     <div>#696969</div>
-                    <div>grey</div>
+                    <div>Bg-grey</div>
                 </div>
                 <div class="palette Bg-grey-bl">
                     <div>#606a76</div>
-                    <div>grey-bl</div>
+                    <div>Bg-grey-bl</div>
                 </div>
                 <div class="palette Bg-yellow">
                     <div>#ffc925</div>
-                    <div>yellow</div>
+                    <div>Bg-yellow</div>
                 </div>
                 <div class="palette Bg-yellow-lt">
                     <div>#fffedb</div>
-                    <div>yellow-lt</div>
+                    <div>Bg-yellow-lt</div>
                 </div>
             </div>
         </div>
@@ -109,8 +117,8 @@
             <div class="demo-block__row">
                 @include('inc.components.button', ['classBtn'=>'default R16-bup', 'path'=>'#', 'nameBtn'=>'default'])
                 @include('inc.components.button', ['classBtn'=>'search R16-bup', 'path'=>'#', 'nameBtn'=>'поиск'])
-                @include('inc.components.button', ['classBtn'=>'login R-12-up', 'path'=>'#', 'nameBtn'=>'вход'])
-                @include('inc.components.button', ['classBtn'=>'call R-12-up', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
+                @include('inc.components.button', ['classBtn'=>'login R12-up', 'path'=>'#', 'nameBtn'=>'вход'])
+                @include('inc.components.button', ['classBtn'=>'call R12-up', 'path'=>'#', 'nameBtn'=>'перезвонить мне'])
                 @include('inc.components.button', ['classBtn'=>'filter', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'option R14-bup', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
@@ -121,7 +129,8 @@
                 @include('inc.components.button', ['classBtn'=>'warning', 'path'=>'#', 'nameBtn'=>'warning'])
                 @include('inc.components.button', ['classBtn'=>'info', 'path'=>'#', 'nameBtn'=>'info'])
                 @include('inc.components.button', ['classBtn'=>'menu R20-b', 'path'=>'#', 'nameBtn'=>'Меню'])
-
+                @include('inc.components.button', ['classBtn'=>'tab R14', 'path'=>'#', 'nameBtn'=>'Tab 1'])
+                @include('inc.components.button', ['classBtn'=>'tab R14 is-active', 'path'=>'#', 'nameBtn'=>'Tab 2'])
             </div>
         </div>
 {{----------------- Навигация-----------------------------------}}
@@ -129,7 +138,7 @@
             <h3 class="demo-block__title">Navigation menu</h3>
             <div class="demo-block__row">
                 @include('inc.components.nav-menu', ['ulClass'=>'nav-header Grid Lh-m Bg-grey',
-'liClass' => 'nav-header__item Mr-m R-12-up',
+'liClass' => 'nav-header__item Mr-m R12-up',
 'linkClass' => 'nav-header__link',
 'data' => [
     ['link' => '/', 'title' => 'главная'],
@@ -139,18 +148,6 @@
     ['link' => '#', 'title' => 'ссылка 3']
     ]
     ])
-                @include("inc.components.option-menu",
-                        ['opMenuClass'   => 'option-menu Lh-xl Bg-grey-bl',
-                         'linkClass'     => 'option-menu__link Mr',
-                         'spanClass_1'   => 'option-menu__img Mx-s',
-                         'spanClass_2'   => 'option-menu__text',
-                         'data' => [
-                            ['link'=>'#', 'imgClass'=>'img--car', 'text'=>'Ссылка 1'],
-                            ['link'=>'#', 'imgClass'=>'img--track', 'text'=>'Ссылка 2'],
-                            ['link'=>'#', 'imgClass'=>'img--tyre', 'text'=>'Ссылка 3'],
-                            ['link'=>'#', 'imgClass'=>'img--flask', 'text'=>'Ссылка 4'],
-                            ['link'=>'#', 'imgClass'=>'img--battery', 'text'=>'Ссылка 5'],
-                        ]])
             </div>
         </div>
 {{--------------Form elements---------------------------------------}}
@@ -160,7 +157,7 @@
             <div class="demo-block__row Bg-grey">
                 @include('inc.components.forms.form-component.select', [ 'classDecor' => 'form-search__decor',
                                                           'name' => '',
-                                                          'class' => 'form-search__select R-14',
+                                                          'class' => 'form-search__select R14',
                                                           'optValue' => '',
                                                           'optText' => 'Все категории',
                                                           'options' => [
@@ -169,7 +166,7 @@
                                                           ])
                 @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor',
                                                           'name'        => 'name',
-                                                          'class'       => 'form-filter__select R-14',
+                                                          'class'       => 'form-filter__select R14',
                                                           'optValue'    => '',
                                                           'optText'     => 'Select 1',
                                                           'options'     => [
@@ -180,7 +177,7 @@
                                                            ])
                 @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor-price',
                                                           'name'        => 'name',
-                                                          'class'       => 'form-filter__select select--price R-14',
+                                                          'class'       => 'form-filter__select select--price R14',
                                                           'optValue'    => '',
                                                           'optText'     => '50',
                                                           'options'     => [
@@ -191,42 +188,42 @@
             </div>
             <h3>Input</h3>
             <div class="demo-block__row Bg-grey">
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-search__input R-14 Bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-search__input R14 Bg-grey-lt',
                                                          'type' => 'search',
                                                          'name' => '',
                                                          'placeholder' => 'Поиск по сайту'
                                                          ])
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-mailing__input R-14 Bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-mailing__input R14 Bg-grey-lt',
                                                          'type' => 'email',
                                                          'name' => '',
                                                          'placeholder' => 'Укажите свой email для подписки'
                                                          ])
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P-14 Bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P14 Bg-grey-lt',
                                                          'type' => 'text',
                                                          'name' => '',
                                                          'placeholder' => 'Михаил'
                                                         ])
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P-14 Bg-grey-lt error',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P14 Bg-grey-lt error',
                                                        'type' => 'text',
                                                        'name' => '',
                                                        'placeholder' => 'Михаил'
                                                       ])
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P-14 Bg-grey-lt',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P14 Bg-grey-lt',
                                                          'type' => 'email',
                                                          'name' => '',
                                                          'placeholder' => 'mikel87@gmail.com'
                                                         ])
-                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P-14 Bg-grey-lt error',
+                @include('inc.components.forms.form-component.input', [ 'class' => 'form-feedback__input P14 Bg-grey-lt error',
                                                         'type' => 'email',
                                                         'name' => '',
                                                         'placeholder' => 'mikel87@gmail.com'
                                                        ])
 
-                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area P-14 Bg-grey-lt',
+                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area P14 Bg-grey-lt',
                                                          'name' => 'text',
                                                          'placeholder' => 'Оставьте свой отзыв'
                                                         ])
-                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area P-14 Bg-grey-lt error',
+                @include('inc.components.forms.form-component.textarea', [ 'class' => 'form-feedback__area P14 Bg-grey-lt error',
                                                             'name' => 'text',
                                                             'placeholder' => 'Оставьте свой отзыв'
                                                 ])
@@ -358,6 +355,11 @@
             <div class="demo-block__row typography-block">
                 <div><b>R16-bup</b> --- (Roboto Bold 16px)</div>
                 <div class="R16-bup">ссылка</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>R16-b</b> --- (Roboto Bold 16px)</div>
+                <div class="R16-b">Cсылка</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">

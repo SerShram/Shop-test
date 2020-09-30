@@ -93,7 +93,20 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+window.onload = function () {
+  //-----------------------Menu----------------------------------
+  var btnMenu = document.querySelector('.js-btn-menu');
+  var subMenu = document.querySelector('.submenu');
+  btnMenu.addEventListener('click', function () {
+    event.preventDefault();
 
+    if (subMenu.classList.contains('js-active')) {
+      subMenu.classList.remove('js-active');
+    } else {
+      subMenu.classList.add('js-active');
+    }
+  }); //--------------Tabs--------------------------------------------
+};
 
 /***/ }),
 

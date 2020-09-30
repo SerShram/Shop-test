@@ -5,7 +5,9 @@
 @include('inc.header-cap')
 @include('inc.header-mane')
 @include('inc.header-bottom')
-@include('inc.components.block-cards')
+@include('inc.mane-home')
 @include('inc.footer')
 @endsection
-
+@push('my-scripts')
+    <script src="/js/script.js"></script>
+@endpush

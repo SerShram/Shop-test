@@ -124,10 +124,14 @@ select::-ms-expand {  /* для IE */
         }
     }
 }
-// Checkbox
-.checkbox {
-
+.form-option {
+    &__tab {
+        display: flex;
+    }
 }
+
+// Checkbox
+.checkbox {}
 .checkbox__inp {
     display: none;
 }
