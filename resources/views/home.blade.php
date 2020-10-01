@@ -9,5 +9,5 @@
 @include('inc.footer')
 @endsection
 @push('my-scripts')
-    <script src="/js/script.js"></script>
+    <script src="/js/home-script.js"></script>
 @endpush

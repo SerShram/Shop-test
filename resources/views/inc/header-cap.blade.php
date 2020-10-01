@@ -21,3 +21,5 @@
         </div>
     </div>
 </div>
+@include('inc.components.forms.form-enter')
+

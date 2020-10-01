@@ -32,15 +32,20 @@
     &__row {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 }
 .card {
     width: 340px;
     padding: 20px 10px;
     border: 1px solid #dbdbdb;
-    border-left: 0;
-    &:nth-child(4n+4) {
-        border-right: none;
+    @media screen and (min-width: 1050px) and (max-width: 1389px){
+        &:nth-child(3n+1) {border-left: none;}
+        &:nth-child(3n) {border-right: none;}
+    }
+    @media screen and (min-width: 1390px){
+        &:nth-child(4n+1) {border-left: none;}
+        &:nth-child(4n) {border-right: none;}
     }
     &__label {
         display: inline-block;

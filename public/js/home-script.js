@@ -86,25 +86,50 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/script.js":
-/*!********************************!*\
-  !*** ./resources/js/script.js ***!
-  \********************************/
+/***/ "./resources/js/home-script.js":
+/*!*************************************!*\
+  !*** ./resources/js/home-script.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\OpenServer\\domains\\shop-test.loc\\resources\\js\\script.js'");
+window.onload = function () {
+  //-----------------------Menu----------------------------------
+  var btnMenu = document.querySelector('.js-btn-menu');
+  var subMenu = document.querySelector('.submenu');
+  btnMenu.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    if (subMenu.classList.contains('js-active')) {
+      subMenu.classList.remove('js-active');
+    } else {
+      subMenu.classList.add('js-active');
+    }
+  }); // document.querySelector('.submenu').classList.add('js-active');
+  //--------------Tabs--------------------------------------------
+
+  var btnTab = document.querySelectorAll('.js-btn-tab');
+  btnTab.forEach(function (item) {
+    return item.addEventListener('click', function (e) {
+      e.preventDefault();
+      btnTab.forEach(function (child) {
+        return child.classList.remove('is-active');
+      });
+      item.classList.add('is-active');
+    });
+  });
+};
 
 /***/ }),
 
 /***/ 1:
-/*!**************************************!*\
-  !*** multi ./resources/js/script.js ***!
-  \**************************************/
+/*!*******************************************!*\
+  !*** multi ./resources/js/home-script.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\script.js */"./resources/js/script.js");
+module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\home-script.js */"./resources/js/home-script.js");
 
 
 /***/ })

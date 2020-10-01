@@ -109,6 +109,11 @@
                     <div>$text-in-stock</div>
                     <div>C-11</div>
                 </div>
+                <div class="palette palette-text ss-C-12">
+                    <div>#9c9c9c</div>
+                    <div>$text-placholder</div>
+                    <div>C-12</div>
+                </div>
             </div>
         </div>
 {{----------------- Кнопки-----------------------------------}}
@@ -155,36 +160,38 @@
             <h2 class="demo-block__title">Form elements</h2>
             <h3>Selects</h3>
             <div class="demo-block__row Bg-grey">
-                @include('inc.components.forms.form-component.select', [ 'classDecor' => 'form-search__decor',
-                                                          'name' => '',
-                                                          'class' => 'form-search__select R14',
-                                                          'optValue' => '',
-                                                          'optText' => 'Все категории',
-                                                          'options' => [
-                                                              ['value' => '', 'text' => 'Категория']
-                                                            ]
-                                                          ])
-                @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor',
-                                                          'name'        => 'name',
-                                                          'class'       => 'form-filter__select R14',
-                                                          'optValue'    => '',
-                                                          'optText'     => 'Select 1',
-                                                          'options'     => [
-                                                                   ['value' => '', 'text' => 'Select 2'],
-                                                                   ['value' => '', 'text' => 'Select 3'],
-                                                                   ['value' => '', 'text' => 'Select 4']
-                                                                 ]
-                                                           ])
-                @include('inc.components.forms.form-component.select', [ 'classDecor'  => 'form-filter__decor-price',
-                                                          'name'        => 'name',
-                                                          'class'       => 'form-filter__select select--price R14',
-                                                          'optValue'    => '',
-                                                          'optText'     => '50',
-                                                          'options'     => [
-                                                                   ['value' => '', 'text' => '100']
-                                                                 ]
-                                                           ])
-
+                @include('inc.components.forms.form-component.select', [
+    'classDecor' => 'form-search__decor',
+    'name' => '',
+    'class' => 'form-search__select R14',
+    'optValue' => '',
+    'optText' => 'Все категории',
+    'options' => [
+        ['value' => '', 'text' => 'Категория']
+    ]
+])
+                @include('inc.components.forms.form-component.select', [
+    'classDecor'  => '',
+    'class'       => '',
+    'name'        => 'name',
+    'optValue'    => '',
+    'optText'     => 'Select 1',
+    'options'     => [
+        ['value' => '', 'text' => 'Select 2'],
+        ['value' => '', 'text' => 'Select 3'],
+        ['value' => '', 'text' => 'Select 4']
+    ]
+])
+                @include('inc.components.forms.form-component.select', [
+    'classDecor'  => 'form-option__decor-price',
+    'class'       => 'form-option__select select--price R14 C-10',
+    'name'        => 'name',
+    'optValue'    => '',
+    'optText'     => '50',
+    'options'     => [
+           ['value' => '', 'text' => '100']
+     ]
+])
             </div>
             <h3>Input</h3>
             <div class="demo-block__row Bg-grey">
@@ -231,14 +238,14 @@
 
             <h3>Checkbox</h3>
             <div class="demo-block__row">
-                @include('inc.components.forms.form-component.checkbox', [
-    'classLabel' => '',
-    'type' => 'checkbox',
-    'classInp' => 'checkbox__inp',
-    'attribute' => '',
-    'classSpan' => 'checkbox__text P-14',
-    'text' => 'Text name'
-    ])
+                @include('inc.components.forms.form-component.checkbox',
+[
+'type' => 'checkbox',
+'classInp' => 'checkbox__inp',
+'attribute' => '',
+'classSpan' => 'checkbox__text P-14',
+'text' => 'Text name'
+])
                 @include('inc.components.forms.form-component.range')
             </div>
         </div>
@@ -323,8 +330,8 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>title-lg</b> --- (Roboto Bold 24px)</div>
-                <div class="title-lg">Form title</div>
+                <div><b>R24-b</b> --- (Roboto Bold 24px)</div>
+                <div class="R24-b">Form title</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
