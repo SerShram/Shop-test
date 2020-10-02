@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <link rel="stylesheet" href="/assets/Magnific-Popup-master/magnific-popup.css">
     <link rel="stylesheet" href="/assets/nouislider/nouislider.css">
 </head>
 <body>
 @yield('content')
 <script src="/js/jquery-3.5.1.min.js"></script>
-@stack('scripts')
+<script src="/assets/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
 <script src="/js/app.js"></script>
+@stack('scripts')
 @stack('my-scripts')
 </body>
 </html>

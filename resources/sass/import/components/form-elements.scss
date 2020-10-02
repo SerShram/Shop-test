@@ -9,12 +9,35 @@ select::-ms-expand {  /* для IE */
 }
 //----------------------------------------------------------------------------------
 .form-enter {
-    position: absolute;
-    z-index: 10;
+    position: relative;
+    max-width: 750px;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__close {
+        position: absolute;
+        top: -44px;
+        right: 48%;
+        @media screen and (min-width: 900px) { top: -44px; right: 1px;}
+        @media screen and (min-width: 1024px) { top: -35px; right: -35px;}
+    }
     &__item {
-        padding: 30px;
+        position: relative;
+        width: 375px;
+        padding: 10px;
+        @media screen and (min-width: 400px) { padding: 30px 40px;}
+        &:first-child:after {
+            content: '';
+            position: absolute;
+            top: 37px;
+            right: 0;
+            width: 1px;
+            height: 84%;
+            background: #dbdbdb;
+        }
         &>:nth-child(n) { margin-bottom: 20px;}
+        &>:last-child {margin: 0}
     }
     &__title {}
     .input-title {margin-bottom: 10px}
@@ -22,7 +45,7 @@ select::-ms-expand {  /* для IE */
         display: block;
     }
     &__input {
-        width: 300px;
+        width: 100%;
         height: 40px;
         padding-left: 10px;
     }
@@ -30,6 +53,40 @@ select::-ms-expand {  /* для IE */
         text-decoration: underline;
         margin-right: 10px;
         &:hover {text-decoration: none;}
+    }
+    &__social-link {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 17px 0;
+        &.link--fb {
+            background: $color-facebook;
+            &:before {
+                content: url("/images/socials/fb-1.png");
+                position: absolute;
+                top: 18px;
+                left: 91px;
+            }
+        }
+        &.link--twit {
+            background: $color-twitter;
+            &:before {
+                content: url("/images/socials/twit-1.png");
+                position: absolute;
+                top: 19px;
+                left: 97px;
+            }
+        }
+        &.link--google {
+            background: $color-google;
+            &:before {
+                content: url("/images/socials/g-1.png");
+                position: absolute;
+                top: 17px;
+                left: 97px;
+            }
+        }
     }
 }
 //----------------------------------------------------------------------------------
