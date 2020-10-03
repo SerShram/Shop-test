@@ -108,16 +108,31 @@ window.onload = function () {
   }); // document.querySelector('.submenu').classList.add('js-active');
   //--------------Tabs--------------------------------------------
 
-  var btnTab = document.querySelectorAll('.js-btn-tab');
-  btnTab.forEach(function (item) {
-    return item.addEventListener('click', function (e) {
-      e.preventDefault();
-      btnTab.forEach(function (child) {
-        return child.classList.remove('is-active');
-      });
-      item.classList.add('is-active');
+  var tabOpen = document.querySelector('.js-tab-1');
+  var tabClose = document.querySelector('.js-tab-2');
+  var selectTab = document.querySelectorAll('.js-select');
+  tabOpen.addEventListener('click', function (e) {
+    e.preventDefault();
+    tabOpen.classList.add('is-active');
+    tabClose.classList.remove('is-active');
+    selectTab.forEach(function (item) {
+      item.classList.remove('not-active');
     });
   });
+  tabClose.addEventListener('click', function (e) {
+    e.preventDefault();
+    tabClose.classList.add('is-active');
+    tabOpen.classList.remove('is-active');
+    selectTab.forEach(function (item) {
+      item.classList.add('not-active');
+    });
+  }); // tabOpen.forEach((item) =>
+  //     item.addEventListener('click', (e) => {
+  //         e.preventDefault();
+  //         btnTab.forEach((child) => child.classList.remove('is-active'));
+  //         item.classList.add('is-active');
+  //     })
+  // );
 };
 
 /***/ }),

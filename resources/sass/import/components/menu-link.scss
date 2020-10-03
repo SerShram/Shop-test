@@ -1,6 +1,10 @@
 .menu {
     &__item {
         position: relative;
+        margin-bottom: 10px;
+        @media screen and (min-width: 992px) {
+            margin: 0;
+        }
     }
 }
 .submenu {

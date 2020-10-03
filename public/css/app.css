@@ -99,7 +99,17 @@
 
 .R36 {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
+  font-size: 16px;
+}
+@media screen and (min-width: 576px) {
+  .R36 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .R36 {
+    font-size: 36px;
+  }
 }
 
 .R26-up {
@@ -948,6 +958,9 @@
   height: 100%;
   background: url("/images/service-img/burger.png") center center no-repeat #db7200;
 }
+.btn-menu:active {
+  background: #db7200;
+}
 .btn-tab {
   background: #efefef;
   line-height: 40px;
@@ -1047,6 +1060,12 @@
 
 .menu__item {
   position: relative;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 992px) {
+  .menu__item {
+    margin: 0;
+  }
 }
 
 .submenu {
@@ -1527,6 +1546,9 @@ select::-ms-expand {
 .form-option__decor:hover {
   border-color: #ff8900;
 }
+.form-option .not-active {
+  display: none;
+}
 .form-option__select {
   cursor: pointer;
   width: 100%;
@@ -1544,9 +1566,22 @@ select::-ms-expand {
   -moz-text-align-last: center;
        text-align-last: center;
 }
+.form-option__block-price {
+  width: 220px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px 20px 0;
+}
+@media screen and (min-width: 1370px) {
+  .form-option__block-price {
+    margin: 0;
+  }
+}
 .form-option__decor-price {
   position: relative;
-  height: 41px;
+  height: 45px;
   border-bottom: 1px solid #ffffff;
 }
 .form-option__decor-price:hover {

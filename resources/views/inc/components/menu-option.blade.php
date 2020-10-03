@@ -7,7 +7,7 @@ $links = [
     ['href'=>'#', 'imgClass'=>'img--battery', 'title'=>'Ссылка 5']
 ]
 @endphp
-<div class="menu-option Bg-grey Mb-m">
+<div class="menu-option Bg-grey Mb-m Mb-s">
     <div class="menu-option__header Bg-grey-bl">
     @foreach($links as $link)
         <a href="{{ $link['href'] }}" class="menu-option__header-link R18-b C-3">

@@ -90,6 +90,8 @@ select::-ms-expand {  /* для IE */
     }
 }
 //----------------------------------------------------------------------------------
+.form-callMe {}
+//----------------------------------------------------------------------------------
 .form-search {
     display: flex;
      label {
@@ -131,7 +133,7 @@ select::-ms-expand {  /* для IE */
         padding: 0 35px 0 10px;
     }
 }
-
+//----------------------------------------------------------------------------------
 .form-option {
     &__tab {
         display: flex;
@@ -164,7 +166,9 @@ select::-ms-expand {  /* для IE */
             cursor: pointer;
         }
         &:hover {border-color: $orange;}
+
     }
+    .not-active {display: none}
     &__select {
         cursor: pointer;
         width: 100%;
@@ -181,9 +185,20 @@ select::-ms-expand {  /* для IE */
             text-align-last: center;
         }
     }
+    &__block-price {
+        width: 220px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 20px 20px 0;
+        @media screen and (min-width: 1370px) {
+            margin: 0;
+        }
+    }
     &__decor-price {
         position: relative;
-        height: 41px;
+        height: 45px;
         border-bottom: 1px solid $white;
         &:hover {
             border-color: $orange;
@@ -195,6 +210,7 @@ select::-ms-expand {  /* для IE */
         justify-content: space-between;
     }
 }
+//----------------------------------------------------------------------------------
 .form-feedback {
     &__input {
         box-sizing: border-box;
@@ -218,6 +234,7 @@ select::-ms-expand {  /* для IE */
         }
     }
 }
+//----------------------------------------------------------------------------------
 .form-mailing {
     &__form {
         display: flex;
@@ -238,6 +255,7 @@ select::-ms-expand {  /* для IE */
         }
     }
 }
+
 
 // -----------------Checkbox----------------------------------------------
 .checkbox {}
