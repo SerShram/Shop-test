@@ -1,24 +1,14 @@
 <?php
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::name('home')->get('/', 'HomeController@show');
 
-Route::get('/contacts', function () {
-    return view('contacts');
-});
+Route::name('contacts')->get('/contacts', 'ContactsController@show');
 
-Route::get('/catalog', function () {
-    return view('catalog');
-});
+Route::name('catalog')->get('/catalog', 'CatalogController@show');
 
-Route::get('/categories', function () {
-    return view('categories');
-});
+Route::name('categories')->get('/categories', 'CategoriesController@show');
 
-Route::get('/product', function () {
-    return view('product');
-});
+Route::name('product')->get('/product', 'ProductController@show');
 
 Route::get('/uikit', function () {
     return view('ui-kit');

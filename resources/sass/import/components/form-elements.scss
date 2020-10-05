@@ -90,7 +90,40 @@ select::-ms-expand {  /* для IE */
     }
 }
 //----------------------------------------------------------------------------------
-.form-callMe {}
+.form-callMe-container {
+    max-width: 380px;
+    margin: 0 auto;
+}
+.form-callMe {
+    position: relative;
+    padding: 35px;
+    &__title {
+        margin-bottom: 35px;
+    }
+    label {
+        display: block;
+        margin-bottom: 30px;
+        .input-title {margin-bottom: 15px}
+    }
+    &__input {
+        width: 100%;
+        border: 1px solid $border-grey-lt;
+        padding: 12px;
+    }
+    &__button {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__close {
+        position: absolute;
+        top: -40px;
+        right: 48%;
+        @media screen and (min-width: 500px) {
+            top: -40px;
+            right: -40px;
+        }
+    }
+}
 //----------------------------------------------------------------------------------
 .form-search {
     display: flex;

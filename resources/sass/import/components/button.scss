@@ -4,6 +4,7 @@
     color: $white;
     background: $orange;
     line-height: 50px;
+    padding: 0 25px;
     &-default {}
     &-success {
         background: $green;
@@ -74,14 +75,15 @@
         }
     }
     &-call {
-        padding: 0 35px 0 50px;
-        font-size: 12px;
-        font-weight: normal;
-        &:before {
-            content: url("/images/service-img/phone.png");
-            position: absolute;
-            top: 5px;
-            left: 32px;
+        padding: 0 50px;
+        &.call--me {
+            padding: 0 35px 0 50px;
+            &:before {
+                content: url("/images/service-img/phone.png");
+                position: absolute;
+                top: 5px;
+                left: 32px;
+            }
         }
     }
     &-menu {

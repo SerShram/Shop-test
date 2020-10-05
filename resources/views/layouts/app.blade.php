@@ -15,6 +15,7 @@
 @yield('content')
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/assets/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+<script src="/assets/form-validate/jquery.validate.min.js"></script>
 <script src="/js/app.js"></script>
 @stack('scripts')
 @stack('my-scripts')

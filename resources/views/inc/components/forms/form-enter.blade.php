@@ -5,7 +5,7 @@ $socialNet = [
     ['href' => '#', 'modifier' => 'link--google', 'text' => 'Google']
 ];
 @endphp
-<div id="form-enter-popup" class="mfp-hide">
+<div id="enter-popup" class="mfp-hide">
     <form action="" class="form-enter">
         <a class="form-enter__close close-popup-modal" href="#">
             <img src="/images/service-img/cross-form.png" alt="cross">

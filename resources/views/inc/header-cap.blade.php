@@ -15,7 +15,7 @@
 ])
             @include('inc.components.button', [
         'classBtn'=>'login R12-up form-enter-popup-modal',
-        'path'=>'#form-enter-popup',
+        'path'=>'#enter-popup',
         'nameBtn'=>'вход'
     ])
         </div>
