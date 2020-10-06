@@ -2,5 +2,12 @@
 
 @section('title-block') Categories @endsection
 @section('content')
-    <h1>Categories</h1>
+    @include('inc.header-cap')
+    @include('inc.header-mane')
+    @include('inc.header-bottom')
+    @include('inc.main-categories')
+    @include('inc.footer')
 @endsection
+@push('my-scripts')
+{{--    <script src="/js/home-script.js"></script>--}}
+@endpush

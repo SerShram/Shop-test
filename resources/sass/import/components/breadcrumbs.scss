@@ -1,0 +1,21 @@
+.breadcrumb {
+    display: flex;
+    &__item {
+        padding: 5px 0;
+        margin-right: 30px;
+        &:not(.active) {
+            position: relative;
+            text-decoration: underline;
+            &:hover {text-decoration: none}
+            &:before {
+                content: '';
+                position: absolute;
+                width: 10px;
+                height: 1px;
+                background: $orange;
+                top: 51%;
+                right: -20px;
+            }
+        }
+    }
+}

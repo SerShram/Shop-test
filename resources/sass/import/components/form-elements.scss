@@ -127,6 +127,8 @@ select::-ms-expand {  /* для IE */
 //----------------------------------------------------------------------------------
 .form-search {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
      label {
          position: relative;
          flex-grow: 1;
@@ -272,6 +274,7 @@ select::-ms-expand {  /* для IE */
     &__form {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     label {
         flex-grow: 1;

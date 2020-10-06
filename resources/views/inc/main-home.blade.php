@@ -1,4 +1,4 @@
-<mane class="mane-home">
+<main class="main-home">
     <div class="wrapper">
         <div class="row">
             <div class="col-xxl-3"></div>
@@ -8,4 +8,4 @@
         </div>
         @include('inc.components.block-cards')
     </div>
-</mane>
+</main>

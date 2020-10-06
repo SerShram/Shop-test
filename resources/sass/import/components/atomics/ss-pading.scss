@@ -13,14 +13,14 @@ $xlarge-padding:            70px;
 .Pl-s { padding-left: $small-padding ; }
 .Pr-s { padding-right: $small-padding ; }
 // ------------------Normal--------------------------------------------
-.Px {padding-left: $padding ;padding-right: $padding ; }
-.Py {padding-top: $padding ; padding-bottom: $padding ; }
-.Pt { padding-top: $padding ; }
-.Pb { padding-bottom: $padding ; }
-.Pl { padding-left: $padding ; }
-.Pr { padding-right: $padding ; }
 // Small devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) {
+    .Px {padding-left: $padding ;padding-right: $padding ; }
+    .Py {padding-top: $padding ; padding-bottom: $padding ; }
+    .Pt { padding-top: $padding ; }
+    .Pb { padding-bottom: $padding ; }
+    .Pl { padding-left: $padding ; }
+    .Pr { padding-right: $padding ; }
 
 }
 // Medium devices (tablets, 768px and up)

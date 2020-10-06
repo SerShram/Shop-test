@@ -44,11 +44,16 @@ $font-family-third: 'Europe', sans-serif;
 .R10-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
 
 //---------Roboto-------------------------------------
-.P36-b { font-family: $font-family-second; font-weight: bold; font-size: 36px; }
+.P36-b {
+    font-family: $font-family-second; font-weight: bold; font-size: 16px;
+    @media screen and (min-width: 576px) {font-size: 25px;}
+    @media screen and (min-width: 1024px){ font-size: 36px; }
+}
 .P30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
 .P20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
-.P-7 { font-family: $font-family-second; font-size: 17px; }
+.P17 { font-family: $font-family-second; font-size: 17px; }
 .P14 { font-family: $font-family-second; font-size: 14px; }
+.P12 { font-family: $font-family-second; font-size: 12px; }
 
 //-----------Europe---------------------------------------------
 .E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }

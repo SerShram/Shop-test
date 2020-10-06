@@ -1,0 +1,62 @@
+.categories {
+    &__title {
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: $orange;
+            top: 100%;
+            left: 0;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    border: 1px solid $border-card;
+    padding: 40px 25px;
+    margin-left: -1px;
+    margin-top: -1px;
+    @media screen and (min-width: 500px) and (max-width: 768px){
+        width: 50%;
+        &:nth-child(odd) {border-left: none}
+        &:nth-child(even) {border-right: none}
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px){
+        width: 33.333333%;
+        &:nth-child(3n+1) {border-left: none}
+        &:nth-child(3n+3) {border-right: none}
+    }
+    @media screen and (min-width: 992px) {
+        width: 25%;
+        height: 430px;
+        &:nth-child(4n+1) {border-left: none}
+        &:nth-child(4n+4) {border-right: none}
+    }
+    &__image {
+        width: 100%;
+        height: 250px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__title {
+        text-decoration: underline;
+        &:hover {text-decoration: none}
+    }
+    &__link {}
+    &__quantity {}
+}

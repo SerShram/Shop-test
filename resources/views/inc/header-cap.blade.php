@@ -7,7 +7,7 @@
 'linkClass'=>'nav-header__link',
 'data' => [
   ['link' => '/', 'title' => 'главная'],
-  ['link' => '/contacts', 'title' => 'о компании'],
+  ['link' => route('categories'), 'title' => 'о компании'],
   ['link' => '#', 'title' => 'ссылка 1'],
   ['link' => '#', 'title' => 'ссылка 2'],
   ['link' => '#', 'title' => 'ссылка 3']

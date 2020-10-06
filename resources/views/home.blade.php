@@ -5,7 +5,7 @@
 @include('inc.header-cap')
 @include('inc.header-mane')
 @include('inc.header-bottom')
-@include('inc.mane-home')
+@include('inc.main-home')
 @include('inc.footer')
 @endsection
 @push('my-scripts')

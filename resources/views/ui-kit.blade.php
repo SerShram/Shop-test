@@ -114,6 +114,16 @@
                     <div>$text-placholder</div>
                     <div>C-12</div>
                 </div>
+                <div class="palette palette-text ss-C-13">
+                    <div>#000000</div>
+                    <div>$text-breadcrumb</div>
+                    <div>C-13</div>
+                </div>
+                <div class="palette palette-text ss-C-14">
+                    <div>#b7b7b7</div>
+                    <div>$text-seo</div>
+                    <div>C-14</div>
+                </div>
             </div>
         </div>
 {{----------------- Кнопки-----------------------------------}}
@@ -270,6 +280,8 @@
                 @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-bottom-grey.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-right.png'])
                 @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-right-orange.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-right-yellow.png'])
+                @include("inc.components.image-decor", ['img' => '/images/service-img/arrow-left-yellow.png'])
                 <div class="demo-block__row Bg-orange">
                     @include("inc.components.image-decor", ['img' => '/images/service-img/burger.png'])
                     @include("inc.components.image-decor", ['img' => '/images/service-img/carriage.png'])
@@ -444,6 +456,11 @@
             <div class="demo-block__row typography-block">
                 <div><b>P14</b> --- (ProximaNova Regular 14px)</div>
                 <div class="P14">04655 Украина,  г. Киев</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>P12</b> --- (ProximaNova Regular 12px)</div>
+                <div class="P12">Breadcrumb</div>
             </div>
             <hr>
 {{-----------------Europe-----------------------------------------------------}}

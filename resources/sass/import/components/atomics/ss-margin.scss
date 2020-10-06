@@ -13,16 +13,16 @@ $xlarge-margin:            60px;
 .Mb-s { margin-bottom: $small-margin ; }
 .Ml-s { margin-left: $small-margin ; }
 .Mr-s { margin-right: $small-margin ; }
-//-----------Normal----------------------------------------------------
-.Mx {margin-left: $margin ;margin-right: $margin ; }
-.My {margin-top: $margin ; margin-bottom: $margin ; }
-.Mt { margin-top: $margin ; }
-.Mb { margin-bottom: $margin ; }
-.Ml { margin-left: $margin ; }
-.Mr { margin-right: $margin ; }
+
 // Small devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) {
-
+    //-----------Normal----------------------------------------------------
+    .Mx {margin-left: $margin ;margin-right: $margin ; }
+    .My {margin-top: $margin ; margin-bottom: $margin ; }
+    .Mt { margin-top: $margin ; }
+    .Mb { margin-bottom: $margin ; }
+    .Ml { margin-left: $margin ; }
+    .Mr { margin-right: $margin ; }
 }
 // Medium devices (tablets, 768px and up)
 @media screen and (min-width: 768px) {
@@ -37,6 +37,8 @@ $xlarge-margin:            60px;
 // Large devices (desktops, 992px and up)
 @media screen and (min-width: 992px) {
     //------------------------------Large--------------------------------------
+    .Mx-l {margin-left: $large-margin ;margin-right: $large-margin ; }
+    .My-l {margin-top: $large-margin ; margin-bottom: $large-margin ; }
     .Mt-l { margin-top: $large-margin ; }
     .Mb-l { margin-bottom: $large-margin ; }
     .Ml-l { margin-left: $large-margin ; }
