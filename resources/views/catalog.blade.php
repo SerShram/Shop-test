@@ -8,3 +8,4 @@
     <h1>Catalog</h1>
     @include('inc.footer')
 @endsection
+

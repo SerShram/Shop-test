@@ -1,16 +1,13 @@
 .condition {
-    min-height: 200px;
-    &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__image {
+        width: 55px;
+        height: 55px;
         display: flex;
         align-items: center;
-        flex-direction: column;
-        margin-bottom: 15px;
-        &:last-child {
-            margin: 0;
-        }
+        justify-content: center;
     }
-    &__image {}
-    &__title {
-        padding-top: 10px;
-    }
+    &__title {}
 }

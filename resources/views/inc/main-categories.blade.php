@@ -13,9 +13,7 @@ $categories = [
 @endphp
 <main class="main-categories">
     <div class="wrapper">
-{{--        <div class="Mb Mb-s">--}}
-            {{ Breadcrumbs::render('categories') }}
-{{--        </div>--}}
+        {{ Breadcrumbs::render('categories') }}
        @include('inc.components.categories', $categories)
     </div>
 </main>

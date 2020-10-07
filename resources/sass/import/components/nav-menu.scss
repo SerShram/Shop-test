@@ -13,7 +13,7 @@
         display: inline-block;
         line-height: 50px;
     }
-    &__link:hover {
+    &__link:hover,&__link:target {
         color: $white;
         &:before {
             content: '';

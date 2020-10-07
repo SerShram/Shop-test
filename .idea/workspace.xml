@@ -20,29 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c48c0e0f-03d3-4e3e-ab8e-bd4c9018350d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shop-test.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shop-test.loc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/import/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-color.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-margin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-pading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-pading.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/menu-option.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/menu-option.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/ui-Kit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/ui-Kit.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header-bottom.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header-bottom.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header-cap.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header-cap.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/mane-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/nav-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/nav-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/widgets/condition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/widgets/condition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/widgets/star-rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/widgets/star-rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/widgets/condition.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/widgets/condition.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/main-categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/breadcrumbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/breadcrumbs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +256,8 @@
       <workItem from="1601881652545" duration="10850000" />
       <workItem from="1601897513729" duration="709000" />
       <workItem from="1601898383728" duration="13361000" />
-      <workItem from="1601965628894" duration="26705000" />
+      <workItem from="1601965628894" duration="27000000" />
+      <workItem from="1602053726228" duration="28612000" />
     </task>
     <servers />
   </component>
@@ -291,26 +285,26 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1230" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1600952379962" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1601966947282">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="267" key="GridCell.Tab.0.bottom" timestamp="1602054828193">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1601966947282" />
-    <state width="1876" height="268" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1601881791376" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1601966947282">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="267" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602054828193" />
+    <state width="1876" height="267" key="GridCell.Tab.0.center" timestamp="1602054828192">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1601966947282" />
-    <state width="1876" height="268" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1601881791376" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1601966947281">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="267" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602054828192" />
+    <state width="1876" height="267" key="GridCell.Tab.0.left" timestamp="1602054828192">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1601966947281" />
-    <state width="1876" height="268" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1601881791375" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1601966947282">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="267" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602054828192" />
+    <state width="1876" height="267" key="GridCell.Tab.0.right" timestamp="1602054828193">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1601966947282" />
-    <state width="1876" height="268" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1601881791376" />
+    <state width="1876" height="267" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602054828193" />
     <state x="-1459" y="171" key="SettingsEditor" timestamp="1599656349934">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>

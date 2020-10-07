@@ -50,10 +50,13 @@ $font-family-third: 'Europe', sans-serif;
     @media screen and (min-width: 1024px){ font-size: 36px; }
 }
 .P30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
+.P24-b { font-family: $font-family-second; font-weight: bold; font-size: 24px; }
 .P20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
 .P17 { font-family: $font-family-second; font-size: 17px; }
 .P14 { font-family: $font-family-second; font-size: 14px; }
+.P13 { font-family: $font-family-second; font-size: 13px; }
 .P12 { font-family: $font-family-second; font-size: 12px; }
+.P10-up { font-family: $font-family-second; font-size: 10px; text-transform: uppercase; }
 
 //-----------Europe---------------------------------------------
 .E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }

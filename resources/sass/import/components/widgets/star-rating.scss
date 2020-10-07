@@ -13,6 +13,12 @@
         &.rating--4 { background-position: 21%; }
         &.rating--5 { background-position: 1%; }
     }
-    &__comment { text-decoration: underline; }
+    &__comment {
+        text-decoration: underline;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: inherit;
+    }
 }
 
