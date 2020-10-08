@@ -1,0 +1,85 @@
+.condition {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__image {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {}
+}
+//------------------------------------------------------------
+.counter-item {
+    display: flex;
+    align-items: center;
+}
+//-------------------------------------------------------------
+.rating {
+    display: flex;
+    align-items: center;
+    &__star {
+        width: 95px;
+        height: 18px;
+        background-image: url("/images/sprites/stars.png");
+        background-position: 99%;
+        margin-right: 10px;
+        &.rating--1 { background-position: 79%; }
+        &.rating--2 { background-position: 60%; }
+        &.rating--3 { background-position: 40%; }
+        &.rating--4 { background-position: 21%; }
+        &.rating--5 { background-position: 1%; }
+    }
+    &__comment {
+        text-decoration: underline;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: inherit;
+    }
+}
+//---------------------------------------------------------
+.tag {
+    width: 85px;
+    height: 48px;
+    text-align: center;
+    padding: 13px 0;
+    &--novelty {
+        background: url("/images/card-image/badge-1.png") center no-repeat;
+    }
+    &--hit {
+        background: url("/images/card-image/badge-2.png") center no-repeat;
+    }
+    &--sale {
+        background: url("/images/card-image/badge-3.png") center no-repeat;
+    }
+}
+//--------------Vantage------------------------------------------------
+.vantage {
+    &__item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $border-grey-lt;
+        padding: 20px 0;
+        &:last-child {border: none}
+    }
+    &__image {
+        width: 55px;
+        height: 55px;
+        margin-right: 20px;
+        &.image--map {
+            background: url("/images/service-img/ukraine.png") center center no-repeat;
+        }
+        &.image--card {
+            background: url("/images/service-img/card-bank.png") center center no-repeat;
+        }
+        &.image--flag {
+            background: url("/images/service-img/warranty.png") center center no-repeat;
+        }
+    }
+    &__text {
+        line-height: 1.3;
+    }
+}

@@ -113,14 +113,12 @@
             @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
         </div>
         <div class="card__counter">
-            <div class="card__counter-item">
-                <img src="/images/card-image/card-balance.png" alt="image" class="card__counter-image">
-                <a href=#" class="card__counter-text R14 C-6">Сравнить товар</a>
-            </div>
-            <div class="card__counter-item">
-                <img src="/images/card-image/card-quality.png" alt="image" class="card__counter-image">
-                <a href=#" class="card__counter-text R14 C-6">В избранное</a>
-            </div>
+            @include('inc.components.widgets.counter', [
+  'date' => [
+      ['image' => '/images/card-image/card-balance.png', 'href' => '#', 'hrefClass' => 't-underline R14 C-6', 'title' => 'Сравнить товар'],
+      ['image' => '/images/card-image/card-quality.png', 'href' => '#', 'hrefClass' => 't-underline R14 C-6', 'title' => 'В избранное']
+]
+])
         </div>
     </div>
 @endforeach

@@ -55,15 +55,24 @@
     &-buy {
         background: $liner-grad;
         padding: 0 35px 0 68px;
+        &.btn--large {
+            width: 100%;
+            text-align: center;
+        }
         &:hover {
             background: $liner-grad-dark;
         }
-        &:before {
-            content: url("/images/service-img/carriage.png");
-            position: absolute;
-            top: 5px;
-            left: 25px;
+        span {
+            position: relative;
+            display: inline-block;
+            &:before {
+                content: url("/images/service-img/carriage.png");
+                position: absolute;
+                top: 5px;
+                left: -43px;;
+            }
         }
+
     }
     &-login {
         padding: 0 35px 0 60px;

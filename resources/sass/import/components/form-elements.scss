@@ -1,12 +1,4 @@
 
-select { /*--------------Сброс стрелки-------------*/
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-}
-select::-ms-expand {  /* для IE */
-    display: none;
-}
 //----------------------------------------------------------------------------------
 .form-enter {
     position: relative;
@@ -143,8 +135,6 @@ select::-ms-expand {  /* для IE */
          }
      }
     &__input {
-        border: none;
-        outline: none;
         width: 100%;
         height: 55px;
         padding-left: 20px;
@@ -163,8 +153,6 @@ select::-ms-expand {  /* для IE */
         cursor: pointer;
         width: 150px;
         height: 55px;
-        border: none;
-        outline: none;
         padding: 0 35px 0 10px;
     }
 }
@@ -208,8 +196,6 @@ select::-ms-expand {  /* для IE */
         cursor: pointer;
         width: 100%;
         height: 100%;
-        border: none;
-        outline: none;
         padding: 0 35px 0 10px;
         &:hover {
             color: $text-color;
@@ -280,8 +266,6 @@ select::-ms-expand {  /* для IE */
         flex-grow: 1;
     }
     &__input {
-        border: none;
-        outline: none;
         width: 100%;
         height: 50px;
         padding-left: 20px;
@@ -291,7 +275,41 @@ select::-ms-expand {  /* для IE */
         }
     }
 }
-
+.form-product {
+    width: 55%;
+    &__select-wrapper {
+        position: relative;
+        &:after {
+            content: url("/images/service-img/arrow-bottom-grey.png");
+            position: absolute;
+            top:23%;
+            right: 18px;
+            cursor: pointer;
+        }
+    }
+    &__select {
+        width: 100%;
+        height: 40px;
+        border: 1px solid $border-grey-lt;
+        padding: 0 20px;
+        &.select--small {width: 95px}
+    }
+    &__quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__choice {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__counter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 // -----------------Checkbox----------------------------------------------
 .checkbox {}

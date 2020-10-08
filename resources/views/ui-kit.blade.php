@@ -139,6 +139,7 @@
                 @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'option R14-bup', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
                 @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
+                @include('inc.components.button', ['classBtn'=>'buy btn--large R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
                 @include('inc.components.button', ['classBtn'=>'message', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
                 @include('inc.components.button', ['classBtn'=>'success', 'path'=>'#', 'nameBtn'=>'success'])
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
@@ -444,8 +445,13 @@
             </div>
             <hr>
             <div class="demo-block__row typography-block">
-                <div><b>P30-b</b> --- (Roboto bold 30px)</div>
-                <div class="P30-b">Автомобильные шины</div>
+                <div><b>P24-b</b> --- (Roboto bold 24px)</div>
+                <div class="P24-b">Автомобильные шины</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>P20-b</b> --- (Roboto bold 20px)</div>
+                <div class="P20-b">Автомобильные шины</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
@@ -473,6 +479,11 @@
             <div class="demo-block__row typography-block">
                 <div><b>E20-bi</b> --- (Europe bold 20px)</div>
                 <div class="E20-bi">+380 98 170 00 740</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>E16-bi</b> --- (Europe bold 16px)</div>
+                <div class="E16-bi">+380 98 170 00 740</div>
             </div>
             <hr>
         </div>

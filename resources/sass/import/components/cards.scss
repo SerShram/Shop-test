@@ -103,16 +103,5 @@
     &__counter {
         display: flex;align-items: center;
         justify-content: space-between;
-        &-item {
-            display: flex;
-            align-items: center;
-        }
-        &-image {
-            margin-right: 10px;
-        }
-        &-text {
-            text-decoration: underline;
-            &:hover {text-decoration: none;}
-        }
     }
 }

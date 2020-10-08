@@ -1,1 +1,1 @@
-<a class="btn btn-{{ $classBtn }}" href="{{ $path }}">{{ $nameBtn }}</a>
+<a class="btn btn-{{ $classBtn }}" href="{{ $path }}"><span>{{ $nameBtn }}</span></a>
