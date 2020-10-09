@@ -1,4 +1,17 @@
 $(document).ready(function() {
+//---------Menu Link-------------------------------------------------------------------
+    let btnMenu = document.querySelector('.js-btn-menu');
+    let subMenu = document.querySelector('.submenu');
+
+    btnMenu.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (subMenu.classList.contains('js-active')) {
+            subMenu.classList.remove('js-active');
+        }
+        else {
+            subMenu.classList.add('js-active');
+        }
+    })
 //--------Form login Modal-Popup------------------------------------------------------
     $(function () {
         $('.form-enter-popup-modal').magnificPopup({
@@ -11,9 +24,7 @@ $(document).ready(function() {
             e.preventDefault();
             $.magnificPopup.close();
         });
-    });
-//--------Form call me Modal-Popup------------------------------------------------------
-    $(function () {
+        //--------Form call me Modal-Popup------------------------------------------------------
         $('.form-callMe-popup-modal').magnificPopup({
             type: 'inline',
             preloader: false,

@@ -81,89 +81,53 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/product-script.js":
+/*!****************************************!*\
+  !*** ./resources/js/product-script.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-$(document).ready(function () {
-  //---------Menu Link-------------------------------------------------------------------
-  var btnMenu = document.querySelector('.js-btn-menu');
-  var subMenu = document.querySelector('.submenu');
-  btnMenu.addEventListener('click', function (e) {
-    e.preventDefault();
-
-    if (subMenu.classList.contains('js-active')) {
-      subMenu.classList.remove('js-active');
-    } else {
-      subMenu.classList.add('js-active');
-    }
-  }); //--------Form login Modal-Popup------------------------------------------------------
-
-  $(function () {
-    $('.form-enter-popup-modal').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      focus: 'input',
-      modal: true
-    });
-    $(document).on('click', '.close-popup-modal', function (e) {
-      e.preventDefault();
-      $.magnificPopup.close();
-    }); //--------Form call me Modal-Popup------------------------------------------------------
-
-    $('.form-callMe-popup-modal').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      focus: 'input',
-      modal: true
-    });
-    $(document).on('click', '.js-callMe-close', function (e) {
-      e.preventDefault();
-      $.magnificPopup.close();
-    });
-  }); //-----------Form validate-----------------------------------------------------
-
-  $('form').validate({
-    rules: {
-      name: "required",
-      email: {
-        required: true,
-        email: true
-      }
-    }
+window.onload = function () {
+  //--------------Tabs--------------------------------------------
+  var tabTrigger = document.querySelectorAll('.js-tab-trigger');
+  var tabContent = document.querySelectorAll('.tab-content');
+  var tabName;
+  tabTrigger.forEach(function (item) {
+    item.addEventListener('click', selectTab);
   });
-});
+
+  function selectTab() {
+    tabTrigger.forEach(function (item) {
+      item.classList.remove('is-active');
+    });
+    this.classList.add('is-active');
+    tabName = this.getAttribute('data-tab-name');
+    selectTabContent(tabName);
+  }
+
+  function selectTabContent(tabName) {
+    tabContent.forEach(function (item) {
+      item.classList.contains(tabName) ? item.classList.add('is-active') : item.classList.remove('is-active');
+    });
+  }
+};
 
 /***/ }),
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/***/ 2:
+/*!**********************************************!*\
+  !*** multi ./resources/js/product-script.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\sass\app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\product-script.js */"./resources/js/product-script.js");
 
 
 /***/ })

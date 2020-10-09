@@ -1,6 +1,3 @@
-@php
-    $product = config('mock.product');
-@endphp
 <div class="main-product">
     <div class="wrapper">
         <div class="row">
@@ -9,7 +6,7 @@
                 {{ Breadcrumbs::render('product', $product['title']) }}
             </div>
         </div>
-
-       @include('inc.components.product-card')
+        @include('inc.components.product-card')
+        @include('inc.components.tabs.tabs-block', config('mock.tabs'))
     </div>
 </div>

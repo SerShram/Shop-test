@@ -1,0 +1,57 @@
+.tabs {
+    &__triggers {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border-bottom: 1px solid $border-tabs;
+        @media screen and (min-width: 1024px){
+            display: inline-flex;
+        }
+        .tab-trigger {
+            padding: 10px 5px;
+            @media screen and (min-width: 1024px) {
+                padding: 15px 25px;
+            }
+            &.is-active {
+                color: $text-color;
+                border-bottom: 1.5px solid $yellow;
+            }
+            &:hover {
+                color: $text-color;
+                border-bottom: 1.5px solid $yellow;
+                cursor: pointer;
+            }
+        }
+    }
+    .tab-content {
+        display: none;
+        &.is-active {display: block}
+    }
+}
+.tab-desc {
+    width: 100%;
+    @media screen and (min-width: 1024px){
+        width: 84%;
+    }
+    &__text {
+        line-height: 25px;
+    }
+    &__row {
+        overflow: hidden;
+    }
+    &__image {
+        width: 200px;
+        height: 150px;
+        float: left;
+        @media screen and (min-width: 1024px) {
+            width: 555px;
+            height: 347px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

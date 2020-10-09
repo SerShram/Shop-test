@@ -94,20 +94,7 @@
 /***/ (function(module, exports) {
 
 window.onload = function () {
-  //-----------------------Menu----------------------------------
-  var btnMenu = document.querySelector('.js-btn-menu');
-  var subMenu = document.querySelector('.submenu');
-  btnMenu.addEventListener('click', function (e) {
-    e.preventDefault();
-
-    if (subMenu.classList.contains('js-active')) {
-      subMenu.classList.remove('js-active');
-    } else {
-      subMenu.classList.add('js-active');
-    }
-  }); // document.querySelector('.submenu').classList.add('js-active');
   //--------------Tabs--------------------------------------------
-
   var tabOpen = document.querySelector('.js-tab-1');
   var tabClose = document.querySelector('.js-tab-2');
   var selectTab = document.querySelectorAll('.js-select');
@@ -126,13 +113,7 @@ window.onload = function () {
     selectTab.forEach(function (item) {
       item.classList.add('not-active');
     });
-  }); // tabOpen.forEach((item) =>
-  //     item.addEventListener('click', (e) => {
-  //         e.preventDefault();
-  //         btnTab.forEach((child) => child.classList.remove('is-active'));
-  //         item.classList.add('is-active');
-  //     })
-  // );
+  });
 };
 
 /***/ }),

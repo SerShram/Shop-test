@@ -1,4 +1,4 @@
-<div class="product">
+<div class="product Mb-xl">
     <div class="row">
         <div class="col-xxl-5 col-xl-4 col-lg-3">
             <div class="product__image">

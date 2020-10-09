@@ -124,6 +124,11 @@
                     <div>$text-seo</div>
                     <div>C-14</div>
                 </div>
+                <div class="palette palette-text ss-C-15">
+                    <div>#acacac</div>
+                    <div>$text-tabs</div>
+                    <div>C-15</div>
+                </div>
             </div>
         </div>
 {{----------------- Кнопки-----------------------------------}}
@@ -452,6 +457,11 @@
             <div class="demo-block__row typography-block">
                 <div><b>P20-b</b> --- (Roboto bold 20px)</div>
                 <div class="P20-b">Автомобильные шины</div>
+            </div>
+            <hr>
+            <div class="demo-block__row typography-block">
+                <div><b>P18-b</b> --- (Roboto bold 18px)</div>
+                <div class="P18-b">Tabs Tabs Tabs</div>
             </div>
             <hr>
             <div class="demo-block__row typography-block">
