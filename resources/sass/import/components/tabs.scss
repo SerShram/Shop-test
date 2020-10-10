@@ -55,3 +55,23 @@
         }
     }
 }
+//----------Tab Предложение-------------------------------------
+.tab-props {
+    border-collapse: collapse;
+    width: 100%;
+    th,td {
+        padding: 10px;
+        text-align: center;
+        &:first-child {
+            text-align: left;
+        }
+        @media screen and (min-width: 1200px) { padding: 10px 20px; }
+        @media screen and (min-width: 1300px) { padding: 10px 30px; }
+    }
+    &__link { line-height: 1.5; }
+    &__price {
+        padding: 14px 24px;
+        margin-right: 5px
+    }
+
+}

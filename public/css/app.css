@@ -109,25 +109,11 @@
   color: #acacac;
 }
 
-.t-underline {
-  text-decoration: underline;
-}
-.t-underline:hover {
-  text-decoration: none;
-}
-
-.t-line {
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  -webkit-text-decoration-color: #ff4800;
-          text-decoration-color: #ff4800;
-}
-
 .R36 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .R36 {
     font-size: 25px;
   }
@@ -291,7 +277,7 @@
 .P36-b {
   font-family: "ProximaNova", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
 }
 @media screen and (min-width: 576px) {
   .P36-b {
@@ -328,9 +314,24 @@
   font-size: 18px;
 }
 
+.P18 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 18px;
+}
+
 .P17 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 17px;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .P17 {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .P17 {
+    font-size: 17px;
+  }
 }
 
 .P14 {
@@ -381,6 +382,20 @@
   font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
+}
+
+.t-underline {
+  text-decoration: underline;
+}
+.t-underline:hover {
+  text-decoration: none;
+}
+
+.t-line {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  -webkit-text-decoration-color: #ff4800;
+          text-decoration-color: #ff4800;
 }
 
 .row {
@@ -1594,6 +1609,35 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.tab-props {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tab-props th, .tab-props td {
+  padding: 10px;
+  text-align: center;
+}
+.tab-props th:first-child, .tab-props td:first-child {
+  text-align: left;
+}
+@media screen and (min-width: 1200px) {
+  .tab-props th, .tab-props td {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .tab-props th, .tab-props td {
+    padding: 10px 30px;
+  }
+}
+.tab-props__link {
+  line-height: 1.5;
+}
+.tab-props__price {
+  padding: 14px 24px;
+  margin-right: 5px;
 }
 
 .categories__title {
