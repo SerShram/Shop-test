@@ -19,7 +19,7 @@
             <td> <span class="tab-props__price P18 C-12 Bg-grey-lt">{{ $item['amount'] }}</span>шт.</td>
             <td> <span class="E26-bi">{{ $item['price'] }} </span></td>
             <td>
-                @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
+                @include('inc.components.button', ['classBtn'=>'proposal P14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
             </td>
         </tr>
     @endforeach

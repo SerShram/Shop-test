@@ -146,6 +146,7 @@
                 @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
                 @include('inc.components.button', ['classBtn'=>'buy btn--large R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
                 @include('inc.components.button', ['classBtn'=>'message', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
+                @include('inc.components.button', ['classBtn'=>'review', 'path'=>'#', 'nameBtn'=>'Отправить сообщение'])
                 @include('inc.components.button', ['classBtn'=>'success', 'path'=>'#', 'nameBtn'=>'success'])
                 @include('inc.components.button', ['classBtn'=>'error', 'path'=>'#', 'nameBtn'=>'error'])
                 @include('inc.components.button', ['classBtn'=>'warning', 'path'=>'#', 'nameBtn'=>'warning'])

@@ -1,79 +1,3 @@
-$font-family-main: 'Roboto', sans-serif;
-$font-family-second: 'ProximaNova', sans-serif;
-$font-family-third: 'Europe', sans-serif;
-
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 1024px) {}
-
-//---------Roboto-------------------------------------
-.R36 {
-    font-family: $font-family-main; font-size: 16px;
-    @media screen and (min-width: 768px) {font-size: 25px;}
-    @media screen and (min-width: 1024px){ font-size: 36px; }
-}
-
-.R26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
-.R26-bl-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
-.R26-i { font-family: $font-family-main; font-size: 26px; font-weight: 900; font-style: italic; }
-.R26-b { font-family: $font-family-main; font-size: 26px; font-weight: 700; }
-
-.R24-b { font-family: $font-family-main; font-size: 24px; font-weight: 700; }
-
-.R20-b { font-family: $font-family-main; font-size: 20px; font-weight: 700; }
-.R20-bup { font-family: $font-family-main; font-size: 20px; font-weight: 700; text-transform: uppercase}
-.R20-m { font-family: $font-family-main; font-size: 20px; font-weight: 500; }
-
-.R18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
-
-.R17 { font-family: $font-family-main; font-size: 17px; }
-
-.R16-b { font-family: $font-family-main; font-size: 16px; font-weight: 700; }
-.R16-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
-.R16-bi { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
-.R16-bli { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
-.R16-bli-up { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; text-transform: uppercase; }
-
-.R14 { font-family: $font-family-main; font-size: 14px; }
-.R14-bup { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
-.R14-l { font-family: $font-family-main; font-size: 14px; font-weight: 300; }
-
-.R13 { font-family: $font-family-main; font-size: 13px; }
-
-.R12 { font-family: $font-family-main; font-size: 12px; }
-.R12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
-
-.R10 { font-family: $font-family-main; font-size: 10px; }
-.R10-up { font-family: $font-family-main; font-size: 10px; text-transform: uppercase; }
-.R10-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
-
-//---------Roboto-------------------------------------
-.P36-b {
-    font-family: $font-family-second; font-weight: bold; font-size: 18px;
-    @media screen and (min-width: 576px) {font-size: 25px;}
-    @media screen and (min-width: 1024px){ font-size: 36px; }
-}
-.P30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
-.P24-b { font-family: $font-family-second; font-weight: bold; font-size: 24px; }
-.P20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
-.P18-b { font-family: $font-family-second; font-weight: bold; font-size: 18px; }
-.P18 { font-family: $font-family-second; font-size: 18px; }
-.P17 {
-    font-family: $font-family-second; font-size: 10px;
-    @media screen and (min-width: 768px) {font-size: 13px;}
-    @media screen and (min-width: 1024px) {font-size: 17px;}
-}
-.P14 { font-family: $font-family-second; font-size: 14px; }
-.P14-bup { font-family: $font-family-second; font-size: 14px; font-weight: bold;text-transform: uppercase; }
-.P13 { font-family: $font-family-second; font-size: 13px; }
-.P12 { font-family: $font-family-second; font-size: 12px; }
-.P10-up { font-family: $font-family-second; font-size: 10px; text-transform: uppercase; }
-
-//-----------Europe---------------------------------------------
-.E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
-.E20-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
-.E16-bi { font-family: $font-family-third; font-size: 16px; font-weight: bold; font-style: italic; text-transform: uppercase;}
-//-----------------------------------------------------------------------------------
-
 .t-underline {
     text-decoration: underline;
     &:hover {text-decoration: none}
@@ -82,4 +6,178 @@ $font-family-third: 'Europe', sans-serif;
     text-decoration-line: line-through;
     text-decoration-color: $red;
 }
+
+$font-family-main: 'Roboto', sans-serif;
+$font-family-second: 'ProximaNova', sans-serif;
+$font-family-third: 'Europe', sans-serif;
+
+//---------Roboto-------------------------------------
+.R36 {font-family: $font-family-main; font-size: 18px;}
+
+.R26-up { font-family: $font-family-main; font-size: 16px; font-weight: 900; text-transform: uppercase; }
+.R26-bl-up { font-family: $font-family-main; font-size: 14px; font-weight: 900; text-transform: uppercase; }
+.R26-i { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
+.R26-b { font-family: $font-family-main; font-size: 16px; font-weight: 700; }
+
+.R24-b { font-family: $font-family-main; font-size: 14px; font-weight: 700; }
+
+.R20-b { font-family: $font-family-main; font-size: 14px; font-weight: 700; }
+.R20-bup { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase}
+.R20-m { font-family: $font-family-main; font-size: 14px; font-weight: 500; }
+
+.R18-b { font-family: $font-family-main; font-size: 12px; font-weight: 700; }
+
+.R17 { font-family: $font-family-main; font-size: 10px; }
+
+.R16-b { font-family: $font-family-main; font-size: 10px; font-weight: 700; }
+.R16-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.R16-bi { font-family: $font-family-main; font-size: 10px; font-weight: 700; font-style: italic; }
+.R16-bli { font-family: $font-family-main; font-size: 10px; font-weight: 900; font-style: italic; }
+.R16-bli-up { font-family: $font-family-main; font-size: 10px; font-weight: 900; font-style: italic; text-transform: uppercase; }
+
+.R14 { font-family: $font-family-main; font-size: 10px; }
+.R14-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+.R14-l { font-family: $font-family-main; font-size: 10px; font-weight: 300; }
+
+.R13 { font-family: $font-family-main; font-size: 9px; }
+
+.R12 { font-family: $font-family-main; font-size: 9px; }
+.R12-up { font-family: $font-family-main; font-size: 9px; text-transform: uppercase}
+
+.R10 { font-family: $font-family-main; font-size: 9px; }
+.R10-up { font-family: $font-family-main; font-size: 9px; text-transform: uppercase; }
+.R10-bup { font-family: $font-family-main; font-size: 9px; font-weight: 700; text-transform: uppercase; }
+@media screen and (min-width: 768px) {
+    .R36 {font-family: $font-family-main; font-size: 26px;}
+
+    .R26-up { font-family: $font-family-main; font-size: 20px; font-weight: 900; text-transform: uppercase; }
+    .R26-bl-up { font-family: $font-family-main; font-size: 20px; font-weight: 900; text-transform: uppercase; }
+    .R26-i { font-family: $font-family-main; font-size: 20px; font-weight: 900; font-style: italic; }
+    .R26-b { font-family: $font-family-main; font-size: 20px; font-weight: 700; }
+
+    .R24-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
+
+    .R20-b { font-family: $font-family-main; font-size: 16px; font-weight: 700; }
+    .R20-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase}
+    .R20-m { font-family: $font-family-main; font-size: 16px; font-weight: 500; }
+
+    .R18-b { font-family: $font-family-main; font-size: 14px; font-weight: 700; }
+
+    .R17 { font-family: $font-family-main; font-size: 13px; }
+
+    .R16-b { font-family: $font-family-main; font-size: 12px; font-weight: 700; }
+    .R16-bup { font-family: $font-family-main; font-size: 12px; font-weight: 700; text-transform: uppercase; }
+    .R16-bi { font-family: $font-family-main; font-size: 12px; font-weight: 700; font-style: italic; }
+    .R16-bli { font-family: $font-family-main; font-size: 12px; font-weight: 900; font-style: italic; }
+    .R16-bli-up { font-family: $font-family-main; font-size: 12px; font-weight: 900; font-style: italic; text-transform: uppercase; }
+
+    .R14 { font-family: $font-family-main; font-size: 10px; }
+    .R14-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+    .R14-l { font-family: $font-family-main; font-size: 10px; font-weight: 300; }
+
+    .R13 { font-family: $font-family-main; font-size: 9px; }
+
+    .R12 { font-family: $font-family-main; font-size: 9px; }
+    .R12-up { font-family: $font-family-main; font-size: 9px; text-transform: uppercase}
+
+    .R10 { font-family: $font-family-main; font-size: 9px; }
+    .R10-up { font-family: $font-family-main; font-size: 9px; text-transform: uppercase; }
+    .R10-bup { font-family: $font-family-main; font-size: 9px; font-weight: 700; text-transform: uppercase; }
+}
+@media screen and (min-width: 1024px) {
+    .R36 {font-family: $font-family-main; font-size: 36px;}
+
+    .R26-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
+    .R26-bl-up { font-family: $font-family-main; font-size: 26px; font-weight: 900; text-transform: uppercase; }
+    .R26-i { font-family: $font-family-main; font-size: 26px; font-weight: 900; font-style: italic; }
+    .R26-b { font-family: $font-family-main; font-size: 26px; font-weight: 700; }
+
+    .R24-b { font-family: $font-family-main; font-size: 24px; font-weight: 700; }
+
+    .R20-b { font-family: $font-family-main; font-size: 20px; font-weight: 700; }
+    .R20-bup { font-family: $font-family-main; font-size: 20px; font-weight: 700; text-transform: uppercase}
+    .R20-m { font-family: $font-family-main; font-size: 20px; font-weight: 500; }
+
+    .R18-b { font-family: $font-family-main; font-size: 18px; font-weight: 700; }
+
+    .R17 { font-family: $font-family-main; font-size: 17px; }
+
+    .R16-b { font-family: $font-family-main; font-size: 16px; font-weight: 700; }
+    .R16-bup { font-family: $font-family-main; font-size: 16px; font-weight: 700; text-transform: uppercase; }
+    .R16-bi { font-family: $font-family-main; font-size: 16px; font-weight: 700; font-style: italic; }
+    .R16-bli { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; }
+    .R16-bli-up { font-family: $font-family-main; font-size: 16px; font-weight: 900; font-style: italic; text-transform: uppercase; }
+
+    .R14 { font-family: $font-family-main; font-size: 14px; }
+    .R14-bup { font-family: $font-family-main; font-size: 14px; font-weight: 700; text-transform: uppercase; }
+    .R14-l { font-family: $font-family-main; font-size: 14px; font-weight: 300; }
+
+    .R13 { font-family: $font-family-main; font-size: 13px; }
+
+    .R12 { font-family: $font-family-main; font-size: 12px; }
+    .R12-up { font-family: $font-family-main; font-size: 12px; text-transform: uppercase}
+
+    .R10 { font-family: $font-family-main; font-size: 10px; }
+    .R10-up { font-family: $font-family-main; font-size: 10px; text-transform: uppercase; }
+    .R10-bup { font-family: $font-family-main; font-size: 10px; font-weight: 700; text-transform: uppercase; }
+}
+//---------Roboto-------------------------------------
+.P36-b {font-family: $font-family-second; font-weight: bold; font-size: 16px;}
+.P30-b { font-family: $font-family-second; font-weight: bold; font-size: 14px; }
+.P24-b { font-family: $font-family-second; font-weight: bold; font-size: 14px; }
+.P20-b { font-family: $font-family-second; font-weight: bold; font-size: 12px; }
+.P18-b { font-family: $font-family-second; font-weight: bold; font-size: 10px; }
+.P18 { font-family: $font-family-second; font-size: 10px; }
+.P17 {font-family: $font-family-second; font-size: 10px;}
+.P14 { font-family: $font-family-second; font-size: 10px; }
+.P14-bup { font-family: $font-family-second; font-size: 10px; font-weight: bold;text-transform: uppercase; }
+.P13 { font-family: $font-family-second; font-size: 9px; }
+.P12 { font-family: $font-family-second; font-size: 8px; }
+.P10-up { font-family: $font-family-second; font-size: 8px; text-transform: uppercase; }
+@media screen and (min-width: 768px) {
+    .P36-b {font-family: $font-family-second; font-weight: bold; font-size: 26px;}
+    .P30-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
+    .P24-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
+    .P20-b { font-family: $font-family-second; font-weight: bold; font-size: 16px; }
+    .P18-b { font-family: $font-family-second; font-weight: bold; font-size: 14px; }
+    .P18 { font-family: $font-family-second; font-size: 14px; }
+    .P17 {font-family: $font-family-second; font-size: 13px;}
+    .P14 { font-family: $font-family-second; font-size: 12px; }
+    .P14-bup { font-family: $font-family-second; font-size: 12px; font-weight: bold;text-transform: uppercase; }
+    .P13 { font-family: $font-family-second; font-size: 10px; }
+    .P12 { font-family: $font-family-second; font-size: 10px; }
+    .P10-up { font-family: $font-family-second; font-size: 8px; text-transform: uppercase; }
+}
+@media screen and (min-width: 1024px) {
+    .P36-b {font-family: $font-family-second; font-weight: bold; font-size: 36px;}
+    .P30-b { font-family: $font-family-second; font-weight: bold; font-size: 30px; }
+    .P24-b { font-family: $font-family-second; font-weight: bold; font-size: 24px; }
+    .P20-b { font-family: $font-family-second; font-weight: bold; font-size: 20px; }
+    .P18-b { font-family: $font-family-second; font-weight: bold; font-size: 18px; }
+    .P18 { font-family: $font-family-second; font-size: 18px; }
+    .P17 {font-family: $font-family-second; font-size: 17px;}
+    .P14 { font-family: $font-family-second; font-size: 14px; }
+    .P14-bup { font-family: $font-family-second; font-size: 14px; font-weight: bold;text-transform: uppercase; }
+    .P13 { font-family: $font-family-second; font-size: 13px; }
+    .P12 { font-family: $font-family-second; font-size: 12px; }
+    .P10-up { font-family: $font-family-second; font-size: 10px; text-transform: uppercase; }
+}
+
+//-----------Europe---------------------------------------------
+.E26-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; }
+.E20-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; }
+.E16-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+@media screen and (min-width: 768px) {
+    .E26-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
+    .E20-bi { font-family: $font-family-third; font-size: 16px; font-weight: bold; font-style: italic; }
+    .E16-bi { font-family: $font-family-third; font-size: 12px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+}
+@media screen and (min-width: 1024px) {
+    .E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
+    .E20-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
+    .E16-bi { font-family: $font-family-third; font-size: 16px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+}
+//-----------------------------------------------------------------------------------
+
+
 

@@ -109,281 +109,6 @@
   color: #acacac;
 }
 
-.R36 {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-}
-@media screen and (min-width: 768px) {
-  .R36 {
-    font-size: 25px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .R36 {
-    font-size: 36px;
-  }
-}
-
-.R26-up {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.R26-bl-up {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.R26-i {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.R26-b {
-  font-family: "Roboto", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.R24-b {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.R20-b {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.R20-bup {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.R20-m {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.R18-b {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.R17 {
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-}
-
-.R16-b {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.R16-bup {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.R16-bi {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.R16-bli {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.R16-bli-up {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
-.R14 {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
-
-.R14-bup {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.R14-l {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.R13 {
-  font-family: "Roboto", sans-serif;
-  font-size: 13px;
-}
-
-.R12 {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-}
-
-.R12-up {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.R10 {
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-}
-
-.R10-up {
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-.R10-bup {
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.P36-b {
-  font-family: "ProximaNova", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-}
-@media screen and (min-width: 576px) {
-  .P36-b {
-    font-size: 25px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .P36-b {
-    font-size: 36px;
-  }
-}
-
-.P30-b {
-  font-family: "ProximaNova", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.P24-b {
-  font-family: "ProximaNova", sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.P20-b {
-  font-family: "ProximaNova", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.P18-b {
-  font-family: "ProximaNova", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.P18 {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 18px;
-}
-
-.P17 {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
-}
-@media screen and (min-width: 768px) {
-  .P17 {
-    font-size: 13px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .P17 {
-    font-size: 17px;
-  }
-}
-
-.P14 {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 14px;
-}
-
-.P14-bup {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.P13 {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 13px;
-}
-
-.P12 {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 12px;
-}
-
-.P10-up {
-  font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-.E26-bi {
-  font-family: "Europe", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.E20-bi {
-  font-family: "Europe", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.E16-bi {
-  font-family: "Europe", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
 .t-underline {
   text-decoration: underline;
 }
@@ -398,6 +123,747 @@
           text-decoration-color: #ff4800;
 }
 
+.R36 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.R26-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.R26-bl-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.R26-i {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.R26-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.R24-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.R20-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.R20-bup {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.R20-m {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.R18-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.R17 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.R16-b {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.R16-bup {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.R16-bi {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.R16-bli {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.R16-bli-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.R14 {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.R14-bup {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.R14-l {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.R13 {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+}
+
+.R12 {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+}
+
+.R12-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.R10 {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+}
+
+.R10-up {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.R10-bup {
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .R36 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+  }
+
+  .R26-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .R26-bl-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .R26-i {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .R26-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .R24-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .R20-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .R20-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R20-m {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .R18-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .R17 {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+
+  .R16-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .R16-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R16-bi {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .R16-bli {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .R16-bli-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .R14 {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+  }
+
+  .R14-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R14-l {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .R13 {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+  }
+
+  .R12 {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+  }
+
+  .R12-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .R10 {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+  }
+
+  .R10-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .R10-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .R36 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+  }
+
+  .R26-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .R26-bl-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .R26-i {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .R26-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .R24-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .R20-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .R20-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R20-m {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .R18-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .R17 {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+  }
+
+  .R16-b {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .R16-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R16-bi {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .R16-bli {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .R16-bli-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .R14 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  .R14-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .R14-l {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .R13 {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+  }
+
+  .R12 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+
+  .R12-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .R10 {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+  }
+
+  .R10-up {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .R10-bup {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+.P36-b {
+  font-family: "ProximaNova", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.P30-b {
+  font-family: "ProximaNova", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.P24-b {
+  font-family: "ProximaNova", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.P20-b {
+  font-family: "ProximaNova", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.P18-b {
+  font-family: "ProximaNova", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.P18 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 10px;
+}
+
+.P17 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 10px;
+}
+
+.P14 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 10px;
+}
+
+.P14-bup {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.P13 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 9px;
+}
+
+.P12 {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 8px;
+}
+
+.P10-up {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .P36-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .P30-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .P24-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .P20-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .P18-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .P18 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 14px;
+  }
+
+  .P17 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 13px;
+  }
+
+  .P14 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 12px;
+  }
+
+  .P14-bup {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .P13 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 10px;
+  }
+
+  .P12 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 10px;
+  }
+
+  .P10-up {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .P36-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .P30-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .P24-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .P20-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .P18-b {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .P18 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 18px;
+  }
+
+  .P17 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 17px;
+  }
+
+  .P14 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 14px;
+  }
+
+  .P14-bup {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .P13 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 13px;
+  }
+
+  .P12 {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 12px;
+  }
+
+  .P10-up {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}
+.E26-bi {
+  font-family: "Europe", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.E20-bi {
+  font-family: "Europe", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.E16-bi {
+  font-family: "Europe", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .E26-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .E20-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .E16-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .E26-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .E20-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .E16-bi {
+    font-family: "Europe", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -1036,6 +1502,11 @@
   background: #afb9c6;
   padding: 0 25px;
 }
+.btn-review {
+  background: #afb9c6;
+  width: 210px;
+  text-align: center;
+}
 .btn-option {
   background: linear-gradient(90deg, #ff8500 0%, #fcb045 100%);
   width: 210px;
@@ -1085,6 +1556,42 @@
   position: absolute;
   top: 5px;
   left: -43px;
+}
+.btn-proposal {
+  background: linear-gradient(90deg, #ff8500 0%, #fcb045 100%);
+  padding: 20px;
+}
+.btn-proposal span {
+  display: none;
+}
+.btn-proposal:before {
+  content: url("/images/service-img/carriage.png");
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+@media screen and (min-width: 1024px) {
+  .btn-proposal {
+    background: linear-gradient(90deg, #ff8500 0%, #fcb045 100%);
+    padding: 0 35px 0 68px;
+  }
+  .btn-proposal:hover {
+    background: linear-gradient(90deg, #d36e00 0%, #e59100 100%);
+  }
+  .btn-proposal span {
+    position: relative;
+    display: inline-block;
+  }
+  .btn-proposal span:before {
+    content: url("/images/service-img/carriage.png");
+    position: absolute;
+    top: 5px;
+    left: -43px;
+  }
+  .btn-proposal:before {
+    content: "";
+    display: none;
+  }
 }
 .btn-login {
   padding: 0 35px 0 60px;
@@ -1616,7 +2123,7 @@
   width: 100%;
 }
 .tab-props th, .tab-props td {
-  padding: 10px;
+  padding: 0;
   text-align: center;
 }
 .tab-props th:first-child, .tab-props td:first-child {
@@ -1636,8 +2143,47 @@
   line-height: 1.5;
 }
 .tab-props__price {
-  padding: 14px 24px;
+  padding: 5px 5px;
   margin-right: 5px;
+}
+@media screen and (min-width: 992px) {
+  .tab-props__price {
+    padding: 14px 24px;
+  }
+}
+
+.reviews-block {
+  max-height: 440px;
+  overflow-y: auto;
+}
+
+.review__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review__text {
+  line-height: 20px;
+}
+
+.guarantee-tab {
+  width: 100%;
+  padding: 0 25px;
+}
+@media screen and (min-width: 768px) {
+  .guarantee-tab {
+    width: 68%;
+  }
+}
+.guarantee-tab__item {
+  position: relative;
+  line-height: 1.5;
+}
+.guarantee-tab__item:before {
+  content: url("/images/service-img/check.png");
+  position: absolute;
+  top: 0%;
+  left: -25px;
 }
 
 .categories__title {
@@ -2162,6 +2708,86 @@
 .form-product__counter {
   display: flex;
   flex-wrap: wrap;
+}
+
+.form-review span {
+  display: block;
+}
+.form-review input, .form-review textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #d2d2d2;
+}
+.form-review input::-moz-placeholder, .form-review textarea::-moz-placeholder {
+  color: #9c9c9c;
+}
+.form-review input:-ms-input-placeholder, .form-review textarea:-ms-input-placeholder {
+  color: #9c9c9c;
+}
+.form-review input::placeholder, .form-review textarea::placeholder {
+  color: #9c9c9c;
+}
+.form-review textarea {
+  height: 90px;
+  resize: none;
+}
+.form-review__row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 992px) {
+  .form-review__row {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}
+.form-review__label {
+  min-width: 215px;
+  flex-grow: 1;
+  margin: 0 20px 20px 0;
+}
+.form-review__rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  position: relative;
+}
+.form-review__rating input {
+  display: none;
+}
+.form-review__rating label {
+  height: 20px;
+  width: 20px;
+  background: url("/images/sprites/stars-two.png") -19px center no-repeat;
+  cursor: pointer;
+}
+.form-review__rating input:checked ~ label {
+  background: url("/images/sprites/stars-two.png") left center no-repeat;
+}
+.form-review__rating input:checked + label:after, .form-review label:hover:before {
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 7px;
+  display: block;
+  font-weight: bold;
+}
+.form-review__rating:hover input:checked + label:after {
+  display: none;
+}
+.form-review__textarea {
+  display: block;
+}
+.form-review__button {
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  .form-review__button {
+    text-align: left;
+  }
 }
 
 .checkbox__inp {

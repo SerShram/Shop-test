@@ -310,7 +310,75 @@
         flex-wrap: wrap;
     }
 }
+//-------------------form-review------------------------------------------
+.form-review {
+    span {display: block}
+    input,textarea {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid $border-grey-lt;
+        &::placeholder {
+            color: $text-placholder;
+        }
+    }
+    textarea {
+        height: 90px;
+        resize: none;
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
 
+        @media screen and (min-width: 992px){
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+
+    }
+    &__label {
+        min-width: 215px;
+        flex-grow: 1;
+        margin: 0 20px 20px 0;
+    }
+    &____block-rating {}
+    &__rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: min-content;
+        position: relative;
+    }
+    &__rating input{
+        display: none;
+    }
+    &__rating label{
+        height: 20px;
+        width: 20px;
+        background: url("/images/sprites/stars-two.png") -19px center no-repeat;
+        cursor: pointer;
+    }
+    &__rating input:checked ~ label{
+        background: url("/images/sprites/stars-two.png") left center no-repeat;
+    }
+    &__rating input:checked + label:after, label:hover:before{
+        position: absolute;
+        left: calc(100% + 10px);
+        top: 7px;
+        display: block;
+        font-weight: bold;
+    }
+    &__rating:hover input:checked + label:after{
+        display: none;
+    }
+    &__textarea {display: block}
+    &__button {
+        text-align: center;
+        @media screen and (min-width: 992px){
+            text-align: left;
+        }
+    }
+}
 // -----------------Checkbox----------------------------------------------
 .checkbox {}
 .checkbox__inp {

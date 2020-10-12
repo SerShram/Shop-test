@@ -22,6 +22,11 @@
         background: $grey-lt;
         padding: 0 25px;
     }
+    &-review {
+        background: $grey-lt;
+        width: 210px;
+        text-align: center;
+    }
     &-option {
         background: $liner-grad;
         width: 210px;
@@ -52,6 +57,7 @@
         text-align: center;
 
     }
+//--------------------------------------------------------------------------------------------
     &-buy {
         background: $liner-grad;
         padding: 0 35px 0 68px;
@@ -59,9 +65,7 @@
             width: 100%;
             text-align: center;
         }
-        &:hover {
-            background: $liner-grad-dark;
-        }
+        &:hover {background: $liner-grad-dark;}
         span {
             position: relative;
             display: inline-block;
@@ -72,8 +76,40 @@
                 left: -43px;;
             }
         }
-
     }
+//--------------------------------------------------------------------------------------------
+    &-proposal {
+        background: $liner-grad;
+        padding: 20px;
+        span {display: none}
+        &:before {
+            content: url("/images/service-img/carriage.png");
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        @media screen and (min-width: 1024px){
+            background: $liner-grad;
+            padding: 0 35px 0 68px;
+            &:hover {background: $liner-grad-dark;}
+            span {
+                position: relative;
+                display: inline-block;
+                &:before {
+                    content: url("/images/service-img/carriage.png");
+                    position: absolute;
+                    top: 5px;
+                    left: -43px;
+                }
+            }
+            &:before {
+                content: '';
+                display: none;
+            }
+        }
+    }
+
+//--------------------------------------------------------------------------------------------
     &-login {
         padding: 0 35px 0 60px;
         &:before {

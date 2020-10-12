@@ -113,7 +113,7 @@
   </div>
     </div>
     <div class="form-option__button">
-        @include('inc.components.button', ['classBtn'=>'filter filter--red', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
+        @include('inc.components.button', ['classBtn'=>'filter filter--red R14', 'path'=>'#', 'nameBtn'=>'Очистить фильтр'])
         @include('inc.components.button', ['classBtn'=>'option R14-bup', 'path'=>'#', 'nameBtn'=>'Применить фильтр'])
     </div>
 </form>
