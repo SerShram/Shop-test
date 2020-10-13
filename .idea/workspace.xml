@@ -22,22 +22,23 @@
     <list default="true" id="c48c0e0f-03d3-4e3e-ab8e-bd4c9018350d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/mock/cards.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mock/cards.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mock/tabs.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mock/tabs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/breadcrumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/forms/form-mailing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/forms/form-mailing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/forms/form-option.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/forms/form-option.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/product-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/product-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/block-cards.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/block-cards.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/card.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inc/components/forms/form-search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/forms/form-search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-guarantee.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-guarantee.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-proposal.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-proposal.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-reviews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/tabs/tab-reviews.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/product-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/product-card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/inc/components/tabs/tabs-block.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/tabs/tabs-block.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/widgets/star-rating.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/widgets/star-rating.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/widgets/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/widgets/tag.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/main-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/main-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +264,8 @@
       <workItem from="1602138086848" duration="28699000" />
       <workItem from="1602225040113" duration="28070000" />
       <workItem from="1602315204065" duration="12511000" />
-      <workItem from="1602481161178" duration="27985000" />
+      <workItem from="1602481161178" duration="28315000" />
+      <workItem from="1602568011256" duration="13287000" />
     </task>
     <servers />
   </component>
@@ -291,34 +293,34 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1230" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1600952379962" />
-    <state width="1876" height="266" key="GridCell.Tab.0.bottom" timestamp="1602481842773">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1602568326361">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602315947775" />
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
     <state width="1876" height="266" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="266" key="GridCell.Tab.0.center" timestamp="1602481842773">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1602568326361">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602315947775" />
+    <state width="1876" height="279" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
     <state width="1876" height="266" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="266" key="GridCell.Tab.0.left" timestamp="1602481842773">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1602568326360">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602315947775" />
+    <state width="1876" height="279" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326360" />
     <state width="1876" height="266" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="266" key="GridCell.Tab.0.right" timestamp="1602481842773">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1602568326361">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="280" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602315947775" />
+    <state width="1876" height="279" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
     <state width="1876" height="266" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
     <state x="-1459" y="171" key="SettingsEditor" timestamp="1599656349934">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1459" y="171" key="SettingsEditor/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599656349934" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1602509264955">
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1602585446125">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="-1297" y="234" width="672" height="705" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1601910820481" />
-    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602509264955" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602585446125" />
   </component>
 </project>

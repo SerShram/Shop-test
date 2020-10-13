@@ -182,45 +182,45 @@
 
 .R18-b {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
 .R17 {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .R16-b {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
 }
 
 .R16-bup {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .R16-bi {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   font-style: italic;
 }
 
 .R16-bli {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 900;
   font-style: italic;
 }
 
 .R16-bli-up {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 900;
   font-style: italic;
   text-transform: uppercase;
@@ -228,52 +228,52 @@
 
 .R14 {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .R14-bup {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .R14-l {
   font-family: "Roboto", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 300;
 }
 
 .R13 {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 13px;
 }
 
 .R12 {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .R12-up {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
 .R10 {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .R10-up {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 10px;
   text-transform: uppercase;
 }
 
 .R10-bup {
   font-family: "Roboto", sans-serif;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -334,104 +334,6 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-  }
-
-  .R18-b {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-  }
-
-  .R17 {
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-  }
-
-  .R16-b {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-  }
-
-  .R16-bup {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .R16-bi {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    font-style: italic;
-  }
-
-  .R16-bli {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-  .R16-bli-up {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-  }
-
-  .R14 {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-  }
-
-  .R14-bup {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .R14-l {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
-  }
-
-  .R13 {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-  }
-
-  .R12 {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-  }
-
-  .R12-up {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-    text-transform: uppercase;
-  }
-
-  .R10 {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-  }
-
-  .R10-up {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-    text-transform: uppercase;
-  }
-
-  .R10-bup {
-    font-family: "Roboto", sans-serif;
-    font-size: 9px;
-    font-weight: 700;
-    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -537,58 +439,6 @@
     font-style: italic;
     text-transform: uppercase;
   }
-
-  .R14 {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-  }
-
-  .R14-bup {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  .R14-l {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-  }
-
-  .R13 {
-    font-family: "Roboto", sans-serif;
-    font-size: 13px;
-  }
-
-  .R12 {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-  }
-
-  .R12-up {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
-
-  .R10 {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-  }
-
-  .R10-up {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    text-transform: uppercase;
-  }
-
-  .R10-bup {
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
 }
 .P36-b {
   font-family: "ProximaNova", sans-serif;
@@ -617,44 +467,51 @@
 .P18-b {
   font-family: "ProximaNova", sans-serif;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .P18 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .P17 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .P14 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .P14-bup {
   font-family: "ProximaNova", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .P13 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .P12 {
   font-family: "ProximaNova", sans-serif;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .P10-up {
   font-family: "ProximaNova", sans-serif;
-  font-size: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.P10-bup {
+  font-family: "ProximaNova", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -713,17 +570,24 @@
 
   .P13 {
     font-family: "ProximaNova", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .P12 {
     font-family: "ProximaNova", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .P10-up {
     font-family: "ProximaNova", sans-serif;
-    font-size: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .P10-bup {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
   }
 }
@@ -793,6 +657,13 @@
   .P10-up {
     font-family: "ProximaNova", sans-serif;
     font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .P10-bup {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
     text-transform: uppercase;
   }
 }
@@ -1423,6 +1294,14 @@
 
 .breadcrumb {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .breadcrumb {
+    justify-content: left;
+  }
 }
 .breadcrumb__item {
   padding: 5px 0;
@@ -1874,11 +1753,19 @@
 }
 
 .card {
-  width: 340px;
-  padding: 20px 10px;
-  border: 1px solid #dbdbdb;
-  margin-left: -1px;
-  margin-top: -1px;
+  width: 300px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 400px) {
+  .card {
+    width: 340px;
+    padding: 20px 10px;
+    border: 1px solid #dbdbdb;
+    margin-left: -1px;
+    margin-top: -1px;
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1050px) and (max-width: 1389px) {
   .card:nth-child(3n+1) {
@@ -1947,6 +1834,20 @@
   -webkit-text-decoration: line-through #e00000;
           text-decoration: line-through #e00000;
 }
+.card__button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.card__quantity-row {
+  display: flex;
+  align-items: center;
+}
+.card__product-quantity {
+  padding: 15px 25px;
+  margin-right: 5px;
+}
 .card__button {
   text-align: center;
   margin-bottom: 15px;
@@ -2007,6 +1908,7 @@
 .product__brand {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .product__brand-link {
   position: relative;
@@ -2321,7 +2223,7 @@
   width: 85px;
   height: 48px;
   text-align: center;
-  padding: 13px 0;
+  padding: 14px 0;
 }
 .tag--novelty {
   background: url("/images/card-image/badge-1.png") center no-repeat;
@@ -2673,7 +2575,12 @@
 }
 
 .form-product {
-  width: 55%;
+  width: 100%;
+}
+@media screen and (min-width: 776px) {
+  .form-product {
+    width: 55%;
+  }
 }
 .form-product__select-wrapper {
   position: relative;

@@ -36,11 +36,17 @@
     }
 }
 .card {
-    width: 340px;
-    padding: 20px 10px;
-    border: 1px solid $border-card;
-    margin-left: -1px;
-    margin-top: -1px;
+    width: 300px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 400px) {
+        width: 340px;
+        padding: 20px 10px;
+        border: 1px solid $border-card;
+        margin-left: -1px;
+        margin-top: -1px;
+        margin-bottom: 0;
+    }
     @media screen and (min-width: 1050px) and (max-width: 1389px){
         &:nth-child(3n+1) {border-left: none;}
         &:nth-child(3n) {border-right: none;}
@@ -95,6 +101,20 @@
     }
     &__price-old {
         text-decoration: line-through #e00000;
+    }
+    &__button-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    &__quantity-row {
+        display: flex;
+        align-items: center;
+    }
+    &__product-quantity {
+        padding: 15px 25px;
+        margin-right: 5px;
     }
     &__button {
         text-align: center;

@@ -6,6 +6,6 @@
                 @include('inc.components.menu-option')
             </div>
         </div>
-        @include('inc.components.block-cards')
+        @include('inc.components.block-cards', config('mock.cards'))
     </div>
 </main>

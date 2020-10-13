@@ -276,7 +276,10 @@
     }
 }
 .form-product {
-    width: 55%;
+    width: 100%;
+    @media screen and (min-width: 776px) {
+        width: 55%;
+    }
     &__select-wrapper {
         position: relative;
         &:after {

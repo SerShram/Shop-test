@@ -42,6 +42,7 @@
     &__brand {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     &__brand-link {
         position: relative;

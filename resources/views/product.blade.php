@@ -5,7 +5,7 @@
     @include('inc.header-cap')
     @include('inc.header-mane')
     @include('inc.header-bottom')
-    @include('inc.main-product', config('mock.product'))
+    @include('inc.main-product', config('mock.product'), config('mock.cards'))
     @include('inc.footer')
 @endsection
 @push('my-scripts')

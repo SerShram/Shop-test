@@ -20,6 +20,7 @@ $cards = [
             ['class' => 'hit', 'title' => 'хит'],
             ['class' => 'sale', 'title' => 'скидка']
         ],
+        'quantity' => '4',
         'priceNew' => '599 грн.',
         'priceOld' => '1 250 грн.'
     ],
@@ -41,6 +42,7 @@ $cards = [
             ['class' => 'novelty', 'title' => 'новинка'],
             ['class' => 'hit', 'title' => 'хит']
         ],
+        'quantity' => '4',
         'priceNew' => '599 грн.',
         'priceOld' => '1 250 грн.'
     ],
@@ -62,6 +64,7 @@ $cards = [
         'tags' => [
             ['class' => 'novelty', 'title' => 'новинка']
         ],
+        'quantity' => '4',
         'priceNew' => '9 570 грн.',
         'priceOld' => '1 250 грн.'
     ],
@@ -80,6 +83,7 @@ $cards = [
         ],
         'productImage' => '/images/product/image-4.png',
         'tags' => [],
+        'quantity' => '4',
         'priceNew' => '599 грн.',
         'priceOld' => ''
     ],
