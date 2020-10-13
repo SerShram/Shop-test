@@ -19,14 +19,14 @@
         width: 375px;
         padding: 10px;
         @media screen and (min-width: 400px) { padding: 30px 40px;}
-        &:first-child:after {
+        &:after {
             content: '';
             position: absolute;
             top: 37px;
             right: 0;
             width: 1px;
             height: 84%;
-            background: #dbdbdb;
+            background: $border-grey-lt;
         }
         &>:nth-child(n) { margin-bottom: 20px;}
         &>:last-child {margin: 0}
@@ -40,6 +40,7 @@
         width: 100%;
         height: 40px;
         padding-left: 10px;
+        border: 1px solid $border-grey-lt;
     }
     &__link {
         text-decoration: underline;
@@ -312,6 +313,10 @@
         display: flex;
         flex-wrap: wrap;
     }
+}
+//-------------------form-catalog------------------------------------------
+.form-catalog {
+
 }
 //-------------------form-review------------------------------------------
 .form-review {

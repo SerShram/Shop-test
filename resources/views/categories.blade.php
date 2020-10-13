@@ -5,7 +5,7 @@
     @include('inc.header-cap')
     @include('inc.header-mane')
     @include('inc.header-bottom')
-    @include('inc.main-categories')
+    @include('inc.main-categories', config('mock.categories'))
     @include('inc.footer')
 @endsection
 @push('my-scripts')

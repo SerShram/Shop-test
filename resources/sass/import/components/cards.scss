@@ -40,7 +40,7 @@
     padding: 10px 10px;
     margin-bottom: 20px;
     @media screen and (min-width: 400px) {
-        width: 340px;
+        width: 339px;
         padding: 20px 10px;
         border: 1px solid $border-card;
         margin-left: -1px;
@@ -54,6 +54,13 @@
     @media screen and (min-width: 1390px){
         &:nth-child(4n+1) {border-left: none;}
         &:nth-child(4n) {border-right: none;}
+    }
+    &.card--catalog {
+        border: 1px solid $border-card;
+        @media screen and (min-width: 1390px){
+            &:nth-child(3n+1) {border-left: none;}
+            &:nth-child(3n) {border-right: none;}
+        }
     }
     &__label {
         display: inline-block;
