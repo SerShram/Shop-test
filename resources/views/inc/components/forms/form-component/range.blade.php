@@ -1,4 +1,4 @@
-<div class="range ss-proxN-14">
+<div class="range P14">
     <div class="range__item">
         <span class="range__text">от</span>
         <div class="range__decor">

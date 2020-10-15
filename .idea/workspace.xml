@@ -23,11 +23,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/cards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/form-elements.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/main-categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/forms/form-component/range.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/forms/form-component/range.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/main-catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/main-catalog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +254,8 @@
       <workItem from="1602225040113" duration="28070000" />
       <workItem from="1602315204065" duration="12511000" />
       <workItem from="1602481161178" duration="28315000" />
-      <workItem from="1602568011256" duration="21463000" />
+      <workItem from="1602568011256" duration="21585000" />
+      <workItem from="1602747834469" duration="10212000" />
     </task>
     <servers />
   </component>
@@ -282,25 +283,25 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1230" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1600952379962" />
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1602568326361">
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1602754521573">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602754521573" />
     <state width="1876" height="266" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1602568326361">
+    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1602754521573">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
+    <state width="1876" height="279" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602754521573" />
     <state width="1876" height="266" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1602568326360">
+    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1602754521573">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326360" />
+    <state width="1876" height="279" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602754521573" />
     <state width="1876" height="266" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1602568326361">
+    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1602754521573">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602568326361" />
+    <state width="1876" height="279" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1602754521573" />
     <state width="1876" height="266" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
     <state x="-1459" y="171" key="SettingsEditor" timestamp="1599656349934">
       <screen x="-1920" y="0" width="1920" height="1080" />

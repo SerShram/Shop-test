@@ -1714,6 +1714,66 @@
   }
 }
 
+.product-filter {
+  box-shadow: 0 0 20px 0 #0000001a;
+  padding: 25px 20px 0;
+}
+.product-filter__block {
+  position: relative;
+  padding: 35px 0;
+}
+.product-filter__block:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  width: 80%;
+  height: 1px;
+  background: #dbdbdb;
+}
+.product-filter__block:last-child:after {
+  content: none;
+  display: none;
+}
+.product-filter__title {
+  margin-bottom: 20px;
+}
+.product-filter__button-container {
+  text-align: center;
+}
+.product-filter .checkbox {
+  display: flex;
+  color: #757575;
+  margin-bottom: 25px;
+}
+.product-filter .checkbox:last-child {
+  margin-bottom: 0;
+}
+.product-filter .checkbox__inp {
+  display: none;
+}
+.product-filter .checkbox__inp:checked ~ .checkbox__text {
+  color: #3d3d3d;
+}
+.product-filter .checkbox__inp:checked ~ .checkbox__text:before {
+  content: "";
+  border: 1px solid #9c9c9c;
+  background: url("/images/service-img/flag.png") center center no-repeat #ffecb3;
+}
+.product-filter .checkbox__text {
+  position: relative;
+  padding-left: 25px;
+}
+.product-filter .checkbox__text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #9c9c9c;
+}
+
 .cards__head {
   display: flex;
   align-items: center;
@@ -2709,12 +2769,21 @@
   }
 }
 
+.checkbox {
+  display: flex;
+  color: #757575;
+  margin-bottom: 25px;
+}
+.checkbox:last-child {
+  margin-bottom: 0;
+}
+
 .checkbox__inp {
   display: none;
 }
 
 .checkbox__inp:checked ~ .checkbox__text {
-  color: #3b3b3b;
+  color: #3d3d3d;
 }
 
 .checkbox__inp:checked ~ .checkbox__text:before {
@@ -2731,10 +2800,10 @@
 .checkbox__text:before {
   content: "";
   position: absolute;
-  top: 2px;
+  top: 0;
   left: 2px;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   border: 1px solid #9c9c9c;
 }
 

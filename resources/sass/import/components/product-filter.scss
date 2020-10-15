@@ -1,0 +1,55 @@
+.product-filter {
+    box-shadow: 0 0 20px 0 #0000001a;
+    padding: 25px 20px 0;
+    &__block {
+        position: relative;
+        padding: 35px 0;
+        &:after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: -20px;
+            width: 80%;
+            height: 1px;
+            background: #dbdbdb;
+        }
+        &:last-child:after {
+            content: none;
+            display: none;
+        }
+    }
+    &__title {
+        margin-bottom: 20px;
+    }
+    &__button-container {text-align: center}
+    .checkbox {
+        display: flex;
+        color: $text-in-stock;
+        margin-bottom: 25px;
+        &:last-child {margin-bottom: 0}
+    }
+    .checkbox__inp {
+        display: none;
+    }
+    .checkbox__inp:checked~.checkbox__text {
+        color: #3d3d3d;
+    }
+    .checkbox__inp:checked~.checkbox__text:before {
+        content: '';
+        border: 1px solid $border-grey;
+        background: url("/images/service-img/flag.png") center center no-repeat #ffecb3;
+    }
+    .checkbox__text {
+        position: relative;
+        padding-left: 25px;
+    }
+    .checkbox__text:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid $border-grey;
+    }
+}

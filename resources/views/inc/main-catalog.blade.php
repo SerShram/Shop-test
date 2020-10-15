@@ -1,7 +1,7 @@
 <div class="wrapper">
     <div class="row">
         <div class="col-xxl-3">
-
+            @include('inc.components.product-filter')
         </div>
         <div class="col-xxl-9">
             <div class="Mb Mb-s">
