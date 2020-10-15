@@ -1,9 +1,9 @@
 <div class="wrapper">
     <div class="row">
-        <div class="col-xxl-3">
+        <div class="col-xxl-3 col-12">
             @include('inc.components.product-filter')
         </div>
-        <div class="col-xxl-9">
+        <div class="col-xxl-9 col-12">
             <div class="Mb Mb-s">
                 {{ Breadcrumbs::render('catalog') }}
             </div>

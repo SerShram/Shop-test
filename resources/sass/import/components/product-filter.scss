@@ -1,28 +1,40 @@
 .product-filter {
     box-shadow: 0 0 20px 0 #0000001a;
-    padding: 25px 20px 0;
+    padding: 15px 20px;
+    &__flex-container {
+        display: flex;
+        flex-direction: column;
+    }
     &__block {
         position: relative;
-        padding: 35px 0;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         &:after {
             content: '';
             position: absolute;
             top: 100%;
-            left: -20px;
-            width: 80%;
+            left: 0px;
+            width: 100%;
             height: 1px;
             background: #dbdbdb;
         }
         &:last-child:after {
             content: none;
-            display: none;
         }
+        .range { width: 100% }
     }
     &__title {
+        width: 100%;
         margin-bottom: 20px;
     }
-    &__button-container {text-align: center}
+    &__all-manufacturer { width: 100%; }
+    &__button-container {
+        text-align: center;
+    }
     .checkbox {
+        width: 33.333333%;
         display: flex;
         color: $text-in-stock;
         margin-bottom: 25px;
@@ -51,5 +63,56 @@
         width: 16px;
         height: 16px;
         border: 1px solid $border-grey;
+    }
+}
+@media screen and (min-width: 576px) {
+    .product-filter {
+        .checkbox {
+            width: 20%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {
+    .product-filter {
+        .checkbox {
+            width: 15%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1300px) {
+    .product-filter {
+        padding: 25px 20px;
+        &__flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        &__block {
+            position: relative;
+            padding: 35px 0;
+            display: flex;
+            flex-direction: column;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 100%;
+                left: -20px;
+                width: 80%;
+                height: 1px;
+                background: #dbdbdb;
+            }
+            &:last-child:after {
+                content: none;
+            }
+        }
+        .checkbox {
+            width: 100%;
+        }
     }
 }

@@ -1716,32 +1716,46 @@
 
 .product-filter {
   box-shadow: 0 0 20px 0 #0000001a;
-  padding: 25px 20px 0;
+  padding: 15px 20px;
+}
+.product-filter__flex-container {
+  display: flex;
+  flex-direction: column;
 }
 .product-filter__block {
   position: relative;
-  padding: 35px 0;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .product-filter__block:after {
   content: "";
   position: absolute;
   top: 100%;
-  left: -20px;
-  width: 80%;
+  left: 0px;
+  width: 100%;
   height: 1px;
   background: #dbdbdb;
 }
 .product-filter__block:last-child:after {
   content: none;
-  display: none;
+}
+.product-filter__block .range {
+  width: 100%;
 }
 .product-filter__title {
+  width: 100%;
   margin-bottom: 20px;
+}
+.product-filter__all-manufacturer {
+  width: 100%;
 }
 .product-filter__button-container {
   text-align: center;
 }
 .product-filter .checkbox {
+  width: 33.333333%;
   display: flex;
   color: #757575;
   margin-bottom: 25px;
@@ -1774,6 +1788,48 @@
   border: 1px solid #9c9c9c;
 }
 
+@media screen and (min-width: 576px) {
+  .product-filter .checkbox {
+    width: 20%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product-filter .checkbox {
+    width: 15%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .product-filter {
+    padding: 25px 20px;
+  }
+  .product-filter__flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-filter__block {
+    position: relative;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-filter__block:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    width: 80%;
+    height: 1px;
+    background: #dbdbdb;
+  }
+  .product-filter__block:last-child:after {
+    content: none;
+  }
+  .product-filter .checkbox {
+    width: 100%;
+  }
+}
 .cards__head {
   display: flex;
   align-items: center;
@@ -2811,6 +2867,7 @@
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .range__decor {
   display: inline-block;
