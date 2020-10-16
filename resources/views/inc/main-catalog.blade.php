@@ -8,17 +8,9 @@
                 {{ Breadcrumbs::render('catalog') }}
             </div>
             <div class="cards Mb-xl">
-                <div class="cards__head">
+                <div class="cards__head Mb-m">
                     <div class="cards__title P36-b C-6">Автомобильные шины</div>
-                   {{-- <div class="form-sort P14">
-                        <div class="Mr">Сортировать</div>
-                        <div class="">
-                            <select name="" class="form-product__select C-12">
-                                <option value="" selected>по стоимости</option>
-                                <option value="">по стоимости</option>
-                            </select>
-                        </div>
-                    </div>--}}
+                    @include('inc.components.forms.form-sort')
                 </div>
                 <div class="cards__row">
                     @foreach($cards as $card)
