@@ -32,12 +32,14 @@
                     @include('inc.components.button', ['classBtn'=>'buy R14-bup', 'path'=>'#', 'nameBtn'=>'купить товар'])
                 </div>
                 <div class="card__counter">
-                    @include('inc.components.widgets.counter', [
-          'date' => [
-              ['image' => '/images/card-image/card-balance.png', 'href' => '#', 'hrefClass' => 't-underline R14 C-6', 'title' => 'Сравнить товар'],
-              ['image' => '/images/card-image/card-quality.png', 'href' => '#', 'hrefClass' => 't-underline R14 C-6', 'title' => 'В избранное']
-        ]
-        ])
+                    <div class="card__counter-item">
+                        <img src="/images/card-image/card-balance.png" alt="image" class="Mr-s">
+                        <a href='#' class="t-underline R14 C-6">Сравнить товар</a>
+                    </div>
+                    <div class="card__counter-item">
+                        <img src="/images/card-image/card-quality.png" alt="image" class="Mr-s">
+                        <a href='#' class="t-underline R14 C-6">В избранное</a>
+                    </div>
                 </div>
             </div>
         @endforeach

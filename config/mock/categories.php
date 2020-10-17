@@ -10,4 +10,4 @@ $categories = [
         ['image' => '/images/categories/disks.png', 'href' => '#', 'hrefTitle' => 'Автомобильные диски', 'quantity' => '890 товаров']
     ]
 ];
-return ['categories' => $categories];
+return $categories;

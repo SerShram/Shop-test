@@ -13,6 +13,14 @@
     width: 100%;
     z-index: 10;
     display: none;
+    &.submenu--home {
+        display: none;
+        position: unset;
+        margin-top: -30px;
+        @media screen and (min-width: 1300px) {
+            display: block;
+        }
+    }
     &.js-active {
         display: block;
     }

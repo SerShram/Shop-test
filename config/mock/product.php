@@ -29,4 +29,4 @@ $product = [
         ['key' => 'Индекс нагрузки', 'value' => '91 = max 615 kg'],
     ]
 ];
-return ['product' => $product];
+return  $product;

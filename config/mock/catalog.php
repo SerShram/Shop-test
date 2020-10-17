@@ -1,5 +1,5 @@
 <?php
-$cards = [
+$catalog = [
     [
         'label' => 'Fosser',
         'titleLink' => '/product',
@@ -139,4 +139,4 @@ $cards = [
         'priceOld' => '1 250 грн.'
     ],
 ];
-return ['cards' => $cards];
+return $catalog;

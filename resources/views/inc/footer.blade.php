@@ -59,14 +59,10 @@
         <hr class="My">
         <div class="row">
             <div class="col-lg-6">
-@include("inc.components.image-link", [
-    'class' => 'logo-grey',
-    'href' => '#',
-    'classImage' => 'logo-grey__image',
-    'src' => '/images/service-img/logo-grey.png',
-    'classSpan' => 'logo-grey__text R-12 C-8',
-    'text' => '&copy Copyrith 2017. Тестовое задание Wezom'
-])
+                <a class="logo-grey" href="#">
+                    <img class="logo-grey__image" src="/images/service-img/logo-grey.png" alt="">
+                    <span class="logo-grey__text R-12 C-8">&copy Copyrith 2017. Тестовое задание Wezom</span>
+                </a>
             </div>
             <div class="col-lg-6 col-12">
                 <div class="footer__socials">

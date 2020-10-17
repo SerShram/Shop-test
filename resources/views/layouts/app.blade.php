@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="/assets/nouislider/nouislider.css">
 </head>
 <body>
+@include('inc.header-cap')
+@include('inc.header-mane')
+@include('inc.header-bottom')
 @yield('content')
+@include('inc.footer')
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/assets/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
 <script src="/assets/form-validate/jquery.validate.min.js"></script>
