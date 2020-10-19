@@ -19,12 +19,14 @@
         </div>
     </div>
     <div class="form-product__counter Mb Mb-s">
-        @include('inc.components.widgets.counter', [
-    'date' => [
-        ['image' => '/images/card-image/card-balance.png', 'href' => '#', 'hrefClass' => 't-underline P14 C-6 Mr-m Mr-s', 'title' => 'Сравнить товар'],
-        ['image' => '/images/card-image/card-quality.png', 'href' => '#', 'hrefClass' => 't-underline P14 C-6', 'title' => 'В избранное']
-]
-])
+        <div class="card__counter-item">
+            <img src="/images/card-image/card-balance.png" alt="image" class="Mr-s">
+            <a href='#' class="t-underline P14 C-6 Mr-m Mr-s">Сравнить товар</a>
+        </div>
+        <div class="card__counter-item">
+            <img src="/images/card-image/card-quality.png" alt="image" class="Mr-s">
+            <a href='#' class="t-underline P14 C-6 Mr-m Mr-s">В избранное</a>
+        </div>
     </div>
     <div class="Mb Mb-s">
         <span class="E26-bi Mr Mr-s">{{ $product['priceNew'] }}</span>
