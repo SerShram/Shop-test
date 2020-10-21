@@ -1,5 +1,5 @@
 <div class="tabs">
-    <div class="tabs__triggers P18-b C-15">
+    <div class="tabs__triggers js-triggers P18-b C-15">
         <div data-tab-name="tab-1" class="tab-trigger js-tab-trigger is-active">{{ $tab1['triggerName'] }}</div>
         <div data-tab-name="tab-2" class="tab-trigger js-tab-trigger">{{ $tab2['triggerName'] }}</div>
         <div data-tab-name="tab-3" class="tab-trigger js-tab-trigger">{{ $tab3['triggerName'] }}</div>

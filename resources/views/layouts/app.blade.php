@@ -21,7 +21,7 @@
 <script src="/assets/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
 <script src="/assets/form-validate/jquery.validate.min.js"></script>
 <script src="/js/app.js"></script>
+<script src="/js/scripts.js"></script>
 @stack('scripts')
-@stack('my-scripts')
 </body>
 </html>

@@ -12,6 +12,4 @@
         @include('inc.components.categories')
     </div>
 @endsection
-@push('my-scripts')
-{{--    <script src="/js/home-script.js"></script>--}}
-@endpush
+

@@ -12,6 +12,7 @@
             padding: 10px 5px;
             @media screen and (min-width: 1024px) {
                 padding: 15px 25px;
+                border-bottom: 1.5px solid transparent;
             }
             &.is-active {
                 color: $text-color;
@@ -19,7 +20,6 @@
             }
             &:hover {
                 color: $text-color;
-                border-bottom: 1.5px solid $yellow;
                 cursor: pointer;
             }
         }

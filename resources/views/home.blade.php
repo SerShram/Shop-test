@@ -25,6 +25,3 @@ $cards = config('mock.cards');
         @include('inc.components.block-cards')
     </div>
 @endsection
-@push('my-scripts')
-    <script src="/js/home-script.js"></script>
-@endpush

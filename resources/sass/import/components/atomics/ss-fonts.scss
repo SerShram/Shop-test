@@ -137,15 +137,18 @@ $font-family-third: 'Europe', sans-serif;
 .E26-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; }
 .E20-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; }
 .E16-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+.E14-bi { font-family: $font-family-third; font-size: 10px; font-weight: bold; font-style: italic; text-transform: uppercase;}
 @media screen and (min-width: 768px) {
     .E26-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
     .E20-bi { font-family: $font-family-third; font-size: 16px; font-weight: bold; font-style: italic; }
     .E16-bi { font-family: $font-family-third; font-size: 12px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+    .E14-bi { font-family: $font-family-third; font-size: 12px; font-weight: bold; font-style: italic; text-transform: uppercase;}
 }
 @media screen and (min-width: 1024px) {
     .E26-bi { font-family: $font-family-third; font-size: 26px; font-weight: bold; font-style: italic; }
     .E20-bi { font-family: $font-family-third; font-size: 20px; font-weight: bold; font-style: italic; }
     .E16-bi { font-family: $font-family-third; font-size: 16px; font-weight: bold; font-style: italic; text-transform: uppercase;}
+    .E14-bi { font-family: $font-family-third; font-size: 14px; font-weight: bold; font-style: italic; text-transform: uppercase;}
 }
 //-----------------------------------------------------------------------------------
 

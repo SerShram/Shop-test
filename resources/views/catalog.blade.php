@@ -75,12 +75,12 @@
                         @endforeach
                     </div>
                 </div>
+                @include('inc.components.widgets.pagination', ['data' => ['1', '2', '3', '4', '5', '6']])
             </div>
         </div>
     </div>
 
 @endsection
-
 @push('scripts')
-    <script src="/assets/nouislider/nouislider.js"></script>
+<script src="/assets/nouislider/nouislider.js"></script>
 @endpush

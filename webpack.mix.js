@@ -13,8 +13,7 @@ const mix = require('laravel-mix');
 mix.browserSync('shop-test.loc');
 
 mix.js('resources/js/app.js', 'public/js')
-    .js('resources/js/home-script.js', 'public/js')
-    .js('resources/js/product-script.js', 'public/js')
+    .js('resources/js/scripts.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .version()
     .options({

@@ -96,39 +96,26 @@
 $(document).ready(function () {
   //---------Menu Link-------------------------------------------------------------------
   var btnMenu = document.querySelector('.js-btn-menu');
-  var subMenu = document.querySelector('.submenu');
+  var subMenu = document.querySelector('.js-submenu');
   btnMenu.addEventListener('click', function (e) {
     e.preventDefault();
 
-    if (subMenu.classList.contains('js-active')) {
-      subMenu.classList.remove('js-active');
+    if (subMenu.classList.contains('is-active')) {
+      subMenu.classList.remove('is-active');
     } else {
-      subMenu.classList.add('js-active');
+      subMenu.classList.add('is-active');
     }
-  }); //--------Form login Modal-Popup------------------------------------------------------
+  }); //--------Form login Modal-Popup, Form call me Modal-Popup------------------------------------------------------
 
-  $(function () {
-    $('.form-enter-popup-modal').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      focus: 'input',
-      modal: true
-    });
-    $(document).on('click', '.close-popup-modal', function (e) {
-      e.preventDefault();
-      $.magnificPopup.close();
-    }); //--------Form call me Modal-Popup------------------------------------------------------
-
-    $('.form-callMe-popup-modal').magnificPopup({
-      type: 'inline',
-      preloader: false,
-      focus: 'input',
-      modal: true
-    });
-    $(document).on('click', '.js-callMe-close', function (e) {
-      e.preventDefault();
-      $.magnificPopup.close();
-    });
+  $('.form-enter-popup-modal,.form-callMe-popup-modal').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: 'input',
+    modal: true
+  });
+  $(document).on('click', '.js-callMe-close, .close-popup-modal', function (e) {
+    e.preventDefault();
+    $.magnificPopup.close();
   }); //-----------Form validate-----------------------------------------------------
 
   $('form').validate({

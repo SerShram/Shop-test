@@ -8,7 +8,7 @@
 'data' => [
   ['link' => '/', 'title' => 'главная'],
   ['link' => route('categories'), 'title' => 'о компании'],
-  ['link' => '#', 'title' => 'ссылка 1'],
+  ['link' => route('catalog'), 'title' => 'каталог'],
   ['link' => '#', 'title' => 'ссылка 2'],
   ['link' => '#', 'title' => 'ссылка 3']
 ]

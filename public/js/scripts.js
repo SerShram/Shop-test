@@ -86,25 +86,82 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/script.js":
-/*!********************************!*\
-  !*** ./resources/js/script.js ***!
-  \********************************/
+/***/ "./resources/js/scripts.js":
+/*!*********************************!*\
+  !*** ./resources/js/scripts.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open 'D:\\OpenServer\\domains\\shop-test.loc\\resources\\js\\script.js'");
+document.addEventListener('DOMContentLoaded', function () {
+  //--------------Tabs select-------------------------------------------------------------------------
+  if (document.querySelector('.js-tab-1')) {
+    var tabOpen = document.querySelector('.js-tab-1');
+    var tabClose = document.querySelector('.js-tab-2');
+    var selectTab = document.querySelectorAll('.js-select');
+    tabOpen.addEventListener('click', function (e) {
+      e.preventDefault();
+      tabOpen.classList.add('is-active');
+      tabClose.classList.remove('is-active');
+      selectTab.forEach(function (item) {
+        item.classList.remove('not-active');
+      });
+    });
+    tabClose.addEventListener('click', function (e) {
+      e.preventDefault();
+      tabClose.classList.add('is-active');
+      tabOpen.classList.remove('is-active');
+      selectTab.forEach(function (item) {
+        item.classList.add('not-active');
+      });
+    });
+  } //--------------Tabs Product-------------------------------------------------------------
+
+
+  if (document.querySelector('.js-triggers')) {
+    var tabTrigger = document.querySelectorAll('.js-tab-trigger');
+    var tabContent = document.querySelectorAll('.tab-content');
+    document.querySelector('.js-triggers').addEventListener('click', function (event) {
+      var tabName = event.target.dataset.tabName;
+      tabTrigger.forEach(function (item) {
+        item.classList.remove('is-active');
+      });
+      event.target.classList.add('is-active');
+      tabContent.forEach(function (item) {
+        if (item.classList.contains(tabName)) {
+          item.classList.add('is-active');
+        } else {
+          item.classList.remove('is-active');
+        }
+      });
+    });
+  } //---------------Pagination---------------------------------------------------------------
+
+
+  if (document.querySelectorAll('.js-pagination')) {
+    var paginationPage = document.querySelectorAll('.js-pagination');
+    paginationPage.forEach(function (item) {
+      item.addEventListener('click', function (e) {
+        e.preventDefault();
+        paginationPage.forEach(function (item) {
+          item.classList.remove('active');
+        });
+        item.classList.add('active');
+      });
+    });
+  }
+});
 
 /***/ }),
 
 /***/ 1:
-/*!**************************************!*\
-  !*** multi ./resources/js/script.js ***!
-  \**************************************/
+/*!***************************************!*\
+  !*** multi ./resources/js/scripts.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\script.js */"./resources/js/script.js");
+module.exports = __webpack_require__(/*! D:\OpenServer\domains\shop-test.loc\resources\js\scripts.js */"./resources/js/scripts.js");
 
 
 /***/ })

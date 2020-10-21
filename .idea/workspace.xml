@@ -21,10 +21,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c48c0e0f-03d3-4e3e-ab8e-bd4c9018350d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/links.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/forms/form-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/forms/form-product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/widgets/counter.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ui-kit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/home-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/product-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/home-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/product-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/atomics/ss-fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/menu-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/menu-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/tabs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/import/components/widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/import/components/widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/catalog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/menu-link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/menu-link.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/components/tabs/tabs-block.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/components/tabs/tabs-block.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/header-cap.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header-cap.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +55,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,16 +162,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\shop-test.loc\resources\views\inc\components\widgets" />
       <recent name="D:\OpenServer\domains\shop-test.loc\config\mock" />
       <recent name="D:\OpenServer\domains\shop-test.loc\resources\sass\import\components\widgets" />
       <recent name="D:\OpenServer\domains\shop-test.loc\resources\views\inc\components\widgets.blade.php" />
       <recent name="D:\OpenServer\domains\shop-test.loc\resources\views\inc\components" />
-      <recent name="D:\OpenServer\domains\shop-test.loc\resources\views\inc\components\logo" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -194,6 +221,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c48c0e0f-03d3-4e3e-ab8e-bd4c9018350d" name="Default Changelist" comment="" />
@@ -255,7 +285,9 @@
       <workItem from="1602747834469" duration="18341000" />
       <workItem from="1602850002599" duration="7387000" />
       <workItem from="1602930346954" duration="16733000" />
-      <workItem from="1603087498019" duration="2963000" />
+      <workItem from="1603087498019" duration="5429000" />
+      <workItem from="1603179551395" duration="12833000" />
+      <workItem from="1603287051303" duration="10431000" />
     </task>
     <servers />
   </component>
@@ -279,34 +311,38 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="697" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1599912668954" />
+    <state x="-1230" y="319" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1603291104427">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1230" y="319" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603291104427" />
     <state x="-1230" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600952379962">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1230" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1600952379962" />
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1603087837917">
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom" timestamp="1603297558617">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603087837917" />
+    <state width="1876" height="279" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603297558617" />
     <state width="1876" height="266" key="GridCell.Tab.0.bottom/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1603087837916">
+    <state width="1876" height="279" key="GridCell.Tab.0.center" timestamp="1603297558617">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603087837916" />
+    <state width="1876" height="279" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603297558617" />
     <state width="1876" height="266" key="GridCell.Tab.0.center/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1603087837916">
+    <state width="1876" height="279" key="GridCell.Tab.0.left" timestamp="1603297558616">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603087837916" />
+    <state width="1876" height="279" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603297558616" />
     <state width="1876" height="266" key="GridCell.Tab.0.left/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1603087837916">
+    <state width="1876" height="279" key="GridCell.Tab.0.right" timestamp="1603297558617">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="279" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603087837916" />
+    <state width="1876" height="279" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603297558617" />
     <state width="1876" height="266" key="GridCell.Tab.0.right/0.40.1920.1040/-1920.0.1920.1080@0.40.1920.1040" timestamp="1602481842773" />
-    <state x="-1459" y="171" key="SettingsEditor" timestamp="1599656349934">
+    <state x="-1459" y="171" key="SettingsEditor" timestamp="1603291193894">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1459" y="171" key="SettingsEditor/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599656349934" />
+    <state x="-1459" y="171" key="SettingsEditor/0.40.1920.1040/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603291193894" />
     <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1602585446125">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

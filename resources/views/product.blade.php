@@ -78,6 +78,3 @@
         </div>
     </div>
 @endsection
-@push('my-scripts')
-    <script src="/js/product-script.js"></script>
-@endpush
