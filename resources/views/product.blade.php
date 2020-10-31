@@ -65,7 +65,7 @@
                         <div class="card__counter">
                             <div class="card__counter-item">
                                 <img src="/images/card-image/card-balance.png" alt="image" class="Mr-s">
-                                <a href='#' class="t-underline R14 C-6">Сравнить товар</a>
+                                <a href='#' class="t-underline R14 C-6">Сравнить товарр</a>
                             </div>
                             <div class="card__counter-item">
                                 <img src="/images/card-image/card-quality.png" alt="image" class="Mr-s">
